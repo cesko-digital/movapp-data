@@ -3,6 +3,7 @@ export const alphabet = [
   {
     letter: ['A', 'a'],
     transcription: '[a]',
+    file_name: 'a.mp3',
     examples: [
       {
         example: 'алфавіт',
@@ -21,6 +22,7 @@ export const alphabet = [
   {
     letter: ['Б', 'б'],
     transcription: '[b]',
+    file_name: 'б.mp3',
     examples: [
       {
         example: 'банан',
@@ -39,6 +41,7 @@ export const alphabet = [
   {
     letter: ['В', 'в'],
     transcription: '[v]',
+    file_name: 'в.mp3',
     examples: [
       {
         example: 'вода',
@@ -57,6 +60,7 @@ export const alphabet = [
   {
     letter: ['Г', 'г'],
     transcription: '[h]',
+    file_name: 'г.mp3',
     examples: [
       {
         example: 'голова',
@@ -75,6 +79,7 @@ export const alphabet = [
   {
     letter: ['Ґ', 'ґ'],
     transcription: '[g]',
+    file_name: 'ґ.mp3',
     examples: [
       {
         example: 'ґумка',
@@ -93,6 +98,7 @@ export const alphabet = [
   {
     letter: ['Д', 'д'],
     transcription: '[d]',
+    file_name: 'д.mp3',
     examples: [
       {
         example: 'дім',
@@ -111,6 +117,7 @@ export const alphabet = [
   {
     letter: ['Е', 'е'],
     transcription: '[е]',
+    file_name: 'е.mp3',
     examples: [
       {
         example: 'екскаватор',
@@ -129,6 +136,7 @@ export const alphabet = [
   {
     letter: ['Є', 'є'],
     transcription: '[je]',
+    file_name: 'є.mp3',
     examples: [
       {
         example: 'Європа',
@@ -147,6 +155,7 @@ export const alphabet = [
   {
     letter: ['Ж', 'ж'],
     transcription: '[ž]',
+    file_name: 'ж.mp3',
     examples: [
       {
         example: 'жінка',
@@ -165,6 +174,7 @@ export const alphabet = [
   {
     letter: ['З', 'з'],
     transcription: '[z]',
+    file_name: 'з.mp3',
     examples: [
       {
         example: 'зуб',
@@ -183,6 +193,7 @@ export const alphabet = [
   {
     letter: ['И', 'и'],
     transcription: '[y]',
+    file_name: 'и.mp3',
     examples: [
       {
         example: 'сир',
@@ -201,6 +212,7 @@ export const alphabet = [
   {
     letter: ['І', 'і'],
     transcription: '[i]',
+    file_name: 'і.mp3',
     examples: [
       {
         example: 'Інтернет',
@@ -219,6 +231,7 @@ export const alphabet = [
   {
     letter: ['Ї', 'ї'],
     transcription: '[ji]',
+    file_name: 'ї.mp3',
     examples: [
       {
         example: 'їжак',
@@ -237,6 +250,7 @@ export const alphabet = [
   {
     letter: ['Й', 'й'],
     transcription: '[j]',
+    file_name: 'й.mp3',
     examples: [
       {
         example: 'йогурт',
@@ -255,6 +269,7 @@ export const alphabet = [
   {
     letter: ['К', 'к'],
     transcription: '[k]',
+    file_name: 'к.mp3',
     examples: [
       {
         example: 'кімната',
@@ -273,6 +288,7 @@ export const alphabet = [
   {
     letter: ['Л', 'л'],
     transcription: '[l]',
+    file_name: 'л.mp3',
     examples: [
       {
         example: 'любов',
@@ -291,6 +307,7 @@ export const alphabet = [
   {
     letter: ['М', 'м'],
     transcription: '[m]',
+    file_name: 'м.mp3',
     examples: [
       {
         example: 'мова',
@@ -309,6 +326,7 @@ export const alphabet = [
   {
     letter: ['Н', 'н'],
     transcription: '[n]',
+    file_name: 'н.mp3',
     examples: [
       {
         example: 'новини',
@@ -327,6 +345,7 @@ export const alphabet = [
   {
     letter: ['О', 'о'],
     transcription: '[о]',
+    file_name: 'о.mp3',
     examples: [
       {
         example: 'озеро',
@@ -345,6 +364,7 @@ export const alphabet = [
   {
     letter: ['П', 'п'],
     transcription: '[p]',
+    file_name: 'п.mp3',
     examples: [
       {
         example: 'правда',
@@ -363,6 +383,7 @@ export const alphabet = [
   {
     letter: ['Р', 'р'],
     transcription: '[r]',
+    file_name: 'р.mp3',
     examples: [
       {
         example: 'риба',
@@ -381,6 +402,7 @@ export const alphabet = [
   {
     letter: ['С', 'с'],
     transcription: '[s]',
+    file_name: 'a.mp3',
     examples: [
       {
         example: 'село',
@@ -399,6 +421,7 @@ export const alphabet = [
   {
     letter: ['Т', 'т'],
     transcription: '[t]',
+    file_name: 'с.mp3',
     examples: [
       {
         example: 'тато',
@@ -417,6 +440,7 @@ export const alphabet = [
   {
     letter: ['У', 'у'],
     transcription: '[u]',
+    file_name: 'у.mp3',
     examples: [
       {
         example: 'Україна',
@@ -435,6 +459,7 @@ export const alphabet = [
   {
     letter: ['Ф', 'ф'],
     transcription: '[f]',
+    file_name: 'ф.mp3',
     examples: [
       {
         example: 'фізика',
@@ -453,6 +478,7 @@ export const alphabet = [
   {
     letter: ['Х', 'х'],
     transcription: '[ch]',
+    file_name: 'х.mp3',
     examples: [
       {
         example: 'хліб',
@@ -471,6 +497,7 @@ export const alphabet = [
   {
     letter: ['Ц', 'ц'],
     transcription: '[c]',
+    file_name: 'ц.mp3',
     examples: [
       {
         example: 'цибуля',
@@ -489,6 +516,7 @@ export const alphabet = [
   {
     letter: ['Ч', 'ч'],
     transcription: '[č]',
+    file_name: 'ч.mp3',
     examples: [
       {
         example: 'Чехія',
@@ -507,6 +535,7 @@ export const alphabet = [
   {
     letter: ['Ш', 'ш'],
     transcription: '[š]',
+    file_name: 'ш.mp3',
     examples: [
       {
         example: 'шампунь',
@@ -525,6 +554,7 @@ export const alphabet = [
   {
     letter: ['Щ', 'щ'],
     transcription: '[šč]',
+    file_name: 'щ.mp3',
     examples: [
       {
         example: 'щука',
@@ -543,6 +573,7 @@ export const alphabet = [
   {
     letter: ['ь', null],
     transcription: 'měkký znak',
+    file_name: null,
     examples: [
       {
         example: 'сіль',
@@ -561,6 +592,7 @@ export const alphabet = [
   {
     letter: ['Ю', 'ю'],
     transcription: '[ju]',
+    file_name: 'ю.mp3',
     examples: [
       {
         example: 'юнак',
@@ -579,6 +611,7 @@ export const alphabet = [
   {
     letter: ['Я', 'я'],
     transcription: '[ja]',
+    file_name: 'я.mp3',
     examples: [
       {
         example: 'яблуко',
@@ -596,41 +629,6 @@ export const alphabet = [
   }
 ];
 
-const fileList = 'a.mp3\n' +
-    'б.mp3\n' +
-    'в.mp3\n' +
-    'г.mp3\n' +
-    'д.mp3\n' +
-    'е.mp3\n' +
-    'ж.mp3\n' +
-    'з.mp3\n' +
-    'и.mp3\n' +
-    'й.mp3\n' +
-    'к.mp3\n' +
-    'л.mp3\n' +
-    'м.mp3\n' +
-    'н.mp3\n' +
-    'о.mp3\n' +
-    'п.mp3\n' +
-    'р.mp3\n' +
-    'с.mp3\n' +
-    'т.mp3\n' +
-    'у.mp3\n' +
-    'ф.mp3\n' +
-    'х.mp3\n' +
-    'ц.mp3\n' +
-    'ч.mp3\n' +
-    'ш.mp3\n' +
-    'щ.mp3\n' +
-    'ю.mp3\n' +
-    'я.mp3\n' +
-    'є.mp3\n' +
-    'і.mp3\n' +
-    ' \n' +
-    'ї.mp3\n' +
-    'ґ.mp3'
-
 export default {
-  fileList,
   alphabet
 }

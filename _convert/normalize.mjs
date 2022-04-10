@@ -73,10 +73,6 @@ function buildDictionary (from, to, categories) {
 }
 
 function buildAlphabet (from, alphabetData) {
-    const fileListArray = alphabetData.fileList.split('\n')
-
-    console.log('Alphabet', from, 'file count', fileListArray.length, 'letters', alphabetData.alphabet.length)
-
     const alphabetBaseDir = path.resolve(outDir, `${from}-alphabet`)
 
     if (fs.existsSync(alphabetBaseDir) === false) {
@@ -86,17 +82,14 @@ function buildAlphabet (from, alphabetData) {
     const newData = []
     for (const index in alphabetData.alphabet) {
         const letter = alphabetData.alphabet[index]
-        if (typeof fileListArray[index] === 'undefined') {
-            console.log('Invalid file list data, missing file at index', index, 'for letter', letter)
-            process.exit(1)
-        }
+
 		let newFileName = null
-        const fileName = fileListArray[index].trim()
+        const fileName = letter.file_name
 
 		const id = md5(letter.letter[0])
 
         // There can be no file
-        if (fileName !== '') {
+        if (fileName !== null) {
 
             const filePath = path.resolve(baseDir, `in-${from}-alphabet/${fileName}`)
             if (fs.existsSync(filePath) === false) {
