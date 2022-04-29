@@ -14,6 +14,8 @@ Zdrojový kód je pod MIT licencí. Texty, obrázky a audiosoubory jsou pod lice
 
 > Ve složce _convert spouštějte `node normalize.mjs`
 
+**V této chvíle již není aktuální a je nutné upravit na nový formát webu**
+
 ### Slovíčka
 
 - Vyexportovat z webu movapp obsah do `in-dictionary`
