@@ -6,14 +6,25 @@
 			"name_uk": "Основні фрази",
 			"name_main": "Základní fráze",
 			"description": "",
-			"translations": []
+			"phrases": [
+				"recw5SDubFHoJP13y",
+				"recv5fEYs1EeniF9i",
+				"recXpxoeRE8jNgqhZ",
+				"rec5PMvxlITj9OCBs",
+				"recqJmYD7e1d6gnaJ"
+			]
 		},
 		{
 			"id": "recPsHHTq4Eyo78TY",
 			"name_uk": "Родина",
 			"name_main": "Rodina",
 			"description": "",
-			"translations": []
+			"phrases": [
+				"recz9FcN089EqAf14",
+				"recCUxe471lieEby2",
+				"recSyGFIHGzN6y1tc",
+				"receuk0Z5KOoAzLCS"
+			]
 		}
 	],
 	"phrases": {

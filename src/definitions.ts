@@ -23,7 +23,7 @@ export interface Category {
     /**
      * A list of translation ids
      */
-    translations: string[]
+    phrases: string[]
 }
 
 export interface PhraseById {
