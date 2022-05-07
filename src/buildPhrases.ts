@@ -17,7 +17,7 @@ class Phrases {
     }
 
     get(language: string): PhraseById | null {
-        let phrases = this.mapByLanguage[language];
+        const phrases = this.mapByLanguage[language];
 
         if (typeof phrases === 'undefined') {
             return null
@@ -43,7 +43,7 @@ export async function buildPhrases(
 
     console.log('Fetching and building phrases')
     const phrasesData = airtable('Phrases data');
-    let phrases = new Phrases()
+    const phrases = new Phrases()
 
     await phrasesData.select({
         // Selecting the first 3 records in Grid view:
@@ -71,9 +71,9 @@ export async function buildPhrases(
             const imageUrl = null
 
             // TODO
-            const image = record.get('image')
+            //const image = record.get('image')
 
-            for (let language of languages) {
+            for (const language of languages) {
                 const inLanguage = record.get(language)
 
                 if (typeof inLanguage === 'undefined' || inLanguage === '') {

@@ -25,7 +25,7 @@ class Categories {
     }
 
     get(language: string): Category[] | null {
-        let categories = this.mapPerLanguage[language];
+        const categories = this.mapPerLanguage[language];
         if (typeof categories === 'undefined' || categories.length === 0) {
             return null
         }
@@ -58,7 +58,7 @@ export async function buildCategories(airtable: AirtableBase, languages: string[
                 return
             }
 
-            for (let language of languages) {
+            for (const language of languages) {
                 const inLanguage = record.get(language)
 
                 if (typeof inLanguage === 'undefined' || inLanguage === '') {
