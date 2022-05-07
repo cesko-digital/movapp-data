@@ -1,6 +1,6 @@
 export enum Language {
     Cs = 'cs',
-    Uk = 'Uk',
+    Uk = 'uk',
     Pl = 'pl',
     Sk = 'sk',
     En = 'en'
