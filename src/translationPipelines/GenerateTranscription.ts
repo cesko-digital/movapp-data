@@ -7,7 +7,7 @@ import {cz2ua} from '../transliterations/cz2ua.js';
 import {ua2pl} from '../transliterations/ua2pl.js';
 import {Language} from "../locales.js";
 
-type TransriptionSubstitutionTable = [string, string][];
+type TranscriptionSubstitutionTable = [string, string][];
 
 const removePunctuation = (str: string) => str
     .replace('.', '')
@@ -15,19 +15,19 @@ const removePunctuation = (str: string) => str
     .replace('!', '');
 
 
-const FROM_UK_TABLES: Record<string, TransriptionSubstitutionTable> = {
+const FROM_UK_TABLES: Record<string, TranscriptionSubstitutionTable> = {
     cs: ua2cz,
     pl: ua2pl,
     sk: ua2sk,
 }
 
-const TO_UK_TABLES: Record<string, TransriptionSubstitutionTable> = {
+const TO_UK_TABLES: Record<string, TranscriptionSubstitutionTable> = {
     cs: cz2ua,
     pl: pl2ua,
     sk: sk2ua,
 }
 
-function transcription(subs: TransriptionSubstitutionTable, text: string): string {
+function transcription(subs: TranscriptionSubstitutionTable, text: string): string {
     let result = text;
     for (let i = 0; i < subs.length; i++) {
         // Vercel's Node 14 does not support String.replaceAll(), so we must use a RegEx workaround
