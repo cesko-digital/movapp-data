@@ -2,8 +2,10 @@ import Airtable from 'airtable'
 import {buildCategories} from "./buildCategories.js"
 import {buildPhrases} from "./buildPhrases.js"
 import {saveJSON} from "./saveToJSON.js"
-import {GenerateTranscription} from "./translationPipelines/GenerateTranscription.js";
+import {GenerateTranscription} from "./translationPipes/GenerateTranscription.js";
 import {Language} from "./locales.js";
+import {PhrasePipe, TranslationPipe} from "./definitions";
+import {NormalizeImageUrl} from "./phrasePipes/NormalizeImageUrl.js";
 
 const baseDir = process.cwd()
 
@@ -11,9 +13,14 @@ const airtable = new Airtable().base('appLciQqZNGDR3J6W')
 
 const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
-const phrases = await buildPhrases(airtable, languages, [
+const translationPipeline: TranslationPipe[] = [
     new GenerateTranscription(),
-])
+];
+const phrasePipeline: PhrasePipe[] = [
+    new NormalizeImageUrl(),
+];
+
+const phrases = await buildPhrases(airtable, languages, phrasePipeline, translationPipeline)
 const categories = await buildCategories(airtable, languages)
 
 for (const language of languages) {
