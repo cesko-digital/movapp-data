@@ -1,0 +1,161 @@
+{
+	"language": "cs",
+	"categories": [
+		{
+			"id": "recDYIV9sEjQvzuwx",
+			"name_uk": "Основні фрази",
+			"name_main": "Základní fráze",
+			"description": "",
+			"translations": []
+		},
+		{
+			"id": "recPsHHTq4Eyo78TY",
+			"name_uk": "Родина",
+			"name_main": "Rodina",
+			"description": "",
+			"translations": []
+		}
+	],
+	"phrases": {
+		"receuk0Z5KOoAzLCS": {
+			"id": "receuk0Z5KOoAzLCS",
+			"main": {
+				"sound_url": null,
+				"translation": "auto",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "машина",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recw5SDubFHoJP13y": {
+			"id": "recw5SDubFHoJP13y",
+			"main": {
+				"sound_url": null,
+				"translation": "Dobrý den.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Добрий день.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recv5fEYs1EeniF9i": {
+			"id": "recv5fEYs1EeniF9i",
+			"main": {
+				"sound_url": null,
+				"translation": "Ahoj.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Привіт.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recXpxoeRE8jNgqhZ": {
+			"id": "recXpxoeRE8jNgqhZ",
+			"main": {
+				"sound_url": null,
+				"translation": "Na shledanou.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "До побачення.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"rec5PMvxlITj9OCBs": {
+			"id": "rec5PMvxlITj9OCBs",
+			"main": {
+				"sound_url": null,
+				"translation": "Ano.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Так.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recqJmYD7e1d6gnaJ": {
+			"id": "recqJmYD7e1d6gnaJ",
+			"main": {
+				"sound_url": null,
+				"translation": "Ne.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Ні.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recz9FcN089EqAf14": {
+			"id": "recz9FcN089EqAf14",
+			"main": {
+				"sound_url": null,
+				"translation": "rodina",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "родина",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recCUxe471lieEby2": {
+			"id": "recCUxe471lieEby2",
+			"main": {
+				"sound_url": null,
+				"translation": "To je moje rodina.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Це моя родина.",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recSyGFIHGzN6y1tc": {
+			"id": "recSyGFIHGzN6y1tc",
+			"main": {
+				"sound_url": null,
+				"translation": "Žena. Manželka.",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "Жінка",
+				"transcription": ""
+			},
+			"image_url": null
+		},
+		"recfyHBpUGP0PDVTD": {
+			"id": "recfyHBpUGP0PDVTD",
+			"main": {
+				"sound_url": null,
+				"translation": "panenka",
+				"transcription": ""
+			},
+			"uk": {
+				"sound_url": null,
+				"translation": "лялька",
+				"transcription": ""
+			},
+			"image_url": null
+		}
+	}
+}
