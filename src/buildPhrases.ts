@@ -1,5 +1,6 @@
 import {AirtableBase} from "airtable/lib/airtable_base";
-import {Phrase, PhraseById, PhraseMap, Translation, TranslationPipe} from "./definitions";
+import {Attachment} from "airtable/lib/attachment";
+import {Phrase, PhraseById, PhraseMap, PhrasePipe, Translation, TranslationPipe} from "./definitions";
 import {Language} from "./locales.js";
 
 class Phrases {
@@ -28,13 +29,25 @@ class Phrases {
     }
 }
 
-function runPipelines(
-    pipelines: TranslationPipe[],
+function runPhrasePipeline(
+    pipes: PhrasePipe[],
+    languagePack: Language,
+    phrase: Phrase
+): Phrase {
+    for (const pipe of pipes) {
+        phrase = pipe.execute(languagePack, phrase)
+    }
+
+    return phrase
+}
+
+function runTranslationPipeline(
+    pipes: TranslationPipe[],
     languagePack: Language,
     language: Language,
     translation: Translation
 ): Translation {
-    for (const pipe of pipelines) {
+    for (const pipe of pipes) {
         translation = pipe.execute(languagePack, language, translation)
     }
 
@@ -44,7 +57,8 @@ function runPipelines(
 export async function buildPhrases(
     airtable: AirtableBase,
     languages: Language[],
-    pipelines: TranslationPipe[]
+    phrasePipeline: PhrasePipe[],
+    translationPipeline: TranslationPipe[]
 ): Promise<Phrases> {
 
     console.log('Fetching and building phrases')
@@ -68,10 +82,15 @@ export async function buildPhrases(
                 return
             }
 
-            const imageUrl = null
+            const images = record.get('image') as Attachment[] | null
 
-            // TODO
-            //const image = record.get('image')
+            let imageUrl: string | null;
+
+            if (images && images.length > 0) {
+                imageUrl = images[0].url
+            } else {
+                imageUrl = null
+            }
 
             for (const language of languages) {
                 const inLanguage = record.get(language)
@@ -81,20 +100,21 @@ export async function buildPhrases(
                     continue
                 }
 
-                phrases.add(language, {
+                const phrase = runPhrasePipeline(phrasePipeline, language, {
                     id: id,
-                    main: runPipelines(pipelines, language, language, {
+                    main: runTranslationPipeline(translationPipeline, language, language, {
                         sound_url: null,
                         translation: String(inLanguage),
                         transcription: null
                     }),
-                    uk: runPipelines(pipelines, language, Language.Uk, {
+                    uk: runTranslationPipeline(translationPipeline, language, Language.Uk, {
                         sound_url: null,
                         translation: String(inUkraine),
                         transcription: null
                     }),
                     image_url: imageUrl
-                })
+                });
+                phrases.add(language, phrase)
             }
         });
 

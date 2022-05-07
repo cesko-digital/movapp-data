@@ -50,3 +50,7 @@ export interface Phrase {
 export interface TranslationPipe {
     execute(languagePack: Language, language: Language, translation: Translation): Translation
 }
+
+export interface PhrasePipe {
+    execute(languagePack: Language, phrase: Phrase): Phrase
+}
