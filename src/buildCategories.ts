@@ -59,6 +59,16 @@ export async function buildCategories(airtable: AirtableBase, languages: Languag
                 return
             }
 
+            const phrasesData = record.get('Phrases data') as string[] | null
+
+            let phrases = [];
+            if (phrasesData !== null && phrasesData.length > 0) {
+                phrases = phrasesData
+            } else {
+                console.log('Skipping category because is missing phrases for language', Language.Uk, 'id', id)
+                return
+            }
+
             for (const language of languages) {
                 const inLanguage = record.get(language)
 
@@ -72,7 +82,7 @@ export async function buildCategories(airtable: AirtableBase, languages: Languag
                     name_uk: String(inUkraine),
                     name_main: String(inLanguage),
                     description: '',
-                    translations: []
+                    phrases: phrases
                 })
             }
         });
