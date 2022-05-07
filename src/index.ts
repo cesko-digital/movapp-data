@@ -3,12 +3,13 @@ import {buildCategories} from "./buildCategories.js"
 import {buildPhrases} from "./buildPhrases.js"
 import {saveJSON} from "./saveToJSON.js"
 import {GenerateTranscription} from "./translationPipelines/GenerateTranscription.js";
+import {Language} from "./locales.js";
 
 const baseDir = process.cwd()
 
 const airtable = new Airtable().base('appLciQqZNGDR3J6W')
 
-const languages = ['cs', 'pl', 'sk', 'en']
+const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
 const phrases = await buildPhrases(airtable, languages, [
     new GenerateTranscription(),

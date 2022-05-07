@@ -1,12 +1,13 @@
 import {AirtableBase} from "airtable/lib/airtable_base";
 import {CategoriesIdMap, CategoriesPerLanguage, Category} from "./definitions";
+import {Language} from "./locales.js";
 
 
 class Categories {
     mapById: CategoriesIdMap = {}
     mapPerLanguage: CategoriesPerLanguage = {}
 
-    add(language: string, category: Category): Categories {
+    add(language: Language, category: Category): Categories {
         if (typeof this.mapById[category.id] === 'undefined') {
             this.mapById[category.id] = {}
         }
@@ -24,7 +25,7 @@ class Categories {
         return this
     }
 
-    get(language: string): Category[] | null {
+    get(language: Language): Category[] | null {
         const categories = this.mapPerLanguage[language];
         if (typeof categories === 'undefined' || categories.length === 0) {
             return null
@@ -34,7 +35,7 @@ class Categories {
     }
 }
 
-export async function buildCategories(airtable: AirtableBase, languages: string[]): Promise<Categories> {
+export async function buildCategories(airtable: AirtableBase, languages: Language[]): Promise<Categories> {
     const categories = new Categories();
 
     console.log('Fetching and building categories')
@@ -51,10 +52,10 @@ export async function buildCategories(airtable: AirtableBase, languages: string[
         // We can get empty row
         records.forEach(function (record) {
             const id = String(record.getId())
-            const inUkraine = record.get('uk')
+            const inUkraine = record.get(Language.Uk)
 
             if (typeof inUkraine === 'undefined' || inUkraine === '') {
-                console.log('Skipping category for language', 'uk', 'id', id)
+                console.log('Skipping category for language', Language.Uk, 'id', id)
                 return
             }
 
