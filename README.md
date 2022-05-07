@@ -31,6 +31,19 @@ We are providing translations from Ukraine to given languages
 
 We have developed some tools to help us automate boring stuff using nodejs scripts written in Typescript.
 
+### Development
+
+At first install all dependencies.
+
+```bash
+npm run install
+```
+
+- We need to convert out Typescript code to nodejs Javascript using `ts-node`
+  - `npm run build` Build once
+  - `npm run watch` Build on changes
+- We need to ensure same style of code using `npm run lint`
+
 ### AirTable to JSON data structure
 
 - [AirTable npm docs](https://www.npmjs.com/package/airtable)

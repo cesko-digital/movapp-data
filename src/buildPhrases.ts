@@ -1,10 +1,11 @@
 import {AirtableBase} from "airtable/lib/airtable_base";
 import {Phrase, PhraseById, PhraseMap, Translation, TranslationPipe} from "./definitions";
+import {Language} from "./locales.js";
 
 class Phrases {
     mapByLanguage: PhraseMap = {}
 
-    add(language: string, phrase: Phrase): Phrases {
+    add(language: Language, phrase: Phrase): Phrases {
         if (typeof this.mapByLanguage[language] === 'undefined') {
             this.mapByLanguage[language] = {}
         }
@@ -27,9 +28,14 @@ class Phrases {
     }
 }
 
-function runPipelines(pipelines: TranslationPipe[], translation: Translation) {
+function runPipelines(
+    pipelines: TranslationPipe[],
+    languagePack: Language,
+    language: Language,
+    translation: Translation
+): Translation {
     for (const pipe of pipelines) {
-        translation = pipe.execute(translation)
+        translation = pipe.execute(languagePack, language, translation)
     }
 
     return translation
@@ -37,7 +43,7 @@ function runPipelines(pipelines: TranslationPipe[], translation: Translation) {
 
 export async function buildPhrases(
     airtable: AirtableBase,
-    languages: string[],
+    languages: Language[],
     pipelines: TranslationPipe[]
 ): Promise<Phrases> {
 
@@ -62,12 +68,6 @@ export async function buildPhrases(
                 return
             }
 
-            const uk = runPipelines(pipelines, {
-                sound_url: null,
-                translation: String(inUkraine),
-                transcription: ''
-            })
-
             const imageUrl = null
 
             // TODO
@@ -83,12 +83,16 @@ export async function buildPhrases(
 
                 phrases.add(language, {
                     id: id,
-                    main: runPipelines(pipelines, {
+                    main: runPipelines(pipelines, language, language, {
                         sound_url: null,
                         translation: String(inLanguage),
-                        transcription: ''
+                        transcription: null
                     }),
-                    uk: uk,
+                    uk: runPipelines(pipelines, language, Language.Uk, {
+                        sound_url: null,
+                        translation: String(inUkraine),
+                        transcription: null
+                    }),
                     image_url: imageUrl
                 })
             }

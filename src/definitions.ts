@@ -1,3 +1,4 @@
+import {Language} from "./locales.js";
 
 export interface CategoryPerLanguage {
     [key: string]: Category
@@ -35,7 +36,7 @@ export interface PhraseMap {
 
 export interface Translation {
     translation: string
-    transcription: string
+    transcription: string | null
     sound_url: string | null
 }
 
@@ -47,5 +48,5 @@ export interface Phrase {
 }
 
 export interface TranslationPipe {
-    execute(translation: Translation): Translation
+    execute(languagePack: Language, language: Language, translation: Translation): Translation
 }

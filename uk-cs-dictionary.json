@@ -22,12 +22,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "auto",
-				"transcription": ""
+				"transcription": "ауто"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "машина",
-				"transcription": ""
+				"transcription": "mašyna"
 			},
 			"image_url": null
 		},
@@ -36,12 +36,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Dobrý den.",
-				"transcription": ""
+				"transcription": "Добри ден"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Добрий день.",
-				"transcription": ""
+				"transcription": "Dobryj deň"
 			},
 			"image_url": null
 		},
@@ -50,12 +50,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Ahoj.",
-				"transcription": ""
+				"transcription": "Агой"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Привіт.",
-				"transcription": ""
+				"transcription": "Pryvit"
 			},
 			"image_url": null
 		},
@@ -64,12 +64,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Na shledanou.",
-				"transcription": ""
+				"transcription": "На сгледаноу"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "До побачення.",
-				"transcription": ""
+				"transcription": "Do pobačennja"
 			},
 			"image_url": null
 		},
@@ -78,12 +78,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Ano.",
-				"transcription": ""
+				"transcription": "Ано"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Так.",
-				"transcription": ""
+				"transcription": "Tak"
 			},
 			"image_url": null
 		},
@@ -92,12 +92,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Ne.",
-				"transcription": ""
+				"transcription": "Не"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Ні.",
-				"transcription": ""
+				"transcription": "Ni"
 			},
 			"image_url": null
 		},
@@ -106,12 +106,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "rodina",
-				"transcription": ""
+				"transcription": "родіна"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "родина",
-				"transcription": ""
+				"transcription": "rodyna"
 			},
 			"image_url": null
 		},
@@ -120,12 +120,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "To je moje rodina.",
-				"transcription": ""
+				"transcription": "То є моє родіна"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Це моя родина.",
-				"transcription": ""
+				"transcription": "Ce moja rodyna"
 			},
 			"image_url": null
 		},
@@ -134,12 +134,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "Žena. Manželka.",
-				"transcription": ""
+				"transcription": "Жена Манжелка."
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "Жінка",
-				"transcription": ""
+				"transcription": "Žinka"
 			},
 			"image_url": null
 		},
@@ -148,12 +148,12 @@
 			"main": {
 				"sound_url": null,
 				"translation": "panenka",
-				"transcription": ""
+				"transcription": "паненка"
 			},
 			"uk": {
 				"sound_url": null,
 				"translation": "лялька",
-				"transcription": ""
+				"transcription": "ljalka"
 			},
 			"image_url": null
 		}
