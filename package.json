@@ -1,0 +1,44 @@
+{
+  "name": "movapp-data",
+  "version": "1.0.0",
+  "description": "Movapp DATA tools",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "build": "rimraf dist && tsc && chmod +x dist/index.js",
+    "fix": "npm run format && npm run lint",
+    "lint": "eslint ./src --fix",
+    "format": "prettier --ignore-path .gitignore --write \"src/**/*.+(js|ts|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesko-digital/movapp-data.git"
+  },
+  "keywords": [
+    "MOVAPP"
+  ],
+  "author": "Martin Kluska <martin@kluska.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesko-digital/movapp-data/issues"
+  },
+  "homepage": "https://github.com/cesko-digital/movapp-data#readme",
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/node": "^17.0.31",
+    "@types/strip-final-newline": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "@zoltu/typescript-transformer-append-js-extension": "^1.0.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "airtable": "^0.11.3"
+  }
+}
