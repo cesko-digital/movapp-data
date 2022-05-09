@@ -29,8 +29,9 @@ export interface Asset {
 export interface PrefixToHeight {
     [key: string]: Asset
 }
+
 export class DownloadAndGenerateImages implements PhrasePipe {
-    private imagesDir: string
+    private readonly imagesDir: string
     private processedPhrases: DownloadedImagesMap = {}
     // TODO config file?
     private assetMap: PrefixToHeight = {
