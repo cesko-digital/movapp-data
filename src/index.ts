@@ -1,14 +1,18 @@
 import Airtable from 'airtable'
+import { resolve } from 'node:path'
+import fs from 'node:fs'
 import { buildCategories } from './buildCategories.js'
 import { buildPhrases } from './buildPhrases.js'
 import { saveJSON } from './saveToJSON.js'
 import { GenerateTranscription } from './translationPipes/GenerateTranscription.js'
 import { Language } from './locales.js'
-import { PhrasePipe, TranslationPipe } from './definitions'
+import { PhrasePipe, TranslationPipe } from './definitions.js'
 import { DownloadAndGenerateImages } from './phrasePipes/DownloadAndGenerateImages.js'
 import { NormalizeImageUrl } from './phrasePipes/NormalizeImageUrl.js'
-import { resolve } from 'node:path'
-import fs from 'node:fs'
+import { GenerateSound } from './translationPipes/GenerateSound.js'
+
+const subscriptionKey = process.env.AZURE_SUBSCRIPTION_KEY
+const region = process.env.AZURE_REGION
 
 const baseDir = process.cwd()
 const imageDir = resolve(baseDir, 'images')
@@ -21,7 +25,10 @@ const airtable = new Airtable().base('appLciQqZNGDR3J6W')
 
 const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
-const translationPipeline: TranslationPipe[] = [new GenerateTranscription()]
+const translationPipeline: TranslationPipe[] = [
+    new GenerateTranscription(),
+    new GenerateSound(baseDir, subscriptionKey, region),
+]
 const phrasePipeline: PhrasePipe[] = [
     new NormalizeImageUrl(),
     new DownloadAndGenerateImages(imageDir),
@@ -64,3 +71,5 @@ for (const language of languages) {
 // TODO clean up
 
 // TODO: delete non existing images - loop all images and check if the phrase id exists
+
+// TODO: compile packs?

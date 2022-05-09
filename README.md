@@ -24,6 +24,7 @@ We are providing translations from Ukraine to given languages
 | Czech (cs)   | ✅          | ✅        |
 | Slovak (sk)  | ✅          | 🆘       |
 | Polish (pl)  | ✅          | 🆘       |
+| English (en) | 🆘         | 🆘       |
 
 > What to add new language? Contact us at [pryvit@movapp.cz](mailto:pryvit@movapp.cz)
 
@@ -49,9 +50,12 @@ npm run install
 - [AirTable npm docs](https://www.npmjs.com/package/airtable)
 - [AirTable API - login required](https://airtable.com/appLciQqZNGDR3J6W/api/docs)
 - [Process diagram](https://app.diagrams.net/#G1mYrjyU01kJwz6Tg72o2B2XFDwVJn9AhC)
+- [Azure SDK](https://docs.microsoft.com/cs-cz/azure/cognitive-services/speech-service/)
 
 ```bash
 export AIRTABLE_API_KEY=YOUR_SECRET_API_KEY
+export AZURE_SUBSCRIPTION_KEY=KEY
+export AZURE_REGION=REGION
 npm run start
 ```
 
