@@ -7,7 +7,7 @@
     "target": "es2019",
     "rootDir": "./src",
     "moduleResolution": "node",
-    "types": ["node"],
+    "types": ["node", "@types/sharp"],
     "resolveJsonModule": true,
     "outDir": "./dist/",
     "esModuleInterop": true,
