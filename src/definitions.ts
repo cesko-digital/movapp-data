@@ -1,4 +1,4 @@
-import {Language} from "./locales.js";
+import { Language } from './locales.js'
 
 export interface CategoryPerLanguage {
     [key: string]: Category
@@ -48,9 +48,13 @@ export interface Phrase {
 }
 
 export interface TranslationPipe {
-    execute(languagePack: Language, language: Language, translation: Translation): Translation
+    execute(
+        languagePack: Language,
+        language: Language,
+        translation: Translation
+    ): Promise<Translation>
 }
 
 export interface PhrasePipe {
-    execute(languagePack: Language, phrase: Phrase): Phrase
+    execute(languagePack: Language, phrase: Phrase): Promise<Phrase>
 }
