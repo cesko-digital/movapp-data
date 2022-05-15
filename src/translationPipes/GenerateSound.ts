@@ -66,7 +66,7 @@ export class GenerateSound implements TranslationPipe {
             return translation
         }
 
-        translation.sound_url = `https://github.com/cesko-digital/movapp-data/blob/main/${directoryName}/${fileName}?raw=true`
+        translation.sound_url = `https://data.movapp.eu/data/${directoryName}/${fileName}`
 
         return translation
     }
