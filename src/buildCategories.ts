@@ -101,8 +101,10 @@ export async function buildCategories(
 
                     categories.add(language, {
                         id: id,
-                        name_uk: String(inUkraine),
-                        name_main: String(inLanguage),
+                        name: {
+                            source: String(inUkraine),
+                            main: String(inLanguage),
+                        },
                         description: '',
                         phrases: phrases,
                     })

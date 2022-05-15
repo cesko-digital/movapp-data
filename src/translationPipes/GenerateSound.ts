@@ -53,7 +53,7 @@ export class GenerateSound implements TranslationPipe {
         const fileName = `${md5(translation.translation)}.mp3`
         const folderPrefix = fileName.substring(0, 1)
         const directoryName = `${language}-dictionary/${folderPrefix}`
-        const soundDir = resolve(this.baseDir, directoryName)
+        const soundDir = resolve(this.baseDir, 'data', directoryName)
 
         if (!fs.existsSync(soundDir)) {
             fs.mkdirSync(soundDir)
