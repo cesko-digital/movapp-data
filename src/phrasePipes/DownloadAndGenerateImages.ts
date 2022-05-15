@@ -24,6 +24,7 @@ export interface DownloadedImagesMap {
 export interface Asset {
     height: number
     format: keyof FormatEnum | AvailableFormatInfo
+    folder: string
 }
 
 export interface PrefixToHeight {
@@ -35,10 +36,10 @@ export class DownloadAndGenerateImages implements PhrasePipe {
     private processedPhrases: DownloadedImagesMap = {}
     // TODO config file?
     private assetMap: PrefixToHeight = {
-        'iphone-300@1x': { height: 300, format: 'png' },
-        'iphone-300@2x': { height: 600, format: 'png' },
-        'iphone-300@3x': { height: 900, format: 'png' },
-        'android-1000': { height: 1000, format: 'webp' },
+        '@1x': { height: 300, format: 'png', folder: 'apple' },
+        '@2x': { height: 600, format: 'png', folder: 'apple' },
+        '@3x': { height: 900, format: 'png', folder: 'apple' },
+        '': { height: 1000, format: 'webp', folder: 'android' },
     }
 
     constructor(baseDir: string) {
@@ -55,30 +56,41 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         // TODO parallel processing?
         console.log('Downloading', phrase.image_url)
 
+        const fileName = `${phrase.id}${extension}`;
+        const newImageUrl = `https://data.movapp.eu/data/images/${phrase.id}/${fileName}`
+
         if (typeof this.processedPhrases[phrase.id] !== 'undefined') {
+            phrase.image_url = newImageUrl
             return phrase
         }
 
-        const phraseDir = resolve(this.imagesDir, phrase.id)
+        const sourceDir = resolve(this.imagesDir, 'source', phrase.id)
 
-        if (!fs.existsSync(phraseDir)) {
-            fs.mkdirSync(phraseDir)
+        if (!fs.existsSync(sourceDir)) {
+            fs.mkdirSync(sourceDir, {recursive: true})
         }
 
-        const filePath = resolve(phraseDir, `${phrase.id}${extension}`)
+        const filePath = resolve(sourceDir, fileName)
         await this.download(phrase.image_url, filePath)
 
         for (const name of Object.keys(this.assetMap)) {
             const asset = this.assetMap[name]
+            const assetDir = resolve(this.imagesDir, asset.folder, phrase.id)
+
+            if (!fs.existsSync(assetDir)) {
+                fs.mkdirSync(assetDir, {recursive: true})
+            }
 
             const targetFilePath = resolve(
-                phraseDir,
-                `${phrase.id}-${name}.${asset.format}`
+                assetDir,
+                `${phrase.id}${name}.${asset.format}`
             )
             await this.makeAsset(filePath, targetFilePath, asset)
         }
 
         this.processedPhrases[phrase.id] = phrase.id
+
+        phrase.image_url = newImageUrl
 
         return phrase
     }
