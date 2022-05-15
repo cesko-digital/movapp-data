@@ -1,4 +1,9 @@
-import { Language } from './locales.js'
+import {Language} from './locales.js'
+
+export interface Value {
+    source: string,
+    main: string
+}
 
 export interface CategoryPerLanguage {
     [key: string]: Category
@@ -14,8 +19,7 @@ export interface CategoriesPerLanguage {
 
 export interface Category {
     id: string
-    name_uk: string
-    name_main: string
+    name: Value
     /**
      * Description in markdown
      */
@@ -44,7 +48,7 @@ export interface Phrase {
     id: string
     image_url: string | null
     main: Translation
-    uk: Translation
+    source: Translation
 }
 
 export interface TranslationPipe {

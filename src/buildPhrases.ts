@@ -140,7 +140,7 @@ export async function buildPhrases(
                         {
                             id: id,
                             main: main,
-                            uk: uk,
+                            source: uk,
                             image_url: imageUrl,
                         }
                     )
