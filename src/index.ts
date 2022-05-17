@@ -14,8 +14,8 @@ import { GenerateSound } from './translationPipes/GenerateSound.js'
 const subscriptionKey = process.env.AZURE_SUBSCRIPTION_KEY
 const region = process.env.AZURE_REGION
 
-const baseDir = process.cwd()
-const imageDir = resolve(baseDir, 'data', 'images')
+const baseDir = resolve(process.cwd(), 'data')
+const imageDir = resolve(baseDir, 'images')
 
 if (!fs.existsSync(imageDir)) {
     fs.mkdirSync(imageDir)

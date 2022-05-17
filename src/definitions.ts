@@ -1,7 +1,7 @@
-import {Language} from './locales.js'
+import { Language } from './locales.js'
 
 export interface Value {
-    source: string,
+    source: string
     main: string
 }
 

@@ -56,7 +56,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         // TODO parallel processing?
         console.log('Downloading', phrase.image_url)
 
-        const fileName = `${phrase.id}${extension}`;
+        const fileName = `${phrase.id}${extension}`
         const newImageUrl = `https://data.movapp.eu/data/images/${phrase.id}/${fileName}`
 
         if (typeof this.processedPhrases[phrase.id] !== 'undefined') {
@@ -67,7 +67,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         const sourceDir = resolve(this.imagesDir, 'source', phrase.id)
 
         if (!fs.existsSync(sourceDir)) {
-            fs.mkdirSync(sourceDir, {recursive: true})
+            fs.mkdirSync(sourceDir, { recursive: true })
         }
 
         const filePath = resolve(sourceDir, fileName)
@@ -78,7 +78,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
             const assetDir = resolve(this.imagesDir, asset.folder, phrase.id)
 
             if (!fs.existsSync(assetDir)) {
-                fs.mkdirSync(assetDir, {recursive: true})
+                fs.mkdirSync(assetDir, { recursive: true })
             }
 
             const targetFilePath = resolve(
