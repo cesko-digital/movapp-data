@@ -7,7 +7,10 @@
     "target": "es2019",
     "rootDir": "./src",
     "moduleResolution": "node",
-    "types": ["node", "@types/sharp"],
+    "types": [
+      "node",
+      "@types/sharp"
+    ],
     "resolveJsonModule": true,
     "outDir": "./dist/",
     "esModuleInterop": true,
@@ -23,8 +26,14 @@
     "watchDirectory": "useFsEvents",
     "fallbackPolling": "dynamicPriority",
     "synchronousWatchDirectory": true,
-    "excludeDirectories": ["**/node_modules"]
+    "excludeDirectories": [
+      "**/node_modules"
+    ]
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

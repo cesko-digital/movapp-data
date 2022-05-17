@@ -1,6 +1,6 @@
 import { Language } from './locales.js'
 
-export interface Value {
+export interface CategoryName {
     source: string
     main: string
 }
@@ -19,7 +19,7 @@ export interface CategoriesPerLanguage {
 
 export interface Category {
     id: string
-    name: Value
+    name: CategoryName
     /**
      * Description in markdown
      */
@@ -61,4 +61,16 @@ export interface TranslationPipe {
 
 export interface PhrasePipe {
     execute(languagePack: Language, phrase: Phrase): Promise<Phrase>
+}
+
+export interface Alphabet {
+    id: string
+    sound_url: string | null
+    letters: string[]
+    transcription: string
+    examples: Translation[]
+}
+
+export interface AlphabetByLanguage {
+    [key: string]: Alphabet[]
 }

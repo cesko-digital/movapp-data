@@ -1,21 +1,11 @@
-import stream from 'node:stream'
 import fs from 'node:fs'
-import { promisify } from 'node:util'
-import { resolve, extname } from 'node:path'
 import got from 'got'
 import sharp, { AvailableFormatInfo, FormatEnum } from 'sharp'
 import { Language } from '../locales'
 import { Phrase, PhrasePipe } from '../definitions'
-
-const pipeline = promisify(stream.pipeline)
-
-function getExtensionFromUrl(fullUrl: string) {
-    // Remove any left url search params to resolving extension
-    const url = new URL(fullUrl)
-    url.search = ''
-
-    return extname(url.toString())
-}
+import { getExtensionFromUrl } from '../utils/getExtensionFromUrl.js'
+import { pipeline } from '../utils/streamPipeline.js'
+import { resolve } from 'node:path'
 
 export interface DownloadedImagesMap {
     [key: string]: string
