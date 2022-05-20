@@ -28,7 +28,7 @@ languagesMap[Language.Uk] = [Language.Cs, Language.Sk, Language.Pl]
 
 const translationPipeline: TranslationPipe[] = [
     new GenerateTranscription(),
-    new GenerateSound(baseDir, 'alphabet', subscriptionKey, region, false),
+    new GenerateSound(baseDir, subscriptionKey, region, false),
 ]
 const downloadUrlToForCDN = new DownloadUrlToForCDN(baseDir)
 
