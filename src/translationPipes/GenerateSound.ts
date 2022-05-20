@@ -33,19 +33,16 @@ export class GenerateSound implements TranslationPipe {
     private generatedMap: GeneratedMap = {}
     private readonly subscriptionKey: string | undefined
     private useLanguagePackInsteadOfLanguage = false
-    private targetDirName: string
     private baseDir: string
     private readonly region: string | undefined
 
     constructor(
         baseDir: string,
-        targetDirName: string,
         subscriptionKey: string | undefined,
         region: string | undefined,
         useLanguagePackInsteadOfLanguage = false
     ) {
         this.useLanguagePackInsteadOfLanguage = useLanguagePackInsteadOfLanguage
-        this.targetDirName = targetDirName
         this.baseDir = baseDir
         this.subscriptionKey = subscriptionKey
         this.region = region
@@ -61,15 +58,23 @@ export class GenerateSound implements TranslationPipe {
             : language
         const fileName = `${md5(translation.translation)}.mp3`
         const folderPrefix = fileName.substring(0, 1)
-        const directoryName = `${useLanguage}-${this.targetDirName}/${folderPrefix}`
-        const soundDir = resolve(this.baseDir, directoryName)
 
-        if (!fs.existsSync(soundDir)) {
-            fs.mkdirSync(soundDir)
+        // Ensure that folder exists
+        let directory = this.baseDir
+
+        const directoryParts = [`${useLanguage}-sounds`, folderPrefix];
+        const directoryName = directoryParts.join('/')
+
+        for (const folder of directoryParts) {
+            directory = resolve(directory, folder)
+
+            if (!fs.existsSync(directory)) {
+                fs.mkdirSync(directory)
+            }
         }
 
         const bcp47Code = languageToBCP47Code(useLanguage)
-        const filePath = resolve(soundDir, fileName)
+        const filePath = resolve(directory, fileName)
 
         if (!(await this.tts(bcp47Code, filePath, translation.translation))) {
             return translation

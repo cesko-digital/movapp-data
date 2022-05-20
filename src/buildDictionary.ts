@@ -23,7 +23,7 @@ const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
 const translationPipeline: TranslationPipe[] = [
     new GenerateTranscription(),
-    new GenerateSound(baseDir, 'dictionary', subscriptionKey, region),
+    new GenerateSound(baseDir, subscriptionKey, region),
 ]
 const phrasePipeline: PhrasePipe[] = [
     new NormalizeImageUrl(),
