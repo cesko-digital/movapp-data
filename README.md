@@ -20,10 +20,10 @@ We are providing translations from Ukraine to given languages
 
 | Language     | Dictionary | Alphabet |
 |--------------|------------|----------|
-| Ukraine (uk) | ✅          | ✅        |
-| Czech (cs)   | ✅          | ✅        |
-| Slovak (sk)  | ✅          | 🆘       |
-| Polish (pl)  | ✅          | 🆘       |
+| Ukraine (uk) | ✅          | ✅      |
+| Czech (cs)   | ✅          | ✅      |
+| Slovak (sk)  | ✅          | ✅      |
+| Polish (pl)  | ✅          | ✅      |
 | English (en) | 🆘         | 🆘       |
 
 > What to add new language? Contact us at [pryvit@movapp.cz](mailto:pryvit@movapp.cz)
