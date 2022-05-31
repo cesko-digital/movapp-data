@@ -15,10 +15,12 @@ jobs:
         with:
           path: main
 
-      - name: Derive from branch name
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: 18
+
+      - name: Build
         run: |
             npm install
             npm run build
