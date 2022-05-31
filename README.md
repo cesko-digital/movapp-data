@@ -61,3 +61,11 @@ npm run build:alphabet
 ```
 
 You can also use run configurations (PHPStorm or any other IDE). Set the environment in GUI and do not store the file to the repository.
+
+#### Using Github actions
+
+[![Build from AirTable](https://github.com/cesko-digital/movapp-data/actions/workflows/airtable.yml/badge.svg?branch=main)](https://github.com/cesko-digital/movapp-data/actions/workflows/airtable.yml)
+
+
+1. Go to [Actions / Build from AirTable](https://github.com/cesko-digital/movapp-data/actions/workflows/airtable.yml)
+2. Pres `Run workflow` on the right side above "workflow runs table" button and select `main` branch and `Run workflow`
