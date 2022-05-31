@@ -1,0 +1,39 @@
+name: Build from AirTable
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron:  '0 10 * * *'
+
+jobs:
+  build:
+    name: Build and pull request
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          path: main
+
+      - name: Derive from branch name
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+        run: |
+            npm install
+            npm run build
+            npm run build:dictionary
+            npm run build:alphabet
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AZURE_SUBSCRIPTION_KEY: ${{ secrets.AZURE_SUBSCRIPTION_KEY }}
+          AZURE_REGION: ${{ secrets.AZURE_REGION }}
+
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@1.0.19
+        env:
+          PULL_REQUEST_UPDATE: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_PREFIX: "airtable/"
+          PULL_REQUEST_BRANCH: "main"
+          PULL_REQUEST_FROM_BRANCH: "main"
