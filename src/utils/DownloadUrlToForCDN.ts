@@ -26,6 +26,6 @@ export class DownloadUrlToForCDN {
 
         await pipeline(got.stream(soundUrl), fs.createWriteStream(filePath))
 
-        return `https://data.movapp.eu/data/${dirName}/${fullFileName}`
+        return `https://data.movapp.eu/${dirName}/${fullFileName}`
     }
 }

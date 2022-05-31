@@ -80,7 +80,7 @@ export class GenerateSound implements TranslationPipe {
             return translation
         }
 
-        translation.sound_url = `https://data.movapp.eu/data/${directoryName}/${fileName}`
+        translation.sound_url = `https://data.movapp.eu/${directoryName}/${fileName}`
 
         return translation
     }
