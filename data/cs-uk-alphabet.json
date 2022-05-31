@@ -1041,6 +1041,58 @@
 			],
 			"sound_url": "https://data.movapp.eu/data/CS-alphabet/recWsxs3At4XYy6J6.mp3",
 			"transcription": "довгий [и]"
+		},
+		{
+			"id": "recg4Hs4x9HkWT3aW",
+			"letters": [
+				"Z",
+				"z"
+			],
+			"examples": [
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/8/896339aa0a31414e80dcf1d6b7d0c2fd.mp3",
+					"translation": "zub",
+					"transcription": "зуб"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/6/69c459dd76c6198f72f0c20ddd3c9447.mp3",
+					"translation": "zebra",
+					"transcription": "зебра"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/6/6e9a9d24ab14a9d151b8c1580b59c1d9.mp3",
+					"translation": "zvon",
+					"transcription": "звон"
+				}
+			],
+			"sound_url": "https://data.movapp.eu/data/CS-alphabet/recg4Hs4x9HkWT3aW.mp3",
+			"transcription": "[з]"
+		},
+		{
+			"id": "recBHtwCtyLPme1LJ",
+			"letters": [
+				"Ž",
+				"ž"
+			],
+			"examples": [
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/2/291fae44be73a400f2def933b9f35c92.mp3",
+					"translation": "žena",
+					"transcription": "жена"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/a/a10bd3b2329268dcb76a9097d0c6debc.mp3",
+					"translation": "žárovka",
+					"transcription": "жаровка"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/cs-sounds/2/2a5ecbee2d7cfc433c7c2be87f1611ff.mp3",
+					"translation": "želva",
+					"transcription": "желва"
+				}
+			],
+			"sound_url": "https://data.movapp.eu/data/CS-alphabet/recBHtwCtyLPme1LJ.mp3",
+			"transcription": "[ж]"
 		}
 	]
 }

@@ -781,6 +781,83 @@
 			],
 			"sound_url": "https://data.movapp.eu/data/UK-alphabet/recrOKoU116jw2Uth.mp3",
 			"transcription": "[šč]"
+		},
+		{
+			"id": "recntseq6iSgLoKl7",
+			"letters": [
+				"ь"
+			],
+			"examples": [
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/d/d6dfbeb70909a2cd2ca4092ef04324e0.mp3",
+					"translation": "сіль",
+					"transcription": "sil"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/9/99376bc0d27c1c3d394a3c8847c77897.mp3",
+					"translation": "лінь",
+					"transcription": "liń"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/b/b1c07fc3f93c0a7c33435d2c6ffb3d9b.mp3",
+					"translation": "вільний",
+					"transcription": "wilnyj"
+				}
+			],
+			"sound_url": null,
+			"transcription": "měkký znak"
+		},
+		{
+			"id": "recVTytvp9f1OCmgn",
+			"letters": [
+				"Ю",
+				"ю"
+			],
+			"examples": [
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/b/bc82ed7e4ec21a697ad0c7ef3e0a4bf1.mp3",
+					"translation": "юнак",
+					"transcription": "junak"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/a/a30e3ad4982e350299c96d62a097e4c3.mp3",
+					"translation": "ювілей",
+					"transcription": "juwilej"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/6/6fbcec67b28e50f2dc0a8a72cd3cb0fe.mp3",
+					"translation": "любити",
+					"transcription": "ljubyty"
+				}
+			],
+			"sound_url": "https://data.movapp.eu/data/UK-alphabet/recVTytvp9f1OCmgn.mp3",
+			"transcription": "[ju]"
+		},
+		{
+			"id": "recTaPnTXAc0JFVAV",
+			"letters": [
+				"Я",
+				"я"
+			],
+			"examples": [
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/0/04c695a04f4694573a036261ea22e4f8.mp3",
+					"translation": "яблуко",
+					"transcription": "jabluko"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/b/b6235604bc79187f86f654c89a3d5413.mp3",
+					"translation": "яма",
+					"transcription": "jama"
+				},
+				{
+					"sound_url": "https://data.movapp.eu/data/uk-sounds/2/2ebe9fd86933c31ce1520bdd14a0615a.mp3",
+					"translation": "якор",
+					"transcription": "jakor"
+				}
+			],
+			"sound_url": "https://data.movapp.eu/data/UK-alphabet/recTaPnTXAc0JFVAV.mp3",
+			"transcription": "[ja]"
 		}
 	]
 }
