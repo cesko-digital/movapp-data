@@ -53,7 +53,8 @@
 				"recOpQta9793Ftjpn",
 				"recfmNWpMKpfXdiKs",
 				"recKViBy2c9Ha1j6V",
-				"recsV8VAbcSWACDyq"
+				"recsV8VAbcSWACDyq",
+				"recn5YTJI7YvIGpZY"
 			]
 		},
 		{
@@ -12409,6 +12410,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/8fb069a248efa2e47fae0b260bf3c7cb.mp3",
 				"translation": "Моя банківська карта не працює.",
 				"transcription": "Moja bankivska karta ne pracjuje"
+			},
+			"image_url": null
+		},
+		"recn5YTJI7YvIGpZY": {
+			"id": "recn5YTJI7YvIGpZY",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/0/098f6bcd4621d373cade4e832627b4f6.mp3",
+				"translation": "test",
+				"transcription": "тест"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/0/0cbc6611f5540bd0809a388dc95a615b.mp3",
+				"translation": "Test",
+				"transcription": "Test"
 			},
 			"image_url": null
 		}

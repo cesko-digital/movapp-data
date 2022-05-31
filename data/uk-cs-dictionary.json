@@ -53,7 +53,8 @@
 				"recOpQta9793Ftjpn",
 				"recfmNWpMKpfXdiKs",
 				"recKViBy2c9Ha1j6V",
-				"recsV8VAbcSWACDyq"
+				"recsV8VAbcSWACDyq",
+				"recn5YTJI7YvIGpZY"
 			]
 		},
 		{
@@ -16526,6 +16527,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/e8b1ae4c1c15bbb21a1ec98659b58160.mp3",
 				"translation": "Дайте мені, будь ласка, виписку з рахунку.",
 				"transcription": "Dajte meni, buď laska, vypysku z rachunku"
+			},
+			"image_url": null
+		},
+		"recn5YTJI7YvIGpZY": {
+			"id": "recn5YTJI7YvIGpZY",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/0/0cbc6611f5540bd0809a388dc95a615b.mp3",
+				"translation": "Test",
+				"transcription": "Тест"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/0/0cbc6611f5540bd0809a388dc95a615b.mp3",
+				"translation": "Test",
+				"transcription": "Test"
 			},
 			"image_url": null
 		}
