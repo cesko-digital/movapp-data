@@ -69,3 +69,9 @@ You can also use run configurations (PHPStorm or any other IDE). Set the environ
 
 1. Go to [Actions / Build from AirTable](https://github.com/cesko-digital/movapp-data/actions/workflows/airtable.yml)
 2. Pres `Run workflow` on the right side above "workflow runs table" button and select `main` branch and `Run workflow`
+
+## Using the data
+
+### Kid's section
+
+The movapp website and apps have a separate [vocabulary section for children](https://www.movapp.cz/kids) (and a [memory game](https://www.movapp.cz/kids/memory-game)). Phrases for these sections are stored the same way as any other phrase category. Use the `recSHyEn6N0hAqUBp` category id to retrieve the Kid's section phrases. 
