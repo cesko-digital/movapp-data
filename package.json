@@ -40,6 +40,7 @@
   "dependencies": {
     "@types/sharp": "^0.30.2",
     "airtable": "^0.11.3",
+    "dotenv": "^16.0.1",
     "got": "^12.1.0",
     "microsoft-cognitiveservices-speech-sdk": "^1.21.0",
     "rimraf": "^3.0.2",
