@@ -34,8 +34,7 @@ export async function buildAlphabet(
     airtable: AirtableBase,
     translationPipeline: TranslationPipe[]
 ): Promise<AlphabetByLanguage> {
-    const languageKey = language.toUpperCase()
-    const table = airtable(`alphabet_${languageKey}`)
+    const table = airtable(`alphabet_${language}`)
     const alphabet: AlphabetByLanguage = {}
 
     for (const transcriptionLanguage of transcriptionLanguages) {
@@ -63,7 +62,7 @@ export async function buildAlphabet(
 
                 const soundUrl = await downloadUrlToForCDN.execute(
                     getAttachmentUrl(record, 'sound'),
-                    `${languageKey}-alphabet`.toLowerCase(),
+                    `${language}-alphabet`.toLowerCase(),
                     id
                 )
 
