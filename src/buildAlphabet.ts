@@ -24,6 +24,8 @@ interface AlphabetLanguageMap {
 const languagesMap: AlphabetLanguageMap = {}
 
 languagesMap[Language.Cs] = [Language.Uk]
+languagesMap[Language.Pl] = [Language.Uk]
+languagesMap[Language.Sk] = [Language.Uk]
 languagesMap[Language.Uk] = [Language.Cs, Language.Sk, Language.Pl]
 
 const translationPipeline: TranslationPipe[] = [
