@@ -47,7 +47,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         console.log('Downloading', phrase.image_url)
 
         const fileName = `${phrase.id}${extension}`
-        const newImageUrl = `https://data.movapp.eu/images/${phrase.id}/${fileName}`
+        const newImageUrl = `https://data.movapp.eu/images/source/${phrase.id}/${fileName}`
 
         if (typeof this.processedPhrases[phrase.id] !== 'undefined') {
             phrase.image_url = newImageUrl
