@@ -20,9 +20,14 @@ export class DownloadUrlToForCDN {
             return null
         }
 
+        const dirPath = resolve(this.baseDir, dirName)
+        if (!fs.existsSync(dirPath)) {
+            fs.mkdirSync(dirPath)
+        }
+
         const extension = getExtensionFromUrl(soundUrl)
         const fullFileName = `${fileName}${extension}`
-        const filePath = resolve(this.baseDir, dirName, fullFileName)
+        const filePath = resolve(dirPath, fullFileName)
 
         await pipeline(got.stream(soundUrl), fs.createWriteStream(filePath))
 

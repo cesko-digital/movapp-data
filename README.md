@@ -52,15 +52,24 @@ npm run install
 - [Process diagram](https://app.diagrams.net/#G1mYrjyU01kJwz6Tg72o2B2XFDwVJn9AhC)
 - [Azure SDK](https://docs.microsoft.com/cs-cz/azure/cognitive-services/speech-service/)
 
+### API keys
+
+* You can set environment variables by creating a `.env` file according to `.env.example`. 
+* You can also use run configurations (PHPStorm or any other IDE). Set the environment in GUI and do not store the file to the repository.
+* Alternatively, you can set environment variables using the command line: 
+
 ```bash
 export AIRTABLE_API_KEY=YOUR_SECRET_API_KEY
 export AZURE_SUBSCRIPTION_KEY=KEY
 export AZURE_REGION=REGION
+```
+
+### Running the script
+
+```bash
 npm run build:dictionary
 npm run build:alphabet
 ```
-
-You can also use run configurations (PHPStorm or any other IDE). Set the environment in GUI and do not store the file to the repository.
 
 #### Using Github actions
 
