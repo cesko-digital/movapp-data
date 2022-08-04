@@ -37,7 +37,7 @@ We have developed some tools to help us automate boring stuff using nodejs scrip
 At first install all dependencies.
 
 ```bash
-npm run install
+npm install
 ```
 
 - We need to convert out Typescript code to nodejs Javascript using `ts-node`
