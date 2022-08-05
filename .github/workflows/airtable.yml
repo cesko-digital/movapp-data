@@ -35,7 +35,7 @@ jobs:
         run: echo "::set-output name=changed::$(git status --porcelain | wc -l)"
 
       - name: Commit changes
-        if: steps.get_changes.outputs.changed != 0
+        if: steps.changes.outputs.changed != 0
         run: |
             git config user.name 'github-actions[bot]'
             git config user.email 'github-actions[bot]@users.noreply.github.com'
@@ -44,7 +44,7 @@ jobs:
 
       # https://github.com/marketplace/actions/create-pull-request
       - name: Create Pull Request
-        if: steps.get_changes.outputs.changed != 0
+        if: steps.changes.outputs.changed != 0
         uses: peter-evans/create-pull-request@v4
         with:
           base: main
