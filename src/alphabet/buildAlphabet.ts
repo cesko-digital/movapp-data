@@ -43,7 +43,7 @@ export async function buildAlphabet(
 
     await table
         .select({
-            view: 'Grid view',
+            view: 'Export view',
         })
         .eachPage(async function page(records, fetchNextPage) {
             for (const record of records) {

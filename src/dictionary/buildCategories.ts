@@ -49,7 +49,7 @@ export async function buildCategories(
 
     await categoriesTable
         .select({
-            view: 'Grid view',
+            view: 'Export view',
         })
         .eachPage(function page(records, fetchNextPage) {
             // This function (`page`) will get called for each page of records.

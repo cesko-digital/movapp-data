@@ -60,7 +60,7 @@ export async function buildPhrases(
 
     await phrasesData
         .select({
-            view: 'Grid view',
+            view: 'Export view',
         })
         .eachPage(async function page(records, fetchNextPage) {
             // This function (`page`) will get called for each page of records.
