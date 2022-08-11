@@ -2531,6 +2531,20 @@
 			},
 			"image_url": null
 		},
+		"recFIj6A5ozeXCvbR": {
+			"id": "recFIj6A5ozeXCvbR",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/3/3dc97c8247288d3d8e2004237511ffbd.mp3",
+				"translation": "zubná pasta",
+				"transcription": "зубна паста"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a794fdf8da74c6659bd222715ec8627.mp3",
+				"translation": "зубна паста",
+				"transcription": "zubna pasta"
+			},
+			"image_url": null
+		},
 		"recIV9txWoBtP3SpR": {
 			"id": "recIV9txWoBtP3SpR",
 			"main": {
