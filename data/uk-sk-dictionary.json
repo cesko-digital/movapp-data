@@ -30,6 +30,7 @@
 				"recZPYINEi1VUr9to",
 				"recZQqRzGOAFXbuSA",
 				"rec4YxIbDUDRTrBiz",
+				"recERdWEC1VKdL5EO",
 				"rec0phJtjM2JriePZ",
 				"recTWVFfUIenJxvVc",
 				"reci6pBJjB7qoPGXD",
@@ -124,6 +125,7 @@
 				"recSGyCkfjLkDui8g",
 				"rec1vAhqWY0TVXOBf",
 				"recgd3zbARuRgh82C",
+				"recukfWVNfVpjelWD",
 				"recMpZQq2IJWEPHrH",
 				"recf9ELFEbbeMKVDJ",
 				"recARpbgZt9mwS2G9",
@@ -1004,6 +1006,7 @@
 				"recwKU7LF182hUPdV",
 				"receeJ7l9bfuXNK3u",
 				"recLaIXBESqIbM1fh",
+				"rectw6le9yJM3gNxD",
 				"recNtd9ZKqUToam5V",
 				"reczg2hY3nkfRrMEd",
 				"recAzqInU5ud6lXES",
@@ -1198,6 +1201,7 @@
 				"recqzh66xFUzxpcHq",
 				"recpAGJv55xqoSnDH",
 				"recF2rx6waAgVw0vn",
+				"recXfV5T2cGOgwPLC",
 				"recY8GSfSGdWbMUqZ",
 				"recbMNtkDqJ4ravyk",
 				"reciKtGT2HM8lrfdF",
@@ -1671,8 +1675,8 @@
 		"recFVLhqNETC0RhCl": {
 			"id": "recFVLhqNETC0RhCl",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/1/1e1b790dd3e93e14e46b9bd35c9f6f10.mp3",
-				"translation": "Áno",
+				"sound_url": "https://data.movapp.eu/sk-sounds/e/e1977e89fcd4ce5b7f031b5878f7956c.mp3",
+				"translation": "Áno.",
 				"transcription": "Ано"
 			},
 			"source": {
@@ -1732,9 +1736,9 @@
 				"transcription": "Немате за чо"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/f/f3ba12a21ba8cb35228abea5a4514165.mp3",
-				"translation": "Нема за що. / Прошу.",
-				"transcription": "Nema za ščo / Prošu."
+				"sound_url": "https://data.movapp.eu/uk-sounds/b/b3f30f026dfe9fbf3e829aec9897ba6d.mp3",
+				"translation": "Нема за що. Прошу.",
+				"transcription": "Nema za ščo Prošu."
 			},
 			"image_url": null
 		},
@@ -1839,9 +1843,9 @@
 		"rec4YxIbDUDRTrBiz": {
 			"id": "rec4YxIbDUDRTrBiz",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/7/7e0e7a04bb19fa3d6708141864e8c2c8.mp3",
-				"translation": "Nehovorím po česky.",
-				"transcription": "Неговорім по чески"
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
+				"translation": "#notranslate",
+				"transcription": "#нотранслате"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/a/a1f8f191ee7729c2123023c6430ac2f8.mp3",
@@ -1993,8 +1997,8 @@
 		"recjgxBVDyKsmmVlA": {
 			"id": "recjgxBVDyKsmmVlA",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1af96d18e834d2f816197dd7bf6eaad.mp3",
-				"translation": "Nie",
+				"sound_url": "https://data.movapp.eu/sk-sounds/d/d632033c57d13c641c74a0412831cba9.mp3",
+				"translation": "Nie.",
 				"transcription": "Ніе"
 			},
 			"source": {
@@ -4378,9 +4382,9 @@
 				"transcription": "Потребуєм бить хвільку сама Потребуєм бить хвільку сам."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/f/f373e496ec377696dd121e693feb694c.mp3",
-				"translation": "Мені потрібно побути самій. / Мені потрібно побути самому.",
-				"transcription": "Meni potribno pobuty samij / Meni potribno pobuty samomu."
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/8385e05fec9cb9906d3d816ce7c93d00.mp3",
+				"translation": "Мені потрібно побути самій. Мені потрібно побути самому.",
+				"transcription": "Meni potribno pobuty samij Meni potribno pobuty samomu."
 			},
 			"image_url": null
 		},
@@ -4933,9 +4937,9 @@
 		"rec5YcyhlYlL5KM3v": {
 			"id": "rec5YcyhlYlL5KM3v",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/5/51700d3a796069925d391658dd6b3446.mp3",
-				"translation": "desiata / olovrant",
-				"transcription": "десіата / оловрант"
+				"sound_url": "https://data.movapp.eu/sk-sounds/8/8fa95b4f235cc12bd516e25f839f57df.mp3",
+				"translation": "desiata, olovrant",
+				"transcription": "десіата, оловрант"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/2/29a9849c6ee1f9b85d898f2d1d8d7e7b.mp3",
@@ -6165,9 +6169,9 @@
 		"recr6flIkiDC8Z17w": {
 			"id": "recr6flIkiDC8Z17w",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/5/53ab346ac10f559627c6a4f319160c21.mp3",
-				"translation": "Plakal? Plakala?",
-				"transcription": "Плакал Плакала?"
+				"sound_url": "https://data.movapp.eu/sk-sounds/5/5aad7db544060fc5981842f30052db35.mp3",
+				"translation": "Plakal. Plakala.",
+				"transcription": "Плакал Плакала."
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/c458da7cd027fba3261fee26f4ba2427.mp3",
@@ -6193,9 +6197,9 @@
 		"recvREW81ine0c3M7": {
 			"id": "recvREW81ine0c3M7",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/8/8646761311a3d74ec06753a41693d9b4.mp3",
-				"translation": "po desiate / olovrante",
-				"transcription": "по десіате / оловранте"
+				"sound_url": "https://data.movapp.eu/sk-sounds/5/5288beed14a5288f4e700f743f1e9e5b.mp3",
+				"translation": "po desiate, po olovrante",
+				"transcription": "по десіате, по оловранте"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/d/d0f0792f91eb2009bd9fc63385ff8d04.mp3",
@@ -6215,6 +6219,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/9/9b52193f4267c1fc949bb8f1c055e4f3.mp3",
 				"translation": "після сну",
 				"transcription": "pislja snu"
+			},
+			"image_url": null
+		},
+		"reczBRPO0Be5XIMND": {
+			"id": "reczBRPO0Be5XIMND",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/2/28cd0c1012ec9e92272ad6d4e4c77972.mp3",
+				"translation": "Kedy máme prísť?",
+				"transcription": "Кеди маме прість"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/f/fbd3bb33151d55c9498b3bd7584d0e28.mp3",
+				"translation": "О котрій годині ми маємо прийти?",
+				"transcription": "O kotrij hodyni my majemo pryjty"
 			},
 			"image_url": null
 		},
@@ -6445,9 +6463,9 @@
 		"recklqKCX8mVWTTDr": {
 			"id": "recklqKCX8mVWTTDr",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/e/e932ca4c74effbe8d068927c683cde70.mp3",
-				"translation": "pred desiatou / olovrantom",
-				"transcription": "пред десіатоу / оловрантом"
+				"sound_url": "https://data.movapp.eu/sk-sounds/e/e8d3bcf4a019826e3531a2ba01ca0b57.mp3",
+				"translation": "pred desiatou, pred olovrantom",
+				"transcription": "пред десіатоу, пред оловрантом"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/7/77a844ec9697c29f21689a495b2980db.mp3",
@@ -6795,9 +6813,9 @@
 		"reczQ8GDc9yJgdevw": {
 			"id": "reczQ8GDc9yJgdevw",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/a/a37f694c016da2c6ee92b14bd2a130d6.mp3",
-				"translation": "Si hladná / hladný?",
-				"transcription": "Сі гладна / гладни"
+				"sound_url": "https://data.movapp.eu/sk-sounds/a/aa05d193a6421d7a43d5ec80e627524e.mp3",
+				"translation": "Si hladná? Si hladný?",
+				"transcription": "Сі гладна Сі гладни?"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/3/347d931c7535865b42f189aad3eb44f4.mp3",
@@ -6851,9 +6869,9 @@
 		"rec9kAsk1Es9Eg0KD": {
 			"id": "rec9kAsk1Es9Eg0KD",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/1/157d241ce8f86db42fd9f8e86c5af1e5.mp3",
-				"translation": "Máme desiatu / olovrant.",
-				"transcription": "Маме десіату / оловрант"
+				"sound_url": "https://data.movapp.eu/sk-sounds/6/67159e3b614c870cb30ce5a77ea4562a.mp3",
+				"translation": "Máme desiatu. Máte olovrant.",
+				"transcription": "Маме десіату Мате оловрант."
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/880e0e1e6cb809ed34abe312ce0283ed.mp3",
@@ -9175,9 +9193,9 @@
 		"recmutb4BDiXI1vhm": {
 			"id": "recmutb4BDiXI1vhm",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/a/a7ca53ffd42376df5a6be154fedc8ab0.mp3",
-				"translation": "мандаринки",
-				"transcription": "мандаринки"
+				"sound_url": "https://data.movapp.eu/sk-sounds/7/717647d1a91af8321bfbe92a014b2407.mp3",
+				"translation": "mandarínky",
+				"transcription": "мандарінки"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/ed89b92aefac4c6af5a22cd31595cad5.mp3",
@@ -9309,6 +9327,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/ec90bf66578ad5f48bea936e9658d64a.mp3",
 				"translation": "цибуля",
 				"transcription": "cybulja"
+			},
+			"image_url": null
+		},
+		"recENnyksYXRQUv6T": {
+			"id": "recENnyksYXRQUv6T",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/d/d52e612531c7612b036fc4fe9bb37083.mp3",
+				"translation": "žemľa",
+				"transcription": "жемльа"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/db85888692e2ab4b5b52c43608d4ef78.mp3",
+				"translation": "булочка",
+				"transcription": "buločka"
 			},
 			"image_url": null
 		},
@@ -10673,9 +10705,9 @@
 		"recgd3zbARuRgh82C": {
 			"id": "recgd3zbARuRgh82C",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/f/ff67826628e626ce448f8aa01a9049e2.mp3",
-				"translation": " V pondelok mám hodinu češtiny.",
-				"transcription": " В понделок мам годіну чештіни"
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
+				"translation": "#notranslate",
+				"transcription": "#нотранслате"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/4/47ab8355c531e75f2ecef4b7d0fbbd9e.mp3",
@@ -10975,6 +11007,34 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/f/fb5ad84186cf355f42bebd1f659450b1.mp3",
 				"translation": "сім",
 				"transcription": "sim"
+			},
+			"image_url": null
+		},
+		"recHiYKDoOawugqMQ": {
+			"id": "recHiYKDoOawugqMQ",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/e/e4730cef2466cd6aed0ca72812a03c9e.mp3",
+				"translation": "Ide tento autobus do...?",
+				"transcription": "Іде тенто аутобус до.."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/599ffd15f6d05693b960f53e8b8ae60c.mp3",
+				"translation": "Цей автобус їде до...?",
+				"transcription": "Cej avtobus jide do.."
+			},
+			"image_url": null
+		},
+		"rec0TQjsQ18yTbuoZ": {
+			"id": "rec0TQjsQ18yTbuoZ",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/6/66445812bbdfdfeb7038681cba29093b.mp3",
+				"translation": "Kedy ide...?",
+				"transcription": "Кеди іде.."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/9/99a3c46778b217d3bacde0cd2cd5786c.mp3",
+				"translation": "Коли їде...?",
+				"transcription": "Koly jide.."
 			},
 			"image_url": null
 		},
@@ -11443,9 +11503,9 @@
 		"rec5ECW5165n8OFDc": {
 			"id": "rec5ECW5165n8OFDc",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/a/a5a5c7a5a92e510af695576fc604a634.mp3",
-				"translation": "skoro / takmer",
-				"transcription": "скоро / такмер"
+				"sound_url": "https://data.movapp.eu/sk-sounds/d/d9b37546da32da3acc1deeaa05f5468e.mp3",
+				"translation": "skoro, takmer",
+				"transcription": "скоро, такмер"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/86fa6369e063606ce6e705f86da45af1.mp3",
@@ -11751,9 +11811,9 @@
 		"recF2rx6waAgVw0vn": {
 			"id": "recF2rx6waAgVw0vn",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/c/cc606c20cc9cfd2e5cd98c98d23aa90d.mp3",
-				"translation": "Hovoríte po česky?",
-				"transcription": "Говоріте по чески"
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
+				"translation": "#notranslate",
+				"transcription": "#нотранслате"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/d/d6956d38b26128777ba37238ced56202.mp3",
@@ -12753,6 +12813,62 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/0/06ce0953f32894b3246a4bd34025b3db.mp3",
 				"translation": "тигри",
 				"transcription": "tyhry"
+			},
+			"image_url": null
+		},
+		"recXfV5T2cGOgwPLC": {
+			"id": "recXfV5T2cGOgwPLC",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/1/1d5003ad624cc585c1366f3bb7becbd3.mp3",
+				"translation": "Hovoríte po slovensky?",
+				"transcription": "Говоріте по словенски"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/1/1bca13344d912f1ef5784275d7a4d40b.mp3",
+				"translation": "Ви розмовляєте словацькою?",
+				"transcription": "Vy rozmovljajete slovackoju"
+			},
+			"image_url": null
+		},
+		"recERdWEC1VKdL5EO": {
+			"id": "recERdWEC1VKdL5EO",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/e/e0291422099e2d4df53ecd127584e22e.mp3",
+				"translation": "Nehovorím po slovensky.",
+				"transcription": "Неговорім по словенски"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/0/0234eab21dffdcab306987ab918eb3b3.mp3",
+				"translation": "Не розмовляю словацькою.",
+				"transcription": "Ne rozmovljaju slovackoju"
+			},
+			"image_url": null
+		},
+		"recukfWVNfVpjelWD": {
+			"id": "recukfWVNfVpjelWD",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/c/c01a60d50b0df30e2343cea937f87a5c.mp3",
+				"translation": "V pondelok mám hodinu slovenčiny.",
+				"transcription": "В понделок мам годіну словенчіни"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/2/28e26be1411f3bbe5404110c5b160473.mp3",
+				"translation": "У понеділок у мене заняття з словацької.",
+				"transcription": "U ponedilok u mene zanjatťa z slovackoji"
+			},
+			"image_url": null
+		},
+		"rectw6le9yJM3gNxD": {
+			"id": "rectw6le9yJM3gNxD",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/d/df73cee6da7d25b2f38606e1d3e2203d.mp3",
+				"translation": "slovenčina",
+				"transcription": "словенчіна"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/ea1151151c688354e09143de33f1fe70.mp3",
+				"translation": "словацька мова",
+				"transcription": "slovacka mova"
 			},
 			"image_url": null
 		}
