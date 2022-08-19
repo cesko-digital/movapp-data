@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import { AirtableBase } from 'airtable/lib/airtable_base'
 import {
     CategoriesIdMap,
@@ -5,6 +6,7 @@ import {
     Category,
 } from '../definitions'
 import { Language } from '../locales.js'
+import {shouldSkipText} from "../utils/shouldSkipText.js";
 
 class Categories {
     mapById: CategoriesIdMap = {}
@@ -22,7 +24,7 @@ class Categories {
         this.mapById[category.id][language] = category
         this.mapPerLanguage[language].push(category)
 
-        console.log('Category', language, category)
+        log.debug('Category', language, category)
 
         return this
     }
@@ -43,7 +45,7 @@ export async function buildCategories(
 ): Promise<Categories> {
     const categories = new Categories()
 
-    console.log('Fetching and building categories')
+    log.debug('Fetching and building categories')
 
     const categoriesTable = airtable('Categories data')
 
@@ -60,7 +62,7 @@ export async function buildCategories(
                 const inUkraine = record.get(Language.Uk)
 
                 if (typeof inUkraine === 'undefined' || inUkraine === '') {
-                    console.log(
+                    log.debug(
                         'Skipping category for language',
                         Language.Uk,
                         'id',
@@ -77,7 +79,7 @@ export async function buildCategories(
                 if (phrasesData !== null && phrasesData.length > 0) {
                     phrases = phrasesData
                 } else {
-                    console.log(
+                    log.debug(
                         'Skipping category because is missing phrases for language',
                         Language.Uk,
                         'id',
@@ -87,13 +89,10 @@ export async function buildCategories(
                 }
 
                 for (const language of languages) {
-                    const inLanguage = record.get(language)
+                    const inLanguage = record.get(language) as string|undefined
 
-                    if (
-                        typeof inLanguage === 'undefined' ||
-                        inLanguage === ''
-                    ) {
-                        console.log(
+                    if (shouldSkipText(inLanguage)) {
+                        log.debug(
                             'Skipping category for language',
                             language,
                             'id',

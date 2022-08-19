@@ -1840,20 +1840,6 @@
 			},
 			"image_url": null
 		},
-		"rec4YxIbDUDRTrBiz": {
-			"id": "rec4YxIbDUDRTrBiz",
-			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотранслате"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/a/a1f8f191ee7729c2123023c6430ac2f8.mp3",
-				"translation": "Не розмовляю чеською.",
-				"transcription": "Ne rozmovljaju českoju"
-			},
-			"image_url": null
-		},
 		"rec4typYILeNEcLn2": {
 			"id": "rec4typYILeNEcLn2",
 			"main": {
@@ -10702,20 +10688,6 @@
 			},
 			"image_url": null
 		},
-		"recgd3zbARuRgh82C": {
-			"id": "recgd3zbARuRgh82C",
-			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотранслате"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/4/47ab8355c531e75f2ecef4b7d0fbbd9e.mp3",
-				"translation": "У понеділок у мене заняття з чеської.",
-				"transcription": "U ponedilok u mene zanjatťa z českoji"
-			},
-			"image_url": null
-		},
 		"rechfb9BV2BgHpvNs": {
 			"id": "rechfb9BV2BgHpvNs",
 			"main": {
@@ -11805,20 +11777,6 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/9/9b2ecff0d9aff8b17c9252a77d2722d3.mp3",
 				"translation": "Ходімо зі мною.",
 				"transcription": "Chodimo zi mnoju"
-			},
-			"image_url": null
-		},
-		"recF2rx6waAgVw0vn": {
-			"id": "recF2rx6waAgVw0vn",
-			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотранслате"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/d/d6956d38b26128777ba37238ced56202.mp3",
-				"translation": "Ви розмовляєте чеською?",
-				"transcription": "Vy rozmovljajete českoju"
 			},
 			"image_url": null
 		},

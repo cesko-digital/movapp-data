@@ -13977,48 +13977,6 @@
 				"transcription": "tyhry"
 			},
 			"image_url": null
-		},
-		"recXfV5T2cGOgwPLC": {
-			"id": "recXfV5T2cGOgwPLC",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотрансляте"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/1/1bca13344d912f1ef5784275d7a4d40b.mp3",
-				"translation": "Ви розмовляєте словацькою?",
-				"transcription": "Wy rozmowljajete slowackoju"
-			},
-			"image_url": null
-		},
-		"recERdWEC1VKdL5EO": {
-			"id": "recERdWEC1VKdL5EO",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотрансляте"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/0/0234eab21dffdcab306987ab918eb3b3.mp3",
-				"translation": "Не розмовляю словацькою.",
-				"transcription": "Ne rozmowljaju slowackoju"
-			},
-			"image_url": null
-		},
-		"recukfWVNfVpjelWD": {
-			"id": "recukfWVNfVpjelWD",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/b/b1d51344acb66848d433c8841f866205.mp3",
-				"translation": "#notranslate",
-				"transcription": "#нотрансляте"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/2/28e26be1411f3bbe5404110c5b160473.mp3",
-				"translation": "У понеділок у мене заняття з словацької.",
-				"transcription": "U ponedilok u mene zanjatća z slowackoji"
-			},
-			"image_url": null
 		}
 	}
 }

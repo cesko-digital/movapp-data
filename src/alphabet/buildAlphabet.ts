@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import {
     AlphabetByLanguage,
     Translation,
@@ -53,11 +54,11 @@ export async function buildAlphabet(
                 const examples = String(record.get('examples'))
 
                 if (letters === '') {
-                    console.warn('Letters are not set', id, language)
+                    log.warning('Letters are not set', id, language)
                     return
                 }
 
-                console.log('Building letter', id, letters, language)
+                log.debug('Building letter', id, letters, language)
                 const lettersArray = separatorStringToArray(letters)
 
                 const soundUrl = await downloadUrlToForCDN.execute(

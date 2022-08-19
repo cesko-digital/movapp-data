@@ -62,9 +62,12 @@ npm install
 export AIRTABLE_API_KEY=YOUR_SECRET_API_KEY
 export AZURE_SUBSCRIPTION_KEY=KEY
 export AZURE_REGION=REGION
+#export DEBUG=true
 ```
 
 ### Running the script
+
+> For showing debug logs use DEBUG=true environment (in file or by passing to cli)
 
 ```bash
 npm run build:dictionary

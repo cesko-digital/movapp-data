@@ -1,5 +1,6 @@
 import { resolve } from 'node:path'
 import fs from 'node:fs'
+import log from 'log-beautify'
 import { buildCategories } from './dictionary/buildCategories.js'
 import { buildPhrases } from './dictionary/buildPhrases.js'
 import { saveJSON } from './utils/saveToJSON.js'
@@ -11,6 +12,9 @@ import { NormalizeImageUrl } from './phrasePipes/NormalizeImageUrl.js'
 import { GenerateSound } from './translationPipes/GenerateSound.js'
 import { subscriptionKey, region } from './utils/env.js'
 import { airtable } from './utils/airtable.js'
+import {setupLog} from "./utils/setupLog.js";
+
+setupLog(log)
 
 const baseDir = resolve(process.cwd(), 'data')
 const imageDir = resolve(baseDir, 'images')
@@ -41,19 +45,19 @@ const categories = await buildCategories(airtable, languages)
 for (const language of languages) {
     const categoriesInLanguage = categories.get(language)
 
+    log.info('Building dictionary', language)
+
     if (categoriesInLanguage === null) {
-        console.log('Skipping language pack - no categories', language)
+        log.warning('Skipping language pack - no categories', language)
         continue
     }
 
     const phrasesInLanguage = phrases.get(language)
 
     if (phrasesInLanguage === null) {
-        console.log('Skipping language pack - no phrases', language)
+        log.warning('Skipping language pack - no phrases', language)
         continue
     }
-
-    console.log('Saving language', language)
 
     const data = {
         source: Language.Uk,
