@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import fs from 'node:fs'
 import got from 'got'
 import sharp, { AvailableFormatInfo, FormatEnum } from 'sharp'
@@ -44,7 +45,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
 
         // TODO only if image has been updated
         // TODO parallel processing?
-        console.log('Downloading', phrase.image_url)
+        log.debug('Downloading', phrase.image_url)
 
         const fileName = `${phrase.id}${extension}`
         const newImageUrl = `https://data.movapp.eu/images/source/${phrase.id}/${fileName}`
@@ -93,7 +94,7 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         targetFilePath: string,
         asset: Asset
     ) {
-        console.log('Making asset', asset, targetFilePath)
+        log.debug('Making asset', asset, targetFilePath)
         await sharp(sourceFilePath)
             .resize({ height: asset.height, fit: 'outside' })
             .withMetadata({

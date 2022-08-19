@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import { Translation, TranslationPipe } from '../definitions.js'
 import { ua2sk } from '../transliterations/ua2sk.js'
 import { sk2ua } from '../transliterations/sk2ua.js'
@@ -47,10 +48,10 @@ export class GenerateTranscription implements TranslationPipe {
                 ? FROM_UK_TABLES[languagePack]
                 : TO_UK_TABLES[languagePack]
 
-        console.log(translation.translation, languagePack, language)
+        log.debug(translation.translation, languagePack, language)
 
         if (typeof table === 'undefined') {
-            console.log(
+            log.warning(
                 'Un-known translation combination',
                 languagePack,
                 '-',

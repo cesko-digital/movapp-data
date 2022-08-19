@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import sdk from 'microsoft-cognitiveservices-speech-sdk'
 import { Translation, TranslationPipe } from '../definitions.js'
 import { LanguageBCP47Code, Language, languageToBCP47Code } from '../locales.js'
@@ -95,7 +96,7 @@ export class GenerateSound implements TranslationPipe {
     ): Promise<boolean> {
         return new Promise((resolve, reject) => {
             if (typeof this.generatedMap[fileName] === 'string') {
-                console.log(
+                log.debug(
                     'Sound already generated for given translation',
                     text
                 )
@@ -105,7 +106,7 @@ export class GenerateSound implements TranslationPipe {
 
             // TODO add option to force refresh
             if (fs.existsSync(fileName)) {
-                console.log('Sound already exists for given translation', text)
+                log.debug('Sound already exists for given translation', text)
                 resolve(true)
                 return
             }
@@ -114,13 +115,13 @@ export class GenerateSound implements TranslationPipe {
                 this.subscriptionKey === undefined ||
                 this.region === undefined
             ) {
-                console.warn(
+                log.warning(
                     'Skipping sound generation - missing AZURE_SUBSCRIPTION_KEY / AZURE_REGION'
                 )
                 return false
             }
 
-            console.log('Generating sound', languageBCP47Code, text)
+            log.info('Generating sound', languageBCP47Code, text)
 
             // now create the audio-config pointing to our stream and
             // the speech config specifying the language.
@@ -154,7 +155,7 @@ export class GenerateSound implements TranslationPipe {
                         result.reason ===
                         sdk.ResultReason.SynthesizingAudioCompleted
                     ) {
-                        console.log(
+                        log.debug(
                             'Finished generating sound',
                             languageBCP47Code,
                             text

@@ -1,3 +1,4 @@
+import log from 'log-beautify'
 import { AirtableBase } from 'airtable/lib/airtable_base'
 import {
     Phrase,
@@ -9,6 +10,7 @@ import {
 import { Language } from '../locales.js'
 import { runTranslationPipeline } from '../translationPipes/runTranslationPipeline.js'
 import { getAttachmentUrl } from '../utils/getAttachmentUrl.js'
+import {shouldSkipText} from "../utils/shouldSkipText.js";
 
 class Phrases {
     mapByLanguage: PhraseMap = {}
@@ -20,7 +22,7 @@ class Phrases {
 
         this.mapByLanguage[language][phrase.id] = phrase
 
-        console.log('Phrase', language, phrase)
+        log.debug('Phrase', language, phrase)
 
         return this
     }
@@ -54,7 +56,7 @@ export async function buildPhrases(
     phrasePipeline: PhrasePipe[],
     translationPipeline: TranslationPipe[]
 ): Promise<Phrases> {
-    console.log('Fetching and building phrases')
+    log.debug('Fetching and building phrases')
     const phrasesData = airtable('Phrases data')
     const phrases = new Phrases()
 
@@ -70,20 +72,17 @@ export async function buildPhrases(
                 const inUkraine = record.get('uk')
 
                 if (typeof inUkraine === 'undefined' || inUkraine === '') {
-                    console.log('Skipping phrase for language', 'uk', 'id', id)
+                    log.debug('Skipping phrase for language', 'uk', 'id', id)
                     return
                 }
 
                 const imageUrl = getAttachmentUrl(record, 'image')
 
                 for (const language of languages) {
-                    const inLanguage = record.get(language)
+                    const inLanguage = record.get(language) as string|undefined
 
-                    if (
-                        typeof inLanguage === 'undefined' ||
-                        inLanguage === ''
-                    ) {
-                        console.log(
+                    if (shouldSkipText(inLanguage)) {
+                        log.debug(
                             'Skipping phrase for language',
                             language,
                             'id',

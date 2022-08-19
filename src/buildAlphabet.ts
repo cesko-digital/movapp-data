@@ -9,6 +9,10 @@ import { region, subscriptionKey } from './utils/env.js'
 import { airtable } from './utils/airtable.js'
 import { buildAlphabet } from './alphabet/buildAlphabet.js'
 import { DownloadUrlToForCDN } from './utils/DownloadUrlToForCDN.js'
+import log from 'log-beautify'
+import {setupLog} from "./utils/setupLog.js";
+
+setupLog(log)
 
 const baseDir = resolve(process.cwd(), 'data')
 const imageDir = resolve(baseDir, 'images')
@@ -37,7 +41,7 @@ const downloadUrlToForCDN = new DownloadUrlToForCDN(baseDir)
 for (const mainLanguage in languagesMap) {
     const languages = languagesMap[mainLanguage]
 
-    console.log('Building alphabet', mainLanguage)
+    log.info('Building alphabet', mainLanguage)
 
     const alphabet = await buildAlphabet(
         mainLanguage as Language,
@@ -48,7 +52,7 @@ for (const mainLanguage in languagesMap) {
     )
 
     for (const language of languages) {
-        console.log('Saving alphabet', language)
+        log.info('Saving alphabet', language)
 
         const data = {
             source: mainLanguage,
