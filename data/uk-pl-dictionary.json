@@ -31,6 +31,7 @@
 				"recZQqRzGOAFXbuSA",
 				"rec4YxIbDUDRTrBiz",
 				"recERdWEC1VKdL5EO",
+				"recGhymaY8009QUfx",
 				"rec0phJtjM2JriePZ",
 				"recTWVFfUIenJxvVc",
 				"reci6pBJjB7qoPGXD",
@@ -126,6 +127,7 @@
 				"rec1vAhqWY0TVXOBf",
 				"recgd3zbARuRgh82C",
 				"recukfWVNfVpjelWD",
+				"rec2zk6JNXVcp682g",
 				"recMpZQq2IJWEPHrH",
 				"recf9ELFEbbeMKVDJ",
 				"recARpbgZt9mwS2G9",
@@ -1202,6 +1204,7 @@
 				"recpAGJv55xqoSnDH",
 				"recF2rx6waAgVw0vn",
 				"recXfV5T2cGOgwPLC",
+				"receBFf8XbMmIjrUA",
 				"recY8GSfSGdWbMUqZ",
 				"recbMNtkDqJ4ravyk",
 				"reciKtGT2HM8lrfdF",
@@ -1837,20 +1840,6 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/c28937b9eba0fd7fb8076a918a52b238.mp3",
 				"translation": "Я з України.",
 				"transcription": "Ja z Ukrajiny"
-			},
-			"image_url": null
-		},
-		"rec4YxIbDUDRTrBiz": {
-			"id": "rec4YxIbDUDRTrBiz",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/1/12f91f5ca8f17721cc3c491c24a7b8e0.mp3",
-				"translation": "Nie mówię po polsku.",
-				"transcription": "Нє мувєн по польску"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/a/a1f8f191ee7729c2123023c6430ac2f8.mp3",
-				"translation": "Не розмовляю чеською.",
-				"transcription": "Ne rozmowljaju czeskoju"
 			},
 			"image_url": null
 		},
@@ -11178,20 +11167,6 @@
 			},
 			"image_url": null
 		},
-		"recgd3zbARuRgh82C": {
-			"id": "recgd3zbARuRgh82C",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/9/9075902bf7152d44c95956889ece942b.mp3",
-				"translation": "W poniedziałek mam zajęcia z czeskiego.",
-				"transcription": "В понєдзяуек мам заєнця з ческєґо"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/4/47ab8355c531e75f2ecef4b7d0fbbd9e.mp3",
-				"translation": "У понеділок у мене заняття з чеської.",
-				"transcription": "U ponedilok u mene zanjatća z czeskoji"
-			},
-			"image_url": null
-		},
 		"rechfb9BV2BgHpvNs": {
 			"id": "rechfb9BV2BgHpvNs",
 			"main": {
@@ -11973,20 +11948,6 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/9/9b2ecff0d9aff8b17c9252a77d2722d3.mp3",
 				"translation": "Ходімо зі мною.",
 				"transcription": "Chodimo zi mnoju"
-			},
-			"image_url": null
-		},
-		"recF2rx6waAgVw0vn": {
-			"id": "recF2rx6waAgVw0vn",
-			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/7/78be0c67c4c53161208cffa6daecd5c2.mp3",
-				"translation": "Mówi Pani po polsku? Mówi Pan po polsku?",
-				"transcription": "Муві Пані по польску Муві Пан по польску?"
-			},
-			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/d/d6956d38b26128777ba37238ced56202.mp3",
-				"translation": "Ви розмовляєте чеською?",
-				"transcription": "Wy rozmowljajete czeskoju"
 			},
 			"image_url": null
 		},
@@ -13975,6 +13936,48 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/0/06ce0953f32894b3246a4bd34025b3db.mp3",
 				"translation": "тигри",
 				"transcription": "tyhry"
+			},
+			"image_url": null
+		},
+		"recGhymaY8009QUfx": {
+			"id": "recGhymaY8009QUfx",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/1/12f91f5ca8f17721cc3c491c24a7b8e0.mp3",
+				"translation": "Nie mówię po polsku.",
+				"transcription": "Нє мувєн по польску"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/5987a4dac3ec58abac4b5ae702b1e539.mp3",
+				"translation": "Не розмовляю польською.",
+				"transcription": "Ne rozmowljaju polskoju"
+			},
+			"image_url": null
+		},
+		"rec2zk6JNXVcp682g": {
+			"id": "rec2zk6JNXVcp682g",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/6/67e6b7a10e4b18835a130e8dcc556c97.mp3",
+				"translation": "W poniedziałek mam zajęcia z polskiego.",
+				"transcription": "В понєдзяуек мам заєнця з польскєґо"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/7d365bdf276184c2f6e966a3ba298939.mp3",
+				"translation": "У понеділок у мене заняття з польської.",
+				"transcription": "U ponedilok u mene zanjatća z polskoji"
+			},
+			"image_url": null
+		},
+		"receBFf8XbMmIjrUA": {
+			"id": "receBFf8XbMmIjrUA",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/78be0c67c4c53161208cffa6daecd5c2.mp3",
+				"translation": "Mówi Pani po polsku? Mówi Pan po polsku?",
+				"transcription": "Муві Пані по польску Муві Пан по польску?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/5399b817779a45a7d949309a7cba5ad3.mp3",
+				"translation": "Ви розмовляєте польською?",
+				"transcription": "Wy rozmowljajete polskoju"
 			},
 			"image_url": null
 		}
