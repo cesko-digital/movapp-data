@@ -6569,9 +6569,9 @@
 				"transcription": "Моґен пожичить.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/e/e04ff6bf2088a7b056272b48785759e4.mp3",
-				"translation": "Можу взяти... ",
-				"transcription": "Możu wzjaty.. "
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/e79cc215fc9d3c1956a9873842c0a419.mp3",
+				"translation": "Можу взяти...",
+				"transcription": "Możu wzjaty.."
 			},
 			"image_url": null
 		},
@@ -11366,9 +11366,9 @@
 		"recaCRIyNmCOVP78A": {
 			"id": "recaCRIyNmCOVP78A",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/0/0804df874ea9b25b6fcb01cc40375e9a.mp3",
-				"translation": " jabłka",
-				"transcription": " ябука"
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/d5be31b6f52631bf18d274d00436487e.mp3",
+				"translation": "jabłka",
+				"transcription": "ябука"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/8261d075ad7f14aa4660be58c0acf856.mp3",
@@ -11506,14 +11506,14 @@
 		"recMQepGvvWeROQMr": {
 			"id": "recMQepGvvWeROQMr",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/9/91aef9f6cd496703dfb682b9f2860ea6.mp3",
-				"translation": "150 gramów szynki poproszę",
+				"sound_url": "https://data.movapp.eu/pl-sounds/9/9a4b7cb2d4c9aadb8d62321f0584cfdf.mp3",
+				"translation": "150 gramów szynki poproszę.",
 				"transcription": "150 ґрамув шинкі попрошен"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/d/da491c5244955b6297e4d33bf6b7ecef.mp3",
-				"translation": "150 грам шинки, будь ласка ",
-				"transcription": "150 hram szynky, budź laska "
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/ac53cdc695b1a7b2f4c067723db082e8.mp3",
+				"translation": "150 грам шинки, будь ласка",
+				"transcription": "150 hram szynky, budź laska"
 			},
 			"image_url": null
 		},
