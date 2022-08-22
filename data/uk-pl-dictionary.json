@@ -303,6 +303,8 @@
 				"recTWHmkDs1dzHs6U",
 				"recdg9ZvRV1gKUtdh",
 				"recF4cEsVe3NmKPCL",
+				"recgvXdYBEZUT74w4",
+				"rec3zUDc8iBGp2cvj",
 				"recj0eBnYGljSUmue",
 				"rec0TQjsQ18yTbuoZ",
 				"reczw2UxDDT3nINFc",
@@ -936,6 +938,7 @@
 				"reclQulIhTO067aSj",
 				"recQwbMbl975QTG1Q",
 				"recArFXfhZTceb3f9",
+				"recAyk2ZDcC5wvNbB",
 				"recRA8z9E21IVwTBm",
 				"recTODuAwTbUVdMvJ",
 				"reclTCBzrRTSHq6tb",
@@ -1082,7 +1085,8 @@
 				"recYfDqP9LdZNZXvF",
 				"recdMFUF25rsXtyaD",
 				"recYHWwB7xKHOCQ0V",
-				"recZcWAPRbXKn9P9N"
+				"recZcWAPRbXKn9P9N",
+				"recQICbPcnNGLZF4T"
 			]
 		},
 		{
@@ -1229,7 +1233,8 @@
 				"recIBAdapbQyWdaL5",
 				"reciGb6FBoQOJgW3G",
 				"recLtW4c0d4r2bSQh",
-				"recNT0DNCKctU6SVS"
+				"recNT0DNCKctU6SVS",
+				"recCGFWuPd0Qj1gna"
 			]
 		},
 		{
@@ -1445,8 +1450,8 @@
 				"transcription": "Ґдзє знайден.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5f8591bb8011be61ac1e995dcc4ee323.mp3",
-				"translation": "Де можна знайти...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/c/c648ac3b6426831556967dcace3d10ac.mp3",
+				"translation": "Де можна знайти...?",
 				"transcription": "De można znajty.."
 			},
 			"image_url": null
@@ -1613,8 +1618,8 @@
 				"transcription": "Цо значи.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/2/2385ed8419cc1168cfc5496292039ee5.mp3",
-				"translation": "Що означає...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/577f8e80357d31ca01b2b466613a54e4.mp3",
+				"translation": "Що означає...?",
 				"transcription": "Szczo oznaczaje.."
 			},
 			"image_url": null
@@ -1720,9 +1725,9 @@
 		"recKViBy2c9Ha1j6V": {
 			"id": "recKViBy2c9Ha1j6V",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/8/8c568240abdfa42b7696f03ca0f181a5.mp3",
-				"translation": "Jestem w kwarantannie.",
-				"transcription": "Єстем в кварантаннє"
+				"sound_url": "https://data.movapp.eu/pl-sounds/5/55bcf3ca1e308989e1a587a7ab6fbb7f.mp3",
+				"translation": "Jestem na kwarantannie.",
+				"transcription": "Єстем на кварантаннє"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/8bc0d0f3ab57af4f4fa898910dc159be.mp3",
@@ -1790,8 +1795,8 @@
 		"recZQqRzGOAFXbuSA": {
 			"id": "recZQqRzGOAFXbuSA",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/7/7b7033d8ad48ec2f88539844d98eeb37.mp3",
-				"translation": "W porządku",
+				"sound_url": "https://data.movapp.eu/pl-sounds/f/fe2beb41bdcbd3723b4325cc2c22d98d.mp3",
+				"translation": "W porządku.",
 				"transcription": "В пожондку"
 			},
 			"source": {
@@ -1846,8 +1851,8 @@
 		"rec4typYILeNEcLn2": {
 			"id": "rec4typYILeNEcLn2",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/a/a1ccce468cb2a5c464c6378dde7ba81e.mp3",
-				"translation": "Przepraszam",
+				"sound_url": "https://data.movapp.eu/pl-sounds/2/236c292a0e9dac8cb76aa050befcd737.mp3",
+				"translation": "Przepraszam.",
 				"transcription": "Пжепрашам"
 			},
 			"source": {
@@ -2019,8 +2024,8 @@
 				"transcription": "Які єст адрес.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/4/406b55cab936f40f08b9b74b44697ca4.mp3",
-				"translation": "Яка адреса у...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a81248cf9549992684bfe1ccc21a6931.mp3",
+				"translation": "Яка адреса у...?",
 				"transcription": "Jaka adresa u.."
 			},
 			"image_url": null
@@ -2103,8 +2108,8 @@
 				"transcription": "Як достанен сєн до.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5121f61e7ff06c92f922f5f9293cce85.mp3",
-				"translation": "Як дістатись до...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a0a73495b26d9eeeab8e74db04aa4bd.mp3",
+				"translation": "Як дістатись до...?",
 				"transcription": "Jak distatys do.."
 			},
 			"image_url": null
@@ -2686,9 +2691,9 @@
 		"recx0ZYK1mTelAqlk": {
 			"id": "recx0ZYK1mTelAqlk",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/1/1cece5e4d4f02b2358f62407efb6e750.mp3",
-				"translation": "blůza",
-				"transcription": "бльůза"
+				"sound_url": "https://data.movapp.eu/pl-sounds/5/533289aa52f1988502c9ba04a8541613.mp3",
+				"translation": "bluza",
+				"transcription": "блюза"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/7/7d738e403567593ceccb09ec57b40d9b.mp3",
@@ -2700,9 +2705,9 @@
 		"recH7Zrk4wdsjvrBO": {
 			"id": "recH7Zrk4wdsjvrBO",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/e/eae3cfeefd961a9c060885d5308a76ed.mp3",
-				"translation": "tiszert",
-				"transcription": "тішерт"
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/d9e63373b0e354080f42d6f886bdb580.mp3",
+				"translation": "koszulka",
+				"transcription": "кошулька"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/f/f650be4d6d62fa209a42c3ebe9c975ab.mp3",
@@ -2770,9 +2775,9 @@
 		"rechocEejzAyTDAF1": {
 			"id": "rechocEejzAyTDAF1",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/e/ed70636a67406872d7ad4e2180245eae.mp3",
-				"translation": "tiszerty",
-				"transcription": "тішерти"
+				"sound_url": "https://data.movapp.eu/pl-sounds/0/0073afcb8da25d920ab6e2405641257b.mp3",
+				"translation": "koszulki",
+				"transcription": "кошулькі"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/e05e299c3050095722c9027d71cd91e0.mp3",
@@ -2784,9 +2789,9 @@
 		"recLIgJdcDMNfubFO": {
 			"id": "recLIgJdcDMNfubFO",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/a/a1ff00bf28d00974dc9d7a4aab969bd3.mp3",
-				"translation": "czapka",
-				"transcription": "чапка"
+				"sound_url": "https://data.movapp.eu/pl-sounds/2/223923efd7b6adebbd15e2860c5e1a53.mp3",
+				"translation": "czapeczka",
+				"transcription": "чапечка"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/b/b2df20c508f649ccfbc854b06d9a4e85.mp3",
@@ -3820,9 +3825,9 @@
 		"rectx6hsGJ3zkNeKU": {
 			"id": "rectx6hsGJ3zkNeKU",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/c/c8ee77e2e8f383ab583f14c0c730dc35.mp3",
-				"translation": "tyłek",
-				"transcription": "тиуек"
+				"sound_url": "https://data.movapp.eu/pl-sounds/e/ebbbb8e424a756eed6bd20788d11930d.mp3",
+				"translation": "pośladki",
+				"transcription": "посьлядкі"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/a/ab2765f5b2c7ff61d63be3c5878d827d.mp3",
@@ -5679,6 +5684,20 @@
 			},
 			"image_url": null
 		},
+		"recO1bVVUdytUqEwE": {
+			"id": "recO1bVVUdytUqEwE",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/2/2414c532e2a979048fd62c135f081001.mp3",
+				"translation": "Wdowiec. Wdowa.",
+				"transcription": "Вдовєц Вдова."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/d9ae032d0e0bea2a585fa319895cfba4.mp3",
+				"translation": "Вдівець. Вдова.",
+				"transcription": "Wdiwec Wdowa."
+			},
+			"image_url": null
+		},
 		"recSKBJfUSrqiUrOg": {
 			"id": "recSKBJfUSrqiUrOg",
 			"main": {
@@ -5763,6 +5782,20 @@
 			},
 			"image_url": null
 		},
+		"recVEHyfqyqSyug3i": {
+			"id": "recVEHyfqyqSyug3i",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/2/297512b881d44b95c0d57ba9b365957f.mp3",
+				"translation": "Niezamężna. Kawaler (nieżonaty).",
+				"transcription": "Нєзаменжна Кавалєр (нєжонати)."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/4efc10a3763a6186038bb8591e3cf890.mp3",
+				"translation": "Неодружений. Незаміжня.",
+				"transcription": "Neodrużenyj Nezamiżnja."
+			},
+			"image_url": null
+		},
 		"recWyHY1E0qdz47mb": {
 			"id": "recWyHY1E0qdz47mb",
 			"main": {
@@ -5802,6 +5835,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/e2c2bf15e0f3e141ecf03a26aa3622ba.mp3",
 				"translation": "чоловік",
 				"transcription": "czolowik"
+			},
+			"image_url": null
+		},
+		"rec8IDxcNPxitJmaf": {
+			"id": "rec8IDxcNPxitJmaf",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/3/31643a89dc7913bc44ad22a3e412d5ab.mp3",
+				"translation": "Rozwiedziony. Rozwiedziona.",
+				"transcription": "Розвєдзьони Розвєдзьона."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/42370dd577b3f769d3a685e66ab787e9.mp3",
+				"translation": "Розлучений. Розлучена.",
+				"transcription": "Rozluczenyj Rozluczena."
 			},
 			"image_url": null
 		},
@@ -5953,8 +6000,8 @@
 				"transcription": "Якє документи потжебуєн до.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/0/0dd4626ae7a588b5a71bbe34d67dc21c.mp3",
-				"translation": "Які документи потрібні для...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/4afe3a4203a7fb6207e0b223dcd23488.mp3",
+				"translation": "Які документи потрібні для...?",
 				"transcription": "Jaki dokumenty potribni dlja.."
 			},
 			"image_url": null
@@ -6701,6 +6748,34 @@
 			},
 			"image_url": null
 		},
+		"recLGP5BcMEGlPi9O": {
+			"id": "recLGP5BcMEGlPi9O",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/be5852acdcc78709395e1eeb358acc60.mp3",
+				"translation": "Był grzeczny? Była grzeczna?",
+				"transcription": "Биу ґжечни Биуа ґжечна?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/c/ccd0159271857ed3f8040e98110954ba.mp3",
+				"translation": "Був чемний? Була чемна?",
+				"transcription": "Buw czemnyj Bula czemna?"
+			},
+			"image_url": null
+		},
+		"recRfp60wWgsi8LwD": {
+			"id": "recRfp60wWgsi8LwD",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/7aa5adbd00de60f4b121ad990b402699.mp3",
+				"translation": "Czym się lubi bawić?",
+				"transcription": "Чим сєн любі бавіть"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/36f33d35bf7d013e6884f4544d40263c.mp3",
+				"translation": "З чим він любить грати? З чим вона любить грати?",
+				"transcription": "Z czym win ljubyć hraty Z czym wona ljubyć hraty?"
+			},
+			"image_url": null
+		},
 		"recUWHFcdXhk2zjHP": {
 			"id": "recUWHFcdXhk2zjHP",
 			"main": {
@@ -6743,6 +6818,20 @@
 			},
 			"image_url": null
 		},
+		"recnCHHDNTTvnauSe": {
+			"id": "recnCHHDNTTvnauSe",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/8/8fdd91235cd34bbf8b8150004c2f2aa0.mp3",
+				"translation": "Nie bierz mu tej zabawki. Nie bierz jej tej zabawki.",
+				"transcription": "Нє бєж му тей забавкі Нє бєж єй тей забавкі."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/8960ddffd971590eb397bb298065fa21.mp3",
+				"translation": "Не забирай у нього іграшку. Не забирай у неї іграшку.",
+				"transcription": "Ne zabyraj u ńoho ihraszku Ne zabyraj u neji ihraszku."
+			},
+			"image_url": null
+		},
 		"recoE3dcu18h5vbo9": {
 			"id": "recoE3dcu18h5vbo9",
 			"main": {
@@ -6782,6 +6871,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/c458da7cd027fba3261fee26f4ba2427.mp3",
 				"translation": "Плакав. Плакала.",
 				"transcription": "Plakaw Plakala."
+			},
+			"image_url": null
+		},
+		"recsFLLba1keiPflq": {
+			"id": "recsFLLba1keiPflq",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/792e1ef3ca761db9dffd7c35d57b4a65.mp3",
+				"translation": "Był niegrzeczny. Była niegrzeczna.",
+				"transcription": "Биу нєґжечни Биуа нєґжечна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/302c122b6f6c6da9a14b81c8f4c06225.mp3",
+				"translation": "Був нечемний. Була нечемна.",
+				"transcription": "Buw neczemnyj Bula neczemna."
 			},
 			"image_url": null
 		},
@@ -6838,6 +6941,34 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/cb3e31397a4db71e96150de5563bcfcc.mp3",
 				"translation": "Зроби так.",
 				"transcription": "Zroby tak"
+			},
+			"image_url": null
+		},
+		"recIPI9k6t8SoBgB2": {
+			"id": "recIPI9k6t8SoBgB2",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/d9b4452d777a2b5dcc3552ee78ae9151.mp3",
+				"translation": "Ma jakąś alergię?",
+				"transcription": "Ма яконсь алєрґєн"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/ded6870b76d9c1a718f50a6b9eddb218.mp3",
+				"translation": "У нього є алергія? У неї є алергія?",
+				"transcription": "U ńoho je alerhija U neji je alerhija?"
+			},
+			"image_url": null
+		},
+		"recJGziwSwRegSgL9": {
+			"id": "recJGziwSwRegSgL9",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/c/c19878bffaf9e1872fa1ba2c65017a79.mp3",
+				"translation": "Ładnie się bawił. Ładnie się bawiła.",
+				"transcription": "Łаднє сєн бавіу Łаднє сєн бавіуа."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/52c0592a892280c7b6c602b60e148bd0.mp3",
+				"translation": "Він гарно грався. Вона гарно гралася.",
+				"transcription": "Win harno hrawsja Wona harno hralasja."
 			},
 			"image_url": null
 		},
@@ -6995,6 +7126,34 @@
 			},
 			"image_url": null
 		},
+		"recj7Bkaux1mlRDNW": {
+			"id": "recj7Bkaux1mlRDNW",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/f/fdecdd78dcaa826d2406addbe4e5ef46.mp3",
+				"translation": "Ile ma lat?",
+				"transcription": "Ілє ма лят"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/0/0b0bd068ef0506fc0a0ed4eb5330950e.mp3",
+				"translation": "Скільки йому років? Скільки їй років?",
+				"transcription": "Skilky jomu rokiw Skilky jij rokiw?"
+			},
+			"image_url": null
+		},
+		"recjyBxnOHjdSIKD4": {
+			"id": "recjyBxnOHjdSIKD4",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/0/065c693ef537238c04ed0ccd8dd3743d.mp3",
+				"translation": "Ma alergię na...?",
+				"transcription": "Ма алєрґєн на.."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/3f1a8c58ea9416f6d6235b3396d8d887.mp3",
+				"translation": "У нього алергія на... У неї алергія на...",
+				"transcription": "U ńoho alerhija na.. U neji alerhija na..."
+			},
+			"image_url": null
+		},
 		"recklqKCX8mVWTTDr": {
 			"id": "recklqKCX8mVWTTDr",
 			"main": {
@@ -7076,6 +7235,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/1/1b91f68148c5476f1f9a25678c837f50.mp3",
 				"translation": "Подзвонимо мамі?",
 				"transcription": "Podzwonymo mami"
+			},
+			"image_url": null
+		},
+		"recox3VcKmVCfdIKk": {
+			"id": "recox3VcKmVCfdIKk",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/d18eaac434158ef63a03c411609be7ea.mp3",
+				"translation": "Jadł coś? Jadła coś?",
+				"transcription": "Яду цось Ядуа цось?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/8b19a60b6b72bc3078d6fe113faaf4ca.mp3",
+				"translation": "Він щось їв? Вона щось їла?",
+				"transcription": "Win szczos jiw Wona szczos jila?"
 			},
 			"image_url": null
 		},
@@ -7247,6 +7420,20 @@
 			},
 			"image_url": null
 		},
+		"rec7s8eVTcrKBJcNd": {
+			"id": "rec7s8eVTcrKBJcNd",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/1/1288ca32ffaf03663a7eaa26a20220c0.mp3",
+				"translation": "Bawił się z dziećmi? Bawiła się z dziećmi?",
+				"transcription": "Бавіу сєн з дзєтьмі Бавіуа сєн з дзєтьмі?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/d5a7f646557924dfed657c56920880d1.mp3",
+				"translation": "Він грався з дітьми? Вона гралася з дітьми?",
+				"transcription": "Win hrawsja z dićmy Wona hralasja z dićmy?"
+			},
+			"image_url": null
+		},
 		"recagQK1IlhQCshUk": {
 			"id": "recagQK1IlhQCshUk",
 			"main": {
@@ -7317,6 +7504,20 @@
 			},
 			"image_url": null
 		},
+		"reczQ8GDc9yJgdevw": {
+			"id": "reczQ8GDc9yJgdevw",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/f/fa7befc0343be3895c5aac50cad02d47.mp3",
+				"translation": "Jesteś głodny? Jeteś głodna?",
+				"transcription": "Єстесь ґуодни Єтесь ґуодна?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/347d931c7535865b42f189aad3eb44f4.mp3",
+				"translation": "Ти голодний? Ти голодна?",
+				"transcription": "Ty holodnyj Ty holodna?"
+			},
+			"image_url": null
+		},
 		"recGSuYRfWnd2Eco1": {
 			"id": "recGSuYRfWnd2Eco1",
 			"main": {
@@ -7384,6 +7585,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/e8eddb491bf3e45317d835bc678b6e7b.mp3",
 				"translation": "Хочеш хліб?",
 				"transcription": "Choczesz chlib"
+			},
+			"image_url": null
+		},
+		"recmcl1i9P4nttMns": {
+			"id": "recmcl1i9P4nttMns",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/2/27aa2253309c7748b620dbe9662a7025.mp3",
+				"translation": "Tutaj jest jego szafka. Tutaj jest jej szafka.",
+				"transcription": "Тутай єст єґо шафка Тутай єст єй шафка."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/61c32b0b7fdfe02535591a6b430c93fe.mp3",
+				"translation": "Ось його шафка. Ось її шафка.",
+				"transcription": "Os joho szafka Os jiji szafka."
 			},
 			"image_url": null
 		},
@@ -7485,6 +7700,20 @@
 			},
 			"image_url": null
 		},
+		"recb7KnWTNNTHyVHi": {
+			"id": "recb7KnWTNNTHyVHi",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/f/fb33dbf6f4999b59fa9e8e88d691f6bd.mp3",
+				"translation": "Mało jadł. Mało jadła.",
+				"transcription": "Мауо яду Мауо ядуа."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/5007965544f29538fe52780613b58ebe.mp3",
+				"translation": "Він мало їв. Вона мало їла.",
+				"transcription": "Win malo jiw Wona malo jila."
+			},
+			"image_url": null
+		},
 		"recccDf2Ggw7aMvvC": {
 			"id": "recccDf2Ggw7aMvvC",
 			"main": {
@@ -7496,6 +7725,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/a/a29743d2d00ac6dc0e40e9b0a8accdc9.mp3",
 				"translation": "Йдемо на вулицю.",
 				"transcription": "Jdemo na wulycju"
+			},
+			"image_url": null
+		},
+		"recczOC0Bltf0VOnY": {
+			"id": "recczOC0Bltf0VOnY",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/4/49c98ae94becd6f710361d6d613ee58a.mp3",
+				"translation": "Nie słuchał się. Nie słuchała się.",
+				"transcription": "Нє суухау сєн Нє суухауа сєн."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a5222ac82aec94ec6354bfcdd15282e3.mp3",
+				"translation": "Він не слухався. Вона не слухалась.",
+				"transcription": "Win ne sluchawsja Wona ne sluchalas."
 			},
 			"image_url": null
 		},
@@ -7544,8 +7787,8 @@
 		"recuDv9Yg2GUWhe58": {
 			"id": "recuDv9Yg2GUWhe58",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/3/3567fb9cbc6babd512002522c0f4d544.mp3",
-				"translation": "Dobra robota, idzie Ci to świetnie!",
+				"sound_url": "https://data.movapp.eu/pl-sounds/1/18ceafc973e624f993faa45882674be9.mp3",
+				"translation": "Dobra robota, idzie Ci to świetnie.",
 				"transcription": "Добра робота, ідзє Ці то сьвєтнє"
 			},
 			"source": {
@@ -7824,9 +8067,9 @@
 		"recv6rLXeKL2hJFiB": {
 			"id": "recv6rLXeKL2hJFiB",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/9/9f5c488dee661eab253b93f74816a92f.mp3",
-				"translation": "Jaka jest stawka oprocentownaia tego konta?",
-				"transcription": "Яка єст ставка опроцентовная теґо конта"
+				"sound_url": "https://data.movapp.eu/pl-sounds/e/e55f2f43de1b92ebda130d7023f6e46e.mp3",
+				"translation": "Jaka jest stawka oprocentowania tego konta?",
+				"transcription": "Яка єст ставка опроцентованя теґо конта"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/1/17d193e0fd4bf0c461d7091ed5e47b21.mp3",
@@ -8283,6 +8526,20 @@
 			},
 			"image_url": null
 		},
+		"rectWo9qkdg8diNxu": {
+			"id": "rectWo9qkdg8diNxu",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/761b025f13299b7db302c2c6eeeda35b.mp3",
+				"translation": "Chciałbym wpłacić pieniądze. Chciałabym wpłacić pieniądze.",
+				"transcription": "Хцяубим впуаціть пєньондзе Хцяуабим впуаціть пєньондзе."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/826aef41fbcf66eee10dad903e860301.mp3",
+				"translation": "Я б хотів покласти на рахунок гроші. Я б хотіла покласти на рахунок гроші.",
+				"transcription": "Ja b chotiw poklasty na rachunok hroszi Ja b chotila poklasty na rachunok hroszi."
+			},
+			"image_url": null
+		},
 		"reczl8BSbfEb13OZG": {
 			"id": "reczl8BSbfEb13OZG",
 			"main": {
@@ -8339,6 +8596,20 @@
 			},
 			"image_url": null
 		},
+		"recIKt6sPI7pYVURC": {
+			"id": "recIKt6sPI7pYVURC",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/9/93ee4e94d1eee461dd779bb65d51dead.mp3",
+				"translation": "Chciałbym wypłacić pieniądze ze swojego konta. Chciałabym wypłacić pieniądze ze swojego konta.",
+				"transcription": "Хцяубим випуаціть пєньондзе зе своєґо конта Хцяуабим випуаціть пєньондзе зе своєґо конта."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/d9755c4a66a7342ce2d296521314f22c.mp3",
+				"translation": "Я б хотів зняти гроші зі свого рахунка. Я б хотіла зняти гроші зі свого рахунка.",
+				"transcription": "Ja b chotiw znjaty hroszi zi swoho rachunka Ja b chotila znjaty hroszi zi swoho rachunka."
+			},
+			"image_url": null
+		},
 		"recXTo1wVJuPd7kZ9": {
 			"id": "recXTo1wVJuPd7kZ9",
 			"main": {
@@ -8350,6 +8621,34 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/cb601b3c4f58ba63ba2e47a7716f4495.mp3",
 				"translation": "Мені потрібно оплатити мито?",
 				"transcription": "Meni potribno oplatyty myto"
+			},
+			"image_url": null
+		},
+		"rec5iGpEdkfCgo4cs": {
+			"id": "rec5iGpEdkfCgo4cs",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/9/9c7bcd93dd1672af8b453b793f0d572c.mp3",
+				"translation": "Zapomniałem swój login. Zapomniałam swój login.",
+				"transcription": "Запомняуем свуй льоґін Запомняуам свуй льоґін."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/1/1c7bc4ba769ed2f27e0f342c37f0b19a.mp3",
+				"translation": "Я забув свій логін. Я забула свій логін.",
+				"transcription": "Ja zabuw swij lohin Ja zabula swij lohin."
+			},
+			"image_url": null
+		},
+		"rec6ptiDV1VEWn2GO": {
+			"id": "rec6ptiDV1VEWn2GO",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/b7206404d054162c9bf490b5d5942c49.mp3",
+				"translation": "Zapomniałem swojego hasła. Zapomniałam swojego hasła.",
+				"transcription": "Запомняуем своєґо гасуа Запомняуам своєґо гасуа."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/51fc688693be610e79fff9af833547c7.mp3",
+				"translation": "Я забув свій пароль. Я забула свій пароль.",
+				"transcription": "Ja zabuw swij parol Ja zabula swij parol."
 			},
 			"image_url": null
 		},
@@ -8451,6 +8750,20 @@
 			},
 			"image_url": null
 		},
+		"recvM7YtaoxFDhDY4": {
+			"id": "recvM7YtaoxFDhDY4",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/7ea8b87a70122dbea9afe3925e58e2cd.mp3",
+				"translation": "Chciałbym anulować zlecenie stałe. Chciałabym anulować zlecenie stałe.",
+				"transcription": "Хцяубим анульовать злєценє стауе Хцяуабим анульовать злєценє стауе."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/335957a20e651aa2d2afe2f03ab9b5e7.mp3",
+				"translation": "Я б хотів відмінити постійне обслуговування. Я б хотіла відмінити постійне обслуговування.",
+				"transcription": "Ja b chotiw widminyty postijne obsluhowuwannja Ja b chotila widminyty postijne obsluhowuwannja."
+			},
+			"image_url": null
+		},
 		"recELSfLgjyCCyayD": {
 			"id": "recELSfLgjyCCyayD",
 			"main": {
@@ -8490,6 +8803,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/b/bb06de893c7a02f520cecb14eeb15f77.mp3",
 				"translation": "Ця карта підійде до цього банкомату?",
 				"transcription": "Cja karta pidijde do coho bankomatu"
+			},
+			"image_url": null
+		},
+		"recWxPrl7hP4PX7CA": {
+			"id": "recWxPrl7hP4PX7CA",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/b9d05d8bfd05074462aab1a764c0d4b1.mp3",
+				"translation": "Chciałbym ustanowić zlecenie stałe. Chciałabym ustanowić zlecenie stałe.",
+				"transcription": "Хцяубим установіть злєценє стауе Хцяуабим установіть злєценє стауе."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/eeb0229f4432f412dd3c8b3966d76fea.mp3",
+				"translation": "Я б хотів встановити постійне обслуговування. Я б хотіла встановити постійне обслуговування.",
+				"transcription": "Ja b chotiw wstanowyty postijne obsluhowuwannja Ja b chotila wstanowyty postijne obsluhowuwannja."
 			},
 			"image_url": null
 		},
@@ -9711,6 +10038,20 @@
 			},
 			"image_url": null
 		},
+		"recBtNEu6Xis5ZZOw": {
+			"id": "recBtNEu6Xis5ZZOw",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/b1e0f94629e70a49cee2137d658845ba.mp3",
+				"translation": "Będziemy robić.",
+				"transcription": "Бендзєми робіть"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/37098b2a7225b696e9e859118ded76ed.mp3",
+				"translation": "Будемо робити (щось руками).",
+				"transcription": "Budemo robyty (szczos rukamy)"
+			},
+			"image_url": null
+		},
 		"recCnhW8kWdQb1hof": {
 			"id": "recCnhW8kWdQb1hof",
 			"main": {
@@ -9756,9 +10097,9 @@
 		"recX43xRwDxZRUjam": {
 			"id": "recX43xRwDxZRUjam",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/2/2b6e121bed2ee02caee61097c93d229a.mp3",
-				"translation": "třídní schůzky",
-				"transcription": "тříднí схůзки"
+				"sound_url": "https://data.movapp.eu/pl-sounds/0/0bc5a0f522f16f9dc0bae14780ebbaf2.mp3",
+				"translation": "wywiadówki",
+				"transcription": "вивядувкі"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/c/cfe4fd455ee3fdf09709363207c87afd.mp3",
@@ -10061,6 +10402,20 @@
 			},
 			"image_url": null
 		},
+		"recwHQHmiX2WDhXMG": {
+			"id": "recwHQHmiX2WDhXMG",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/c/c56d59d88473d6aecad72d806d5d7188.mp3",
+				"translation": "plecak",
+				"transcription": "плєцак"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/52e8ab2e2afc4ea481b5469b85340282.mp3",
+				"translation": "ранець",
+				"transcription": "ranec"
+			},
+			"image_url": null
+		},
 		"recxIdrpvJSVJKZSV": {
 			"id": "recxIdrpvJSVJKZSV",
 			"main": {
@@ -10344,9 +10699,9 @@
 		"recUmJH3LAzRlpOvp": {
 			"id": "recUmJH3LAzRlpOvp",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/7/7acc6cc958171537019e6949920b3bbd.mp3",
-				"translation": "Chodze na świetlicę.",
-				"transcription": "Ходзе на сьвєтліцен"
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/dec3848e2742c4d0b4add2e6ef4d7b6d.mp3",
+				"translation": "Chodzę na świetlicę.",
+				"transcription": "Ходзен на сьвєтліцен"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/a/a162fb6cbb4e9eca4f201c43f09901b6.mp3",
@@ -10456,9 +10811,9 @@
 		"rect6EN54TF2MyCil": {
 			"id": "rect6EN54TF2MyCil",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/3/39aafdc83bf85d3f571aa321cf0353c0.mp3",
-				"translation": "Pieszmy.",
-				"transcription": "Пєшми"
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/7a6d5de64c0240f5cbf7784ef4e8f931.mp3",
+				"translation": "Piszemy.",
+				"transcription": "Пішеми"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/9/98a901d2785bff77d708820bf319cb7c.mp3",
@@ -10842,6 +11197,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/6/64b20d51e9cb86632058e225f6b9a8ac.mp3",
 				"translation": "Вчителька. Вчитель.",
 				"transcription": "Wczytelka Wczytel."
+			},
+			"image_url": null
+		},
+		"reckbXp7csEZtIloc": {
+			"id": "reckbXp7csEZtIloc",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/e/ecebfb819ed843d943b3ae2e8843d494.mp3",
+				"translation": "Kiedy pójdzie do domu?",
+				"transcription": "Кєди пуйдзє до дому"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/1/1359953bb44182792394b0c0ef14edaf.mp3",
+				"translation": "Коли він піде додому? Коли вона піде додому?",
+				"transcription": "Koly win pide dodomu Koly wona pide dodomu?"
 			},
 			"image_url": null
 		},
@@ -12570,9 +12939,9 @@
 		"recMtOe7WRnrkJRKv": {
 			"id": "recMtOe7WRnrkJRKv",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/2/2c0935195f98012c2d2f6967a2a23945.mp3",
-				"translation": "Gdzie mogę dostać bilet komunikacji miejskiej?",
-				"transcription": "Ґдзє моґен достать білєт комунікацї мєйскєй"
+				"sound_url": "https://data.movapp.eu/pl-sounds/a/ad29eb8bc7d39fcc5d27fcabd7394ed6.mp3",
+				"translation": "Gdzie mogę dostać bilet czasowy komunikacji miejskiej?",
+				"transcription": "Ґдзє моґен достать білєт часови комунікацї мєйскєй"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/1/1fbc15837cfd74c7c741a03fc54b661f.mp3",
@@ -12696,9 +13065,9 @@
 		"recvvOMwlaWtvEMoL": {
 			"id": "recvvOMwlaWtvEMoL",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/9/97439131ff791d77f07b090e4e703f99.mp3",
-				"translation": "jízdenka",
-				"transcription": "йíзденка"
+				"sound_url": "https://data.movapp.eu/pl-sounds/5/556a90d673d127f995a10544dcb38bdc.mp3",
+				"translation": "bilet czasowy komunikacji miejskiej",
+				"transcription": "білєт часови комунікацї мєйскєй"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a108fefdc996bda6dc69517dc531493.mp3",
@@ -12794,9 +13163,9 @@
 		"recay29wt8UBqwNym": {
 			"id": "recay29wt8UBqwNym",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/a/af9e12cd2887a6e660f53f8e371b7db2.mp3",
-				"translation": "lístek",
-				"transcription": "льíстек"
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/bb425dd64c2a39d42488cf6ed7d7d000.mp3",
+				"translation": "bilet",
+				"transcription": "білєт"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/1/1835e5b6d564e1adf9aa584659072541.mp3",
@@ -12808,9 +13177,9 @@
 		"recaCv1nmEBMRgHvb": {
 			"id": "recaCv1nmEBMRgHvb",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/c/cd24d63ff65a020c083b9351fdc97c8b.mp3",
-				"translation": "lístky",
-				"transcription": "льíстки"
+				"sound_url": "https://data.movapp.eu/pl-sounds/8/8b8d77eaa32f19ca8cc18c343a8f34f8.mp3",
+				"translation": "bilety",
+				"transcription": "білєти"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/f/fea7a183275b00ccbfbb231040c68b4c.mp3",
@@ -13379,6 +13748,20 @@
 			},
 			"image_url": null
 		},
+		"recY8GSfSGdWbMUqZ": {
+			"id": "recY8GSfSGdWbMUqZ",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/6/64c979e10e05d72121fbaecf979876be.mp3",
+				"translation": "Cieszę się, że tutaj jesteście.",
+				"transcription": "Цєшен сєн, же тутай єстесьцє"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/8c07bcbc942ce126a6a21ddb1af83405.mp3",
+				"translation": "Я радий, що ви тут. Я рада, що ви тут.",
+				"transcription": "Ja radyj, szczo wy tut Ja rada, szczo wy tut."
+			},
+			"image_url": null
+		},
 		"rec2ZUdhJIKzG319y": {
 			"id": "rec2ZUdhJIKzG319y",
 			"main": {
@@ -13550,9 +13933,9 @@
 		"recoM4qJFCodqCVlw": {
 			"id": "recoM4qJFCodqCVlw",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/4/4bb122473247141d6b7266e7035166a7.mp3",
-				"translation": "wynagtrodzenie netto",
-				"transcription": "винаґтродзенє нетто"
+				"sound_url": "https://data.movapp.eu/pl-sounds/e/ebf02769d9a7e033c5396192ea7736f4.mp3",
+				"translation": "wynagrodzenie netto",
+				"transcription": "винаґродзенє нетто"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/5/54a69dcf4cec8e45c7e324038fd3310e.mp3",
@@ -13925,6 +14308,20 @@
 			},
 			"image_url": null
 		},
+		"recO4HCURTirvLMVj": {
+			"id": "recO4HCURTirvLMVj",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/9/9a41773ceacbce0f26701778464e510f.mp3",
+				"translation": "Jestem produktywny. Jestem produktywna.",
+				"transcription": "Єстем продуктивни Єстем продуктивна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6285026e77039aa79b77e5161c02247c.mp3",
+				"translation": "Я продуктивний. Я продуктивна.",
+				"transcription": "Ja produktywnyj Ja produktywna."
+			},
+			"image_url": null
+		},
 		"recRQ2isJQrJsgE8V": {
 			"id": "recRQ2isJQrJsgE8V",
 			"main": {
@@ -13964,6 +14361,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/7/729f6d0d9876d95dd1b322d1fbcb05f1.mp3",
 				"translation": "медичне страхування",
 				"transcription": "medyczne strachuwannja"
+			},
+			"image_url": null
+		},
+		"recTGxviyXBszo3KD": {
+			"id": "recTGxviyXBszo3KD",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/6/60675d9c6e7df73812774e1414bb9641.mp3",
+				"translation": "Skończyłem studia na... Skończyłam studia na...",
+				"transcription": "Сконьчиуем студя на.. Сконьчиуам студя на..."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/aa48a534043dfba3338643e35a541725.mp3",
+				"translation": "Я вивчав... Я вивчала...",
+				"transcription": "Ja wywczaw.. Ja wywczala..."
 			},
 			"image_url": null
 		},
@@ -14037,6 +14448,20 @@
 			},
 			"image_url": null
 		},
+		"rectBq0QMiUUbGy5B": {
+			"id": "rectBq0QMiUUbGy5B",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/a/af816724e305de2d9e8e7c21243cee1e.mp3",
+				"translation": "Jestem kreatywny. Jestem kreatywna.",
+				"transcription": "Єстем креативни Єстем креативна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/58041444add30c3251a8cdb4b0900cfe.mp3",
+				"translation": "Я креативний. Я креативна.",
+				"transcription": "Ja kreatywnyj Ja kreatywna."
+			},
+			"image_url": null
+		},
 		"recC6t4q4W3xW4Hcx": {
 			"id": "recC6t4q4W3xW4Hcx",
 			"main": {
@@ -14062,6 +14487,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/5/5ee8042050b4c00239e092f38a67de4f.mp3",
 				"translation": "Соціальне страхування. Соціальне забезпечення",
 				"transcription": "Socialne strachuwannja Socialne zabezpeczennja"
+			},
+			"image_url": null
+		},
+		"recGMPzhc1cdf5n9d": {
+			"id": "recGMPzhc1cdf5n9d",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/c/c2dc491fb9d11d3ac84248764cdf3f42.mp3",
+				"translation": "Jestem proaktywny. Jestem proaktywna.",
+				"transcription": "Єстем проактивни Єстем проактивна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/2/20b57e6f36045b1f91fea55741420739.mp3",
+				"translation": "Я активний. Я активна.",
+				"transcription": "Ja aktywnyj Ja aktywna."
 			},
 			"image_url": null
 		},
@@ -14152,9 +14591,9 @@
 		"rec2nCdqGYYhLX7Ci": {
 			"id": "rec2nCdqGYYhLX7Ci",
 			"main": {
-				"sound_url": "https://data.movapp.eu/pl-sounds/2/245efa21f4e168d3103d494057199ff3.mp3",
-				"translation": "sick-day",
-				"transcription": "сіцк-даи"
+				"sound_url": "https://data.movapp.eu/pl-sounds/e/eaa2163566ad0fe99299d9a3dbeb1f11.mp3",
+				"translation": "urlop chorobowy",
+				"transcription": "урльоп хоробови"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/a/a7c6f2c765c7626e94fc2ba1c57a7592.mp3",
@@ -14174,6 +14613,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/3/345b3c4620a82497d8ae3817b3c49a71.mp3",
 				"translation": "рекомендація",
 				"transcription": "rekomendacija"
+			},
+			"image_url": null
+		},
+		"rec8aUeLMaRcTovc0": {
+			"id": "rec8aUeLMaRcTovc0",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/b/b1b13d0531d5042fab264199b0c2efad.mp3",
+				"translation": "Jestem sumienny. Jestem sumienna.",
+				"transcription": "Єстем сумєнни Єстем сумєнна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6b28abbbb3aa06415c30c1976c8a9341.mp3",
+				"translation": "Я сумлінний. Я сумлінна.",
+				"transcription": "Ja sumlinnyj Ja sumlinna."
 			},
 			"image_url": null
 		},
@@ -14202,6 +14655,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/3/37ed93330551e4f8a36a41df31c7d039.mp3",
 				"translation": "професія",
 				"transcription": "profesija"
+			},
+			"image_url": null
+		},
+		"recbv0jTQnoh9GnM0": {
+			"id": "recbv0jTQnoh9GnM0",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/7/77495857e9e6d60065d1771be617297d.mp3",
+				"translation": "Jestem rzetelny. Jestem rzetelna.",
+				"transcription": "Єстем жетельни Єстем жетельна."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/0/0e3b9570ab961f99148060c99761b456.mp3",
+				"translation": "Я відповідальний. Я відповідальна.",
+				"transcription": "Ja widpowidalnyj Ja widpowidalna."
 			},
 			"image_url": null
 		},
@@ -14258,6 +14725,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/3/32f4d3e712311ed6bed4503c11ddb9dc.mp3",
 				"translation": "Умію працювати на комп'ютері.",
 				"transcription": "Umiju pracjuwaty na komp'juteri"
+			},
+			"image_url": null
+		},
+		"recj2PiKzgorI1JPR": {
+			"id": "recj2PiKzgorI1JPR",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/1/108d4cbaf9ad2853f9e3d87368a5c3e6.mp3",
+				"translation": "Pracowałem w... Pracowałam w...",
+				"transcription": "Працовауем в.. Працовауам в..."
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/1/14cb688b950be4eaec556888ecd02e80.mp3",
+				"translation": "Я працював в... Я працювала в...",
+				"transcription": "Ja pracjuwaw w.. Ja pracjuwala w..."
 			},
 			"image_url": null
 		},
@@ -14625,6 +15106,20 @@
 			},
 			"image_url": null
 		},
+		"recsgFtlBDtkW5H5q": {
+			"id": "recsgFtlBDtkW5H5q",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/4/4e83b64af870b5bbff2cae5125d43b51.mp3",
+				"translation": "dwie małpy",
+				"transcription": "двє маупи"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/62a03b1f7a8191a75f763d2b866bbed7.mp3",
+				"translation": "дві мавпи",
+				"transcription": "dwi mawpy"
+			},
+			"image_url": null
+		},
 		"reczdRR5GqnZF5MjD": {
 			"id": "reczdRR5GqnZF5MjD",
 			"main": {
@@ -14748,6 +15243,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/8/8c46e7af07cdcbf2b9f3e72cbd549029.mp3",
 				"translation": "Де знаходяться туалети?",
 				"transcription": "De znachodżaćsja tualety"
+			},
+			"image_url": null
+		},
+		"rec2EVDD3Jual5qva": {
+			"id": "rec2EVDD3Jual5qva",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/d/db790c6c75eb5260322eab1a0ce8674b.mp3",
+				"translation": "Mogę dostać plan?",
+				"transcription": "Моґен достать плян"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/b/b38091b4927268643bf8389f66587c7c.mp3",
+				"translation": "Можу взяти план? Можу взяти карту?",
+				"transcription": "Możu wzjaty plan Możu wzjaty kartu?"
 			},
 			"image_url": null
 		},
@@ -15269,6 +15778,20 @@
 			},
 			"image_url": null
 		},
+		"rectw6le9yJM3gNxD": {
+			"id": "rectw6le9yJM3gNxD",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/4/4c55c3053b3185c94341b1934d8d5639.mp3",
+				"translation": "język słowacki",
+				"transcription": "єнзик суовацкі"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/ea1151151c688354e09143de33f1fe70.mp3",
+				"translation": "словацька мова",
+				"transcription": "slowacka mowa"
+			},
+			"image_url": null
+		},
 		"recGhymaY8009QUfx": {
 			"id": "recGhymaY8009QUfx",
 			"main": {
@@ -15308,6 +15831,76 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/5/5399b817779a45a7d949309a7cba5ad3.mp3",
 				"translation": "Ви розмовляєте польською?",
 				"transcription": "Wy rozmowljajete polskoju"
+			},
+			"image_url": null
+		},
+		"recgvXdYBEZUT74w4": {
+			"id": "recgvXdYBEZUT74w4",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/6/67d7219bd91111c1a73df643906964e7.mp3",
+				"translation": "Jestem na linii 1?",
+				"transcription": "Єстем на лініі 1"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a574c9b98585db93a56d72cc1238008.mp3",
+				"translation": "Це гілка 1?",
+				"transcription": "Ce hilka 1"
+			},
+			"image_url": null
+		},
+		"rec3zUDc8iBGp2cvj": {
+			"id": "rec3zUDc8iBGp2cvj",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/c/c500327d54c839c102ed35121d85fb3b.mp3",
+				"translation": "Jestem na linii 2?",
+				"transcription": "Єстем на лініі 2"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/2/27f8d52a6f11349c01e340f80e234f0f.mp3",
+				"translation": "Це гілка 2?",
+				"transcription": "Ce hilka 2"
+			},
+			"image_url": null
+		},
+		"recQICbPcnNGLZF4T": {
+			"id": "recQICbPcnNGLZF4T",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/3/3a58997afaad4ed1811689e5319f6fe4.mp3",
+				"translation": "język polski",
+				"transcription": "єнзик польскі"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/87b007c74cec3187c982458987091736.mp3",
+				"translation": "польська мова",
+				"transcription": "polska mowa"
+			},
+			"image_url": null
+		},
+		"recAyk2ZDcC5wvNbB": {
+			"id": "recAyk2ZDcC5wvNbB",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/9/90a4d256ff23e7515322f981624d13a6.mp3",
+				"translation": "Ministerstwo Spraw Wewnętrznych RP",
+				"transcription": "Міністерство Справ Вевнентжних РП"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/58e93b67f337362723511debbc1ad155.mp3",
+				"translation": "МВС Польщі",
+				"transcription": "MWS Polszczi"
+			},
+			"image_url": null
+		},
+		"recCGFWuPd0Qj1gna": {
+			"id": "recCGFWuPd0Qj1gna",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/0/0103db52f51b370cd656c7d9e14415d1.mp3",
+				"translation": "Zna Pani kogoś w Warszawie? Zna Pan kogoś w Warszawie?",
+				"transcription": "Зна Пані коґось в Варшавє Зна Пан коґось в Варшавє?"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6e8c160dca1da4720e867efeb2bc33d0.mp3",
+				"translation": "У вас є знайомі у Варшаві?",
+				"transcription": "U was je znajomi u Warszawi"
 			},
 			"image_url": null
 		}
