@@ -176,7 +176,7 @@
 		{
 			"id": "rechV8E2Nr8VcBBIt",
 			"name": {
-				"source": "Цифри",
+				"source": "Числа",
 				"main": "Čísla"
 			},
 			"description": "",
@@ -225,8 +225,6 @@
 				"recjNDQ0c4czstq8C",
 				"recpbVCrQUHEh10qD",
 				"receC4wn1PFAoZkq7",
-				"recXcgSZmMFRUChvq",
-				"rectyIGMMQLcuDSNW",
 				"recPsEea8oqh6SjYD",
 				"recR8AsnmPj9uXN0e",
 				"recZluTBncO9nfWVo",
@@ -236,7 +234,9 @@
 				"recoaEMTNbsKRKNAk",
 				"recAbEEX5YPIncVLq",
 				"recDOYIrcPmdcOvUC",
-				"recV13Gr1iU7Jxwgs"
+				"recV13Gr1iU7Jxwgs",
+				"recXcgSZmMFRUChvq",
+				"rectyIGMMQLcuDSNW"
 			]
 		},
 		{
@@ -2952,9 +2952,9 @@
 		"recVbGL5tdyOP4mqh": {
 			"id": "recVbGL5tdyOP4mqh",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/7/766b09a09d60198d129ef38407726f9f.mp3",
-				"translation": "zelená",
-				"transcription": "зелена"
+				"sound_url": "https://data.movapp.eu/sk-sounds/6/6cc2150b07ea0cde0803aeb15b19d935.mp3",
+				"translation": "tmavozelená",
+				"transcription": "тмавозелена"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/2/2822cdd9458ffa2dc9e81492da944f0a.mp3",
@@ -8216,9 +8216,9 @@
 		"recpOdrTrTnbRxDMH": {
 			"id": "recpOdrTrTnbRxDMH",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/6/6a55c5277cd0c7633f5cea8feb0c4f5b.mp3",
-				"translation": "šesťdesiat",
-				"transcription": "шестьдесіат"
+				"sound_url": "https://data.movapp.eu/sk-sounds/e/e8cd9395322b4614701b1b64d37d71ff.mp3",
+				"translation": "šesťsto",
+				"transcription": "шестьсто"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/3/30cd79dc927625f979258e887f02d755.mp3",
@@ -8664,9 +8664,9 @@
 		"recd3YvEH5rv2ZWQG": {
 			"id": "recd3YvEH5rv2ZWQG",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/e/eb98eb1ae23751f5c8ef787df794439a.mp3",
-				"translation": "dvetisíc",
-				"transcription": "дветісіц"
+				"sound_url": "https://data.movapp.eu/sk-sounds/6/64c999a68d23a79e7708dc9d2f8d667f.mp3",
+				"translation": "dvesto",
+				"transcription": "двесто"
 			},
 			"source": {
 				"sound_url": "https://data.movapp.eu/uk-sounds/6/6390904fffaafabff1471ade5a144d2a.mp3",
