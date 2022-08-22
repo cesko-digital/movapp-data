@@ -176,7 +176,7 @@
 		{
 			"id": "rechV8E2Nr8VcBBIt",
 			"name": {
-				"source": "Цифри",
+				"source": "Числа",
 				"main": "Čísla"
 			},
 			"description": "",
@@ -225,8 +225,6 @@
 				"recjNDQ0c4czstq8C",
 				"recpbVCrQUHEh10qD",
 				"receC4wn1PFAoZkq7",
-				"recXcgSZmMFRUChvq",
-				"rectyIGMMQLcuDSNW",
 				"recPsEea8oqh6SjYD",
 				"recR8AsnmPj9uXN0e",
 				"recZluTBncO9nfWVo",
@@ -236,7 +234,9 @@
 				"recoaEMTNbsKRKNAk",
 				"recAbEEX5YPIncVLq",
 				"recDOYIrcPmdcOvUC",
-				"recV13Gr1iU7Jxwgs"
+				"recV13Gr1iU7Jxwgs",
+				"recXcgSZmMFRUChvq",
+				"rectyIGMMQLcuDSNW"
 			]
 		},
 		{
