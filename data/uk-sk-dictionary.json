@@ -303,6 +303,8 @@
 				"recTWHmkDs1dzHs6U",
 				"recdg9ZvRV1gKUtdh",
 				"recF4cEsVe3NmKPCL",
+				"recgvXdYBEZUT74w4",
+				"rec3zUDc8iBGp2cvj",
 				"recj0eBnYGljSUmue",
 				"rec0TQjsQ18yTbuoZ",
 				"reczw2UxDDT3nINFc",
@@ -936,6 +938,7 @@
 				"reclQulIhTO067aSj",
 				"recQwbMbl975QTG1Q",
 				"recArFXfhZTceb3f9",
+				"recAyk2ZDcC5wvNbB",
 				"recRA8z9E21IVwTBm",
 				"recTODuAwTbUVdMvJ",
 				"reclTCBzrRTSHq6tb",
@@ -1082,7 +1085,8 @@
 				"recYfDqP9LdZNZXvF",
 				"recdMFUF25rsXtyaD",
 				"recYHWwB7xKHOCQ0V",
-				"recZcWAPRbXKn9P9N"
+				"recZcWAPRbXKn9P9N",
+				"recQICbPcnNGLZF4T"
 			]
 		},
 		{
@@ -1229,7 +1233,8 @@
 				"recIBAdapbQyWdaL5",
 				"reciGb6FBoQOJgW3G",
 				"recLtW4c0d4r2bSQh",
-				"recNT0DNCKctU6SVS"
+				"recNT0DNCKctU6SVS",
+				"recCGFWuPd0Qj1gna"
 			]
 		},
 		{
@@ -1445,8 +1450,8 @@
 				"transcription": "Кде найдем.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5f8591bb8011be61ac1e995dcc4ee323.mp3",
-				"translation": "Де можна знайти...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/c/c648ac3b6426831556967dcace3d10ac.mp3",
+				"translation": "Де можна знайти...?",
 				"transcription": "De možna znajty.."
 			},
 			"image_url": null
@@ -1613,8 +1618,8 @@
 				"transcription": "Чо знамена"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/2/2385ed8419cc1168cfc5496292039ee5.mp3",
-				"translation": "Що означає...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/577f8e80357d31ca01b2b466613a54e4.mp3",
+				"translation": "Що означає...?",
 				"transcription": "Ščo označaje.."
 			},
 			"image_url": null
@@ -1790,8 +1795,8 @@
 		"recZQqRzGOAFXbuSA": {
 			"id": "recZQqRzGOAFXbuSA",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/d/dc02f4aa0217fbd4f5d726af1037e03d.mp3",
-				"translation": "V pohode",
+				"sound_url": "https://data.movapp.eu/sk-sounds/5/5470a979fd97c25bbce1b5ca8dfa9036.mp3",
+				"translation": "V pohode.",
 				"transcription": "В погоде"
 			},
 			"source": {
@@ -1846,8 +1851,8 @@
 		"rec4typYILeNEcLn2": {
 			"id": "rec4typYILeNEcLn2",
 			"main": {
-				"sound_url": "https://data.movapp.eu/sk-sounds/3/3e150d10be77835b6d17f693b63ae948.mp3",
-				"translation": "Prepáč",
+				"sound_url": "https://data.movapp.eu/sk-sounds/a/a15740a96d7d3f5fa371bc02db0f212a.mp3",
+				"translation": "Prepáč.",
 				"transcription": "Препач"
 			},
 			"source": {
@@ -2019,8 +2024,8 @@
 				"transcription": "Ака є адреса.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/4/406b55cab936f40f08b9b74b44697ca4.mp3",
-				"translation": "Яка адреса у...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a81248cf9549992684bfe1ccc21a6931.mp3",
+				"translation": "Яка адреса у...?",
 				"transcription": "Jaka adresa u.."
 			},
 			"image_url": null
@@ -2103,8 +2108,8 @@
 				"transcription": "Ако са достанем на.. Ако са достанем к...?"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5121f61e7ff06c92f922f5f9293cce85.mp3",
-				"translation": "Як дістатись до...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a0a73495b26d9eeeab8e74db04aa4bd.mp3",
+				"translation": "Як дістатись до...?",
 				"transcription": "Jak distatys do.."
 			},
 			"image_url": null

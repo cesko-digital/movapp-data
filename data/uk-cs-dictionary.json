@@ -303,6 +303,8 @@
 				"recTWHmkDs1dzHs6U",
 				"recdg9ZvRV1gKUtdh",
 				"recF4cEsVe3NmKPCL",
+				"recgvXdYBEZUT74w4",
+				"rec3zUDc8iBGp2cvj",
 				"recj0eBnYGljSUmue",
 				"rec0TQjsQ18yTbuoZ",
 				"reczw2UxDDT3nINFc",
@@ -936,6 +938,7 @@
 				"reclQulIhTO067aSj",
 				"recQwbMbl975QTG1Q",
 				"recArFXfhZTceb3f9",
+				"recAyk2ZDcC5wvNbB",
 				"recRA8z9E21IVwTBm",
 				"recTODuAwTbUVdMvJ",
 				"reclTCBzrRTSHq6tb",
@@ -1082,7 +1085,8 @@
 				"recYfDqP9LdZNZXvF",
 				"recdMFUF25rsXtyaD",
 				"recYHWwB7xKHOCQ0V",
-				"recZcWAPRbXKn9P9N"
+				"recZcWAPRbXKn9P9N",
+				"recQICbPcnNGLZF4T"
 			]
 		},
 		{
@@ -1229,7 +1233,8 @@
 				"recIBAdapbQyWdaL5",
 				"reciGb6FBoQOJgW3G",
 				"recLtW4c0d4r2bSQh",
-				"recNT0DNCKctU6SVS"
+				"recNT0DNCKctU6SVS",
+				"recCGFWuPd0Qj1gna"
 			]
 		},
 		{
@@ -1511,13 +1516,13 @@
 		"recNRbY25IwSsoSA1": {
 			"id": "recNRbY25IwSsoSA1",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/9/9a4d9c833e7bd125cd5c4f0cf8121bc6.mp3",
-				"translation": "Kde najdu...",
+				"sound_url": "https://data.movapp.eu/cs-sounds/8/84eaba691296bfe906e64b4b3c022d8b.mp3",
+				"translation": "Kde najdu...?",
 				"transcription": "Кде найду.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5f8591bb8011be61ac1e995dcc4ee323.mp3",
-				"translation": "Де можна знайти...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/c/c648ac3b6426831556967dcace3d10ac.mp3",
+				"translation": "Де можна знайти...?",
 				"transcription": "De možna znajty.."
 			},
 			"image_url": null
@@ -1679,13 +1684,13 @@
 		"recxMy9RSCUuAEohp": {
 			"id": "recxMy9RSCUuAEohp",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/6/696292531e6ef9b91a5a9432b2f19270.mp3",
-				"translation": "Co znamená...",
+				"sound_url": "https://data.movapp.eu/cs-sounds/1/1bf635422c5fc81ba58a734a44ec1486.mp3",
+				"translation": "Co znamená...?",
 				"transcription": "Цо знамена.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/2/2385ed8419cc1168cfc5496292039ee5.mp3",
-				"translation": "Що означає...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/577f8e80357d31ca01b2b466613a54e4.mp3",
+				"translation": "Що означає...?",
 				"transcription": "Ščo označaje.."
 			},
 			"image_url": null
@@ -2127,13 +2132,13 @@
 		"recLH6nVN0ky64EfV": {
 			"id": "recLH6nVN0ky64EfV",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/8/840fbb33d45b6f2bbdfb3c0d7a964e2b.mp3",
-				"translation": "Jaká je adresa...",
+				"sound_url": "https://data.movapp.eu/cs-sounds/9/940f9afc361bb6419e586eb30f507640.mp3",
+				"translation": "Jaká je adresa...?",
 				"transcription": "Яка є адреса.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/4/406b55cab936f40f08b9b74b44697ca4.mp3",
-				"translation": "Яка адреса у...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a81248cf9549992684bfe1ccc21a6931.mp3",
+				"translation": "Яка адреса у...?",
 				"transcription": "Jaka adresa u.."
 			},
 			"image_url": null
@@ -2211,13 +2216,13 @@
 		"reccRD7Eg44P0qkl5": {
 			"id": "reccRD7Eg44P0qkl5",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/6/62bcadedce5f1486b5b5e07d5a8ca8d4.mp3",
-				"translation": "Jak se dostanu na... Jak se dostanu k...",
+				"sound_url": "https://data.movapp.eu/cs-sounds/7/74f4970181e2a663bf6d5fe775d161b7.mp3",
+				"translation": "Jak se dostanu na... Jak se dostanu k...?",
 				"transcription": "Як се достану на.. Як се достану к..."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/5/5121f61e7ff06c92f922f5f9293cce85.mp3",
-				"translation": "Як дістатись до...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/6a0a73495b26d9eeeab8e74db04aa4bd.mp3",
+				"translation": "Як дістатись до...?",
 				"transcription": "Jak distatys do.."
 			},
 			"image_url": null
@@ -6803,13 +6808,13 @@
 		"recxTkr43Ku4m8sbu": {
 			"id": "recxTkr43Ku4m8sbu",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/8/8ccb324f91ac2b361d790d9de6807f47.mp3",
-				"translation": "Jaké dokumenty potřebuji pro...",
+				"sound_url": "https://data.movapp.eu/cs-sounds/0/01c5dd7d5772b78c73772524425655b1.mp3",
+				"translation": "Jaké dokumenty potřebuji pro...?",
 				"transcription": "Яке документи потршебуї про.."
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/0/0dd4626ae7a588b5a71bbe34d67dc21c.mp3",
-				"translation": "Які документи потрібні для...",
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/4afe3a4203a7fb6207e0b223dcd23488.mp3",
+				"translation": "Які документи потрібні для...?",
 				"transcription": "Jaki dokumenty potribni dlja.."
 			},
 			"image_url": null
@@ -18487,6 +18492,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/e/ea1151151c688354e09143de33f1fe70.mp3",
 				"translation": "словацька мова",
 				"transcription": "slovacka mova"
+			},
+			"image_url": null
+		},
+		"recQICbPcnNGLZF4T": {
+			"id": "recQICbPcnNGLZF4T",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/f/f5e27346b856e19978a1f46c9614f905.mp3",
+				"translation": "polština",
+				"transcription": "полштіна"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/87b007c74cec3187c982458987091736.mp3",
+				"translation": "польська мова",
+				"transcription": "polska mova"
 			},
 			"image_url": null
 		}
