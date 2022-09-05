@@ -1,5 +1,5 @@
 # Changelog
-All notable changes in `localized-team.json` will be documented in this file.
+All notable changes in `team.json` will be documented in this file.
 
 The key to versioning JSON is to always add new properties, and never remove or rename existing properties.
 
@@ -11,5 +11,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CHANGELOG_TEAM
 
 ### Changed
-- Start using localized-team.json with localization
+- Start using team.json with localization
 
