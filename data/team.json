@@ -5,7 +5,7 @@
             "name": {
                 "cs": "Vývoj Apple aplikace",
                 "pl": "",
-                "uk": "",
+                "uk": "Розробка додатку для Apple",
                 "sk": "Vývoj Apple aplikácie",
                 "en": "iOS development"
             },
@@ -25,7 +25,7 @@
             "name": {
                 "cs": "Vývoj Android aplikace",
                 "pl": "",
-                "uk": "",
+                "uk": "Розробка додатку для Android",
                 "sk": "Vývoj Android aplikácie",
                 "en": "Android development"
             },
@@ -42,7 +42,7 @@
             "name": {
                 "cs": "Vývoj webu",
                 "pl": "",
-                "uk": "",
+                "uk": "Веб-розробка",
                 "sk": "Vývoj webu",
                 "en": "Web development"
             },
@@ -71,7 +71,7 @@
             "name": {
                 "cs": "Vedení projektu",
                 "pl": "",
-                "uk": "",
+                "uk": "Управління проектом",
                 "sk": "Vedenie projektu",
                 "en": "Leadership"
             },
@@ -91,7 +91,7 @@
             "name": {
                 "cs": "Marketing",
                 "pl": "",
-                "uk": "",
+                "uk": "Маркетинг",
                 "sk": "Marketing",
                 "en": "Marketing"
             },
@@ -114,7 +114,7 @@
             "name": {
                 "cs": "Tvorba obsahu",
                 "pl": "",
-                "uk": "",
+                "uk": "Створення контенту",
                 "sk": "Tvorba obsahu",
                 "en": "Content creation"
             },
@@ -152,7 +152,7 @@
             "name": {
                 "cs": "UX tým",
                 "pl": "",
-                "uk": "",
+                "uk": "Команда UX",
                 "sk": "UX tím",
                 "en": "UX team"
             },
@@ -169,7 +169,7 @@
             "name": {
                 "cs": "Testování",
                 "pl": "",
-                "uk": "",
+                "uk": "Тестування",
                 "sk": "Testovanie",
                 "en": "Testing"
             },
@@ -192,7 +192,7 @@
             "name": {
                 "cs": "Děkujeme týmu z České spořitelny",
                 "pl": "",
-                "uk": "",
+                "uk": "Дякуємо команді банку Česká spořitelna",
                 "sk": "Ďakujeme tímu z Českej sporiteľne",
                 "en": "Thank you to the team from Česká spořitelna"
             },
