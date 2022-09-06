@@ -1,47 +1,64 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "Team",
-  "type": "object",
-  "properties": {
-    "sections": {
-      "title": "Teams sections",
-      "type": "array",
-      "items": {
-        "title": "Team section",
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "title": "Name"
-          },
-          "members": {
+    "title": "Root Schema",
+    "type": "object",
+    "default": {},
+    "required": ["sections"],
+    "properties": {
+        "sections": {
+            "title": "The sections Schema",
             "type": "array",
-            "format": "table",
-            "title": "Team members",
-            "uniqueItems": true,
+            "default": [],
             "items": {
-              "title": "Team member",
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "title": "Name"
+                "title": "A Schema",
+                "type": "object",
+                "required": ["name", "members"],
+                "properties": {
+                    "name": {
+                        "title": "The name Schema",
+                        "type": "object",
+                        "required": ["cs", "pl", "uk", "sk", "en"],
+                        "properties": {
+                            "cs": {
+                                "title": "The cs Schema",
+                                "type": "string"
+                            },
+                            "pl": {
+                                "title": "The pl Schema",
+                                "type": "string"
+                            },
+                            "uk": {
+                                "title": "The uk Schema",
+                                "type": "string"
+                            },
+                            "sk": {
+                                "title": "The sk Schema",
+                                "type": "string"
+                            },
+                            "en": {
+                                "title": "The en Schema",
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "members": {
+                        "title": "The members Schema",
+                        "type": "array",
+                        "items": {
+                            "title": "A Schema",
+                            "type": "object",
+                            "required": ["name"],
+                            "properties": {
+                                "name": {
+                                    "title": "The name Schema",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "uniqueItems": false
+                    }
                 }
-              },
-              "required": [
-                "name"
-              ]
-            }
-          }
-        },
-        "required": [
-          "name",
-          "members"
-        ]
-      }
+            },
+            "uniqueItems": false
+        }
     }
-  },
-  "required": [
-    "data"
-  ]
 }
