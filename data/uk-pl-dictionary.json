@@ -497,7 +497,8 @@
 				"recMWT3AseSv4vY8p",
 				"recgiVfcVlteOc8Ew",
 				"rec80iYCqDuSbPZRN",
-				"recLrOBLFkgQRGa2f"
+				"recLrOBLFkgQRGa2f",
+				"rec4KlaG8WcREnout"
 			]
 		},
 		{
@@ -15901,6 +15902,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/6/6e8c160dca1da4720e867efeb2bc33d0.mp3",
 				"translation": "У вас є знайомі у Варшаві?",
 				"transcription": "U was je znajomi u Warszawi"
+			},
+			"image_url": null
+		},
+		"rec4KlaG8WcREnout": {
+			"id": "rec4KlaG8WcREnout",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/3/35456b7af4312258bdceead2323e6ea4.mp3",
+				"translation": "dynia",
+				"transcription": "диня"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/3/3d77e8ce728320e28586a9858a07b0a4.mp3",
+				"translation": "гарбуз",
+				"transcription": "harbuz"
 			},
 			"image_url": null
 		}
