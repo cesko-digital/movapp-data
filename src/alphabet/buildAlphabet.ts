@@ -65,7 +65,7 @@ export async function buildAlphabet(
                 const soundUrl = await downloadUrlToForCDN.execute(
                     getAttachmentUrl(record, 'sound'),
                     `${language}-alphabet`.toLowerCase(),
-                    `${id}.${getAttachmentExtension(record, 'sound')}`
+                    `${id}${getAttachmentExtension(record, 'sound')}`
                 )
 
                 for (const transcriptionLanguage of transcriptionLanguages) {
