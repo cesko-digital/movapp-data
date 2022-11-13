@@ -25,12 +25,10 @@ export class DownloadUrlToForCDN {
             fs.mkdirSync(dirPath)
         }
 
-        const extension = getExtensionFromUrl(soundUrl)
-        const fullFileName = `${fileName}${extension}`
-        const filePath = resolve(dirPath, fullFileName)
+        const filePath = resolve(dirPath, fileName)
 
         await pipeline(got.stream(soundUrl), fs.createWriteStream(filePath))
 
-        return `https://data.movapp.eu/${dirName}/${fullFileName}`
+        return `https://data.movapp.eu/${dirName}/${fileName}`
     }
 }
