@@ -1,3 +1,5 @@
+import { FieldSet } from 'airtable'
+import AirtableRecord from 'airtable/lib/record'
 import { Language } from './locales.js'
 
 export interface CategoryName {
@@ -60,8 +62,14 @@ export interface TranslationPipe {
 }
 
 export interface PhrasePipe {
-    execute(languagePack: Language, phrase: Phrase): Promise<Phrase>
+    execute(
+        languagePack: Language,
+        phrase: Phrase,
+        originalPhraseRecord: PhraseAirtableRecord
+    ): Promise<Phrase>
 }
+
+export type PhraseAirtableRecord = AirtableRecord<FieldSet>
 
 export interface Alphabet {
     id: string

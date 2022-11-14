@@ -2,6 +2,7 @@ import log from 'log-beautify'
 import { AirtableBase } from 'airtable/lib/airtable_base'
 import {
     Phrase,
+    PhraseAirtableRecord,
     PhraseById,
     PhraseMap,
     PhrasePipe,
@@ -10,7 +11,7 @@ import {
 import { Language } from '../locales.js'
 import { runTranslationPipeline } from '../translationPipes/runTranslationPipeline.js'
 import { getAttachmentUrl } from '../utils/getAttachmentUrl.js'
-import {shouldSkipText} from "../utils/shouldSkipText.js";
+import { shouldSkipText } from '../utils/shouldSkipText.js'
 
 class Phrases {
     mapByLanguage: PhraseMap = {}
@@ -41,10 +42,11 @@ class Phrases {
 async function runPhrasePipeline(
     pipes: PhrasePipe[],
     languagePack: Language,
-    phrase: Phrase
+    phrase: Phrase,
+    originalPhraseRecord: PhraseAirtableRecord
 ): Promise<Phrase> {
     for (const pipe of pipes) {
-        phrase = await pipe.execute(languagePack, phrase)
+        phrase = await pipe.execute(languagePack, phrase, originalPhraseRecord)
     }
 
     return phrase
@@ -79,7 +81,9 @@ export async function buildPhrases(
                 const imageUrl = getAttachmentUrl(record, 'image')
 
                 for (const language of languages) {
-                    const inLanguage = record.get(language) as string|undefined
+                    const inLanguage = record.get(language) as
+                        | string
+                        | undefined
 
                     if (shouldSkipText(inLanguage)) {
                         log.debug(
@@ -120,7 +124,8 @@ export async function buildPhrases(
                             main: main,
                             source: uk,
                             image_url: imageUrl,
-                        }
+                        },
+                        record
                     )
                     phrases.add(language, phrase)
                 }

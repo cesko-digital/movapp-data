@@ -2,8 +2,6 @@ import fs from 'node:fs'
 import { resolve } from 'node:path'
 import got from 'got'
 import { pipeline } from './streamPipeline.js'
-import { getExtensionFromUrl } from './getExtensionFromUrl.js'
-
 export class DownloadUrlToForCDN {
     private baseDir: string
 
