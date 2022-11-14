@@ -7,7 +7,7 @@ import { Language } from '../locales'
 import { Phrase, PhrasePipe } from '../definitions'
 import { pipeline } from '../utils/streamPipeline.js'
 import { resolve } from 'node:path'
-import { getAttachmentExtension } from '../utils/getAttachmentExtension.js'
+import { getAttachmentExtension } from '../utils/getAttachmentUtils.js'
 
 export interface DownloadedImagesMap {
     [key: string]: string

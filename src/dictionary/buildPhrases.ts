@@ -10,8 +10,8 @@ import {
 } from '../definitions'
 import { Language } from '../locales.js'
 import { runTranslationPipeline } from '../translationPipes/runTranslationPipeline.js'
-import { getAttachmentUrl } from '../utils/getAttachmentUrl.js'
 import { shouldSkipText } from '../utils/shouldSkipText.js'
+import { getAttachmentUrl } from '../utils/getAttachmentUtils.js'
 
 class Phrases {
     mapByLanguage: PhraseMap = {}
