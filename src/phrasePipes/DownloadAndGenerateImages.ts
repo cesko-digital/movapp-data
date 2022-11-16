@@ -1,12 +1,13 @@
+import { PhraseAirtableRecord } from './../definitions'
 import log from 'log-beautify'
 import fs from 'node:fs'
 import got from 'got'
 import sharp, { AvailableFormatInfo, FormatEnum } from 'sharp'
 import { Language } from '../locales'
 import { Phrase, PhrasePipe } from '../definitions'
-import { getExtensionFromUrl } from '../utils/getExtensionFromUrl.js'
 import { pipeline } from '../utils/streamPipeline.js'
 import { resolve } from 'node:path'
+import { getAttachmentExtension } from '../utils/getAttachmentUtils.js'
 
 export interface DownloadedImagesMap {
     [key: string]: string
@@ -37,11 +38,15 @@ export class DownloadAndGenerateImages implements PhrasePipe {
         this.imagesDir = baseDir
     }
 
-    async execute(languagePack: Language, phrase: Phrase): Promise<Phrase> {
+    async execute(
+        languagePack: Language,
+        phrase: Phrase,
+        originalPhraseRecord: PhraseAirtableRecord
+    ): Promise<Phrase> {
         if (phrase.image_url === null) {
             return phrase
         }
-        const extension = getExtensionFromUrl(phrase.image_url)
+        const extension = getAttachmentExtension(originalPhraseRecord, 'image')
 
         // TODO only if image has been updated
         // TODO parallel processing?

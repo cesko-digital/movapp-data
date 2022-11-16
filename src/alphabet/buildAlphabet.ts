@@ -7,8 +7,11 @@ import {
 import { AirtableBase } from 'airtable/lib/airtable_base'
 import { Language } from '../locales.js'
 import { runTranslationPipeline } from '../translationPipes/runTranslationPipeline.js'
-import { getAttachmentUrl } from '../utils/getAttachmentUrl.js'
 import { DownloadUrlToForCDN } from '../utils/DownloadUrlToForCDN.js'
+import {
+    getAttachmentExtension,
+    getAttachmentUrl,
+} from '../utils/getAttachmentUtils.js'
 
 /**
  * Ensure that all strings are not empty and valid (no spaces, etc)
@@ -64,7 +67,7 @@ export async function buildAlphabet(
                 const soundUrl = await downloadUrlToForCDN.execute(
                     getAttachmentUrl(record, 'sound'),
                     `${language}-alphabet`.toLowerCase(),
-                    id
+                    `${id}${getAttachmentExtension(record, 'sound')}`
                 )
 
                 for (const transcriptionLanguage of transcriptionLanguages) {
