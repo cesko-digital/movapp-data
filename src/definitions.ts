@@ -30,6 +30,7 @@ export interface Category {
      * A list of translation ids
      */
     phrases: string[]
+    hidden?: boolean
 }
 
 export interface PhraseById {
