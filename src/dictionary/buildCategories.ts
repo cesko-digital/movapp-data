@@ -6,7 +6,20 @@ import {
     Category,
 } from '../definitions'
 import { Language } from '../locales.js'
-import {shouldSkipText} from "../utils/shouldSkipText.js";
+import { shouldSkipText } from '../utils/shouldSkipText.js'
+
+// Todo: Generate this automatically using Airtable API
+export type CategoryFieldSet = {
+    category_id: string
+    external?: boolean
+    hidden?: boolean
+    uk?: string
+    cs?: string
+    sk?: string
+    pl?: string
+    en?: string
+    'Phrases data'?: string[]
+}
 
 class Categories {
     mapById: CategoriesIdMap = {}
@@ -47,7 +60,7 @@ export async function buildCategories(
 
     log.debug('Fetching and building categories')
 
-    const categoriesTable = airtable('Categories data')
+    const categoriesTable = airtable<CategoryFieldSet>('Categories data')
 
     await categoriesTable
         .select({
@@ -60,6 +73,7 @@ export async function buildCategories(
             records.forEach(function (record) {
                 const id = String(record.getId())
                 const inUkraine = record.get(Language.Uk)
+                const hidden = record.get('hidden')
 
                 if (typeof inUkraine === 'undefined' || inUkraine === '') {
                     log.debug(
@@ -71,12 +85,9 @@ export async function buildCategories(
                     return
                 }
 
-                const phrasesData = record.get('Phrases data') as
-                    | string[]
-                    | null
-
+                const phrasesData = record.get('Phrases data')
                 let phrases = []
-                if (phrasesData !== null && phrasesData.length > 0) {
+                if (phrasesData && phrasesData.length > 0) {
                     phrases = phrasesData
                 } else {
                     log.debug(
@@ -89,7 +100,7 @@ export async function buildCategories(
                 }
 
                 for (const language of languages) {
-                    const inLanguage = record.get(language) as string|undefined
+                    const inLanguage = record.get(language)
 
                     if (shouldSkipText(inLanguage)) {
                         log.debug(
@@ -102,13 +113,14 @@ export async function buildCategories(
                     }
 
                     categories.add(language, {
-                        id: id,
+                        id,
                         name: {
                             source: String(inUkraine),
                             main: String(inLanguage),
                         },
                         description: '',
-                        phrases: phrases,
+                        phrases,
+                        hidden,
                     })
                 }
             })
