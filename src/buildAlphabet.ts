@@ -10,7 +10,7 @@ import { airtable } from './utils/airtable.js'
 import { buildAlphabet } from './alphabet/buildAlphabet.js'
 import { DownloadUrlToForCDN } from './utils/DownloadUrlToForCDN.js'
 import log from 'log-beautify'
-import {setupLog} from "./utils/setupLog.js";
+import { setupLog } from './utils/setupLog.js'
 
 setupLog(log)
 

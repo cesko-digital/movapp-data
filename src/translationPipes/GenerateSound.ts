@@ -63,7 +63,7 @@ export class GenerateSound implements TranslationPipe {
         // Ensure that folder exists
         let directory = this.baseDir
 
-        const directoryParts = [`${useLanguage}-sounds`, folderPrefix];
+        const directoryParts = [`${useLanguage}-sounds`, folderPrefix]
         const directoryName = directoryParts.join('/')
 
         for (const folder of directoryParts) {
@@ -96,10 +96,7 @@ export class GenerateSound implements TranslationPipe {
     ): Promise<boolean> {
         return new Promise((resolve, reject) => {
             if (typeof this.generatedMap[fileName] === 'string') {
-                log.debug(
-                    'Sound already generated for given translation',
-                    text
-                )
+                log.debug('Sound already generated for given translation', text)
                 resolve(true)
                 return
             }

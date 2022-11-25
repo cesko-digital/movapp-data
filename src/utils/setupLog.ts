@@ -1,4 +1,4 @@
-import {LogBeautify} from "log-beautify";
+import { LogBeautify } from 'log-beautify'
 
 export function setupLog(log: LogBeautify) {
     log.useLabels = true

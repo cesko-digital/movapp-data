@@ -12,7 +12,7 @@ import { NormalizeImageUrl } from './phrasePipes/NormalizeImageUrl.js'
 import { GenerateSound } from './translationPipes/GenerateSound.js'
 import { subscriptionKey, region } from './utils/env.js'
 import { airtable } from './utils/airtable.js'
-import {setupLog} from "./utils/setupLog.js";
+import { setupLog } from './utils/setupLog.js'
 
 setupLog(log)
 
