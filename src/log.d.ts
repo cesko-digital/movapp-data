@@ -2,26 +2,26 @@
 
 declare module 'log-beautify' {
     export interface LevelLabels {
-        trace: string,
-        success: string,
-        debug: string,
-        info: string,
-        warning: string,
-        error: string,
+        trace: string
+        success: string
+        debug: string
+        info: string
+        warning: string
+        error: string
     }
 
     export interface Levels {
-        trace: string|number,
-        success: string|number,
-        success_: string|number,
-        debug: string|number,
-        debug_: string|number,
-        info: string|number,
-        info_: string|number,
-        warning: string|number,
-        warning_: string|number,
-        error: string|number,
-        error_: string|number,
+        trace: string | number
+        success: string | number
+        success_: string | number
+        debug: string | number
+        debug_: string | number
+        info: string | number
+        info_: string | number
+        warning: string | number
+        warning_: string | number
+        error: string | number
+        error_: string | number
     }
 
     export class LogBeautify {
@@ -42,16 +42,15 @@ declare module 'log-beautify' {
         error_(...args: any[]): void
         show(...args: any[]): void
 
-
         setLevel(level: number, namespace = 'global'): void
 
         setLocalLevel(level: string): void
 
-        setNamespaceLevel(level: string, namespace: string|null = null): void
+        setNamespaceLevel(level: string, namespace: string | null = null): void
 
-        useNamespace(namespace: string|null = null): void
+        useNamespace(namespace: string | null = null): void
 
-        namespace(namespace: string|null = null): void
+        namespace(namespace: string | null = null): void
 
         getWorkingLevel(): number
 
@@ -65,6 +64,6 @@ declare module 'log-beautify' {
 
         setLabels(labels: LevelLabels): void
     }
-    const log: LogBeautify;
-    export default log;
+    const log: LogBeautify
+    export default log
 }
