@@ -1,3 +1,4 @@
+import { StripXMLTagsFromTranslation } from './translationPipes/StripXMLTagsFromTranslation.js'
 import { resolve } from 'node:path'
 import fs from 'node:fs'
 import log from 'log-beautify'
@@ -26,8 +27,11 @@ if (!fs.existsSync(imageDir)) {
 const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
 const translationPipeline: TranslationPipe[] = [
-    new GenerateTranscription(),
     new GenerateSound(baseDir, subscriptionKey, region),
+    // must be after GenerateSound, GenerateSound needs the XML tags
+    new StripXMLTagsFromTranslation(),
+    // must be after XML tags are already stripped away
+    new GenerateTranscription(),
 ]
 const phrasePipeline: PhrasePipe[] = [
     new NormalizeImageUrl(),

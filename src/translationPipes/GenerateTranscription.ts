@@ -11,7 +11,7 @@ import { Language } from '../locales.js'
 type TranscriptionSubstitutionTable = [string, string][]
 
 const removePunctuation = (str: string) =>
-    str.replace('.', '').replace('?', '').replace('!', '')
+    str.replace(/\./g, '').replace('?', '').replace('!', '')
 
 const FROM_UK_TABLES: Record<string, TranscriptionSubstitutionTable> = {
     cs: ua2cz,
