@@ -1535,7 +1535,8 @@
 				"recnA9Gyw7cjfLP9P",
 				"recgvZcaNRhcuBrh7",
 				"recImXElgMOwRxnyu",
-				"rec68lfMAUIIJowq8"
+				"rec68lfMAUIIJowq8",
+				"recGLOdTkTqizdTA3"
 			]
 		}
 	],
@@ -16895,6 +16896,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/7/7ccc4fe924f40af94012ff6600d0b917.mp3",
 				"translation": "страх",
 				"transcription": "strach"
+			},
+			"image_url": null
+		},
+		"recaa1Xmgy284gLAE": {
+			"id": "recaa1Xmgy284gLAE",
+			"main": {
+				"sound_url": "https://data.movapp.eu/pl-sounds/4/4d3a386b7979e9ab53365114b54d62d2.mp3",
+				"translation": "Urodziłam się<sub alias=\" \">...</sub>\n",
+				"transcription": "Уродзіуам сєн<суб аляс=\" \">..</суб>\n"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/771de176d93f3fd35510acabab5e4b4c.mp3",
+				"translation": "Народилася...",
+				"transcription": "Narodylasja.."
 			},
 			"image_url": null
 		}

@@ -566,6 +566,7 @@
 				"recgvZcaNRhcuBrh7",
 				"recOao7pKXo04u7O1",
 				"recImXElgMOwRxnyu",
+				"recGLOdTkTqizdTA3",
 				"recfFv1Q8apCGW2Rz",
 				"recBQPHyHnc64U7Wc",
 				"rec3hG92mhDkULEfD",
@@ -1701,7 +1702,8 @@
 				"recnA9Gyw7cjfLP9P",
 				"recgvZcaNRhcuBrh7",
 				"recImXElgMOwRxnyu",
-				"rec68lfMAUIIJowq8"
+				"rec68lfMAUIIJowq8",
+				"recGLOdTkTqizdTA3"
 			]
 		},
 		{
@@ -1774,6 +1776,22 @@
 				"recuc5XLFoTGtFUSa",
 				"rec7nLSF8SZTvsShq"
 			]
+		},
+		{
+			"id": "rec4bnE1FDvucna8y",
+			"name": {
+				"source": "тест",
+				"main": "Test"
+			},
+			"description": "",
+			"phrases": [
+				"recaa1Xmgy284gLAE",
+				"recBG12YicppJkbuN",
+				"rec0P8vsK6wwVvGbI",
+				"recq5X25fMbWJejd0",
+				"recMjfODChXZryMLd"
+			],
+			"hidden": true
 		}
 	],
 	"phrases": {
@@ -20251,9 +20269,9 @@
 				"transcription": "Кдиж се на Штєдри ден постіш,\nтак увідіш злате прасатко"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/2/221f72ec3db10be84251690b2fac4dab.mp3",
-				"translation": "Якщо постишся цілий день перед Різвом, \nобов'язково побачиш золоте порося.",
-				"transcription": "Jakščo postyšsja cilyj deň pered Rizvom, \nobov'jazkovo pobačyš zolote porosja"
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/e2390c001c8250881d3b7ea45ab8ce5f.mp3",
+				"translation": "Якщо постишся цілий день перед Різдвом, обов'язково побачиш золоте порося.",
+				"transcription": "Jakščo postyšsja cilyj deň pered Rizdvom, obov'jazkovo pobačyš zolote porosja"
 			},
 			"image_url": null
 		},
@@ -20419,9 +20437,9 @@
 				"transcription": "запаліт свічку на адвентнім вєнці"
 			},
 			"source": {
-				"sound_url": "https://data.movapp.eu/uk-sounds/7/75ff66a81edf3e0623176e6696d82d06.mp3",
-				"translation": "запалити свічку на різвяному вінку",
-				"transcription": "zapalyty svičku na rizvjanomu vinku"
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/45c2cd3141c0ce6a9b728d77b82128d0.mp3",
+				"translation": "запалити свічку на різдвяному вінку",
+				"transcription": "zapalyty svičku na rizdvjanomu vinku"
 			},
 			"image_url": null
 		},
@@ -21712,6 +21730,90 @@
 				"transcription": "svičky"
 			},
 			"image_url": null
+		},
+		"recaa1Xmgy284gLAE": {
+			"id": "recaa1Xmgy284gLAE",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/c/c2f6e5e322794b7ba59fd03fc3d65220.mp3",
+				"translation": "Narodila sem se<sub alias=\" \">...</sub>",
+				"transcription": "Народіла сем се<суб аліас=\" \">..</суб>"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/771de176d93f3fd35510acabab5e4b4c.mp3",
+				"translation": "Народилася...",
+				"transcription": "Narodylasja.."
+			},
+			"image_url": null
+		},
+		"recBG12YicppJkbuN": {
+			"id": "recBG12YicppJkbuN",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/6/63f8b3735544cf43818df84fc3b3311c.mp3",
+				"translation": "psychiatr",
+				"transcription": "психіатр"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/dfc8a8bcc17d347e8eac38b0e057c47f.mp3",
+				"translation": "<sub alias=\"психіат‿р\">психіатр</sub>",
+				"transcription": "<sub alias=\"psychiat‿r\">psychiatr</sub>"
+			},
+			"image_url": null
+		},
+		"rec0P8vsK6wwVvGbI": {
+			"id": "rec0P8vsK6wwVvGbI",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/a/acfca8ddb9cf35a16558576e8635f402.mp3",
+				"translation": "psychoterapeut",
+				"transcription": "психотерапеут"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/5/5864e2b4d75a84bbaac4a48e8f126a8e.mp3",
+				"translation": "<sub alias=\"психотерапеут\">психотерапевт</sub>",
+				"transcription": "<sub alias=\"psychoterapeut\">psychoterapevt</sub>"
+			},
+			"image_url": null
+		},
+		"recq5X25fMbWJejd0": {
+			"id": "recq5X25fMbWJejd0",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/d/d55e0e2543d78cfcff1acac9fb7eb59c.mp3",
+				"translation": "skořice",
+				"transcription": "скоржіце"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/8a0b16a7fda3534ace3c87102f88bb90.mp3",
+				"translation": "<sub alias=\"кори́ця\">кориця</sub>",
+				"transcription": "<sub alias=\"korýcja\">korycja</sub>"
+			},
+			"image_url": null
+		},
+		"recMjfODChXZryMLd": {
+			"id": "recMjfODChXZryMLd",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/b/bb8e239b3ae0457d27e1cbda2b7e4d64.mp3",
+				"translation": "betlém",
+				"transcription": "бетлем"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/2/2499b5dc8eef7ae50d338d065c2cebe3.mp3",
+				"translation": "<sub alias=\"верˈтеп\">вертеп</sub>",
+				"transcription": "<sub alias=\"verˈtep\">vertep</sub>"
+			},
+			"image_url": null
+		},
+		"recGLOdTkTqizdTA3": {
+			"id": "recGLOdTkTqizdTA3",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/6/6da489cc99d2727f2c7e99a5b667576a.mp3",
+				"translation": "lyžáky",
+				"transcription": "лижаки"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/7472c3d25daa46ab18f19aa8c6fb8352.mp3",
+				"translation": "лижні черевики",
+				"transcription": "lyžni čerevyky"
+			},
+			"image_url": "https://data.movapp.eu/images/source/recGLOdTkTqizdTA3/recGLOdTkTqizdTA3.svg"
 		}
 	}
 }

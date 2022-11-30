@@ -1628,7 +1628,8 @@
 				"recnA9Gyw7cjfLP9P",
 				"recgvZcaNRhcuBrh7",
 				"recImXElgMOwRxnyu",
-				"rec68lfMAUIIJowq8"
+				"rec68lfMAUIIJowq8",
+				"recGLOdTkTqizdTA3"
 			]
 		}
 	],
@@ -15252,6 +15253,20 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/7/7ccc4fe924f40af94012ff6600d0b917.mp3",
 				"translation": "страх",
 				"transcription": "strach"
+			},
+			"image_url": null
+		},
+		"recaa1Xmgy284gLAE": {
+			"id": "recaa1Xmgy284gLAE",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/0/0ae5ae478e72eb7f702ff45635f85bf7.mp3",
+				"translation": "Narodila som sa<sub alias=\" \">...</sub>",
+				"transcription": "Народіла сом са<суб аліас=\" \">..</суб>"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/771de176d93f3fd35510acabab5e4b4c.mp3",
+				"translation": "Народилася...",
+				"transcription": "Narodylasja.."
 			},
 			"image_url": null
 		}
