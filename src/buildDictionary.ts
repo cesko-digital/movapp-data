@@ -1,4 +1,3 @@
-import { StripXMLTagsFromTranslation } from './translationPipes/StripXMLTagsFromTranslation.js'
 import { resolve } from 'node:path'
 import fs from 'node:fs'
 import log from 'log-beautify'
@@ -14,6 +13,7 @@ import { GenerateSound } from './translationPipes/GenerateSound.js'
 import { subscriptionKey, region } from './utils/env.js'
 import { airtable } from './utils/airtable.js'
 import { setupLog } from './utils/setupLog.js'
+import { StripXMLTagsFromTranslation } from './translationPipes/StripXMLTagsFromTranslation.js'
 
 setupLog(log)
 
