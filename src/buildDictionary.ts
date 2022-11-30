@@ -13,6 +13,7 @@ import { GenerateSound } from './translationPipes/GenerateSound.js'
 import { subscriptionKey, region } from './utils/env.js'
 import { airtable } from './utils/airtable.js'
 import { setupLog } from './utils/setupLog.js'
+import { StripXMLTagsFromTranslation } from './translationPipes/StripXMLTagsFromTranslation.js'
 
 setupLog(log)
 
@@ -26,8 +27,11 @@ if (!fs.existsSync(imageDir)) {
 const languages = [Language.Cs, Language.En, Language.Pl, Language.Sk]
 
 const translationPipeline: TranslationPipe[] = [
-    new GenerateTranscription(),
     new GenerateSound(baseDir, subscriptionKey, region),
+    // must be after GenerateSound, GenerateSound needs the XML tags
+    new StripXMLTagsFromTranslation(),
+    // must be after XML tags are already stripped away
+    new GenerateTranscription(),
 ]
 const phrasePipeline: PhrasePipe[] = [
     new NormalizeImageUrl(),
