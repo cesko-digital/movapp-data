@@ -17391,6 +17391,202 @@
 				"transcription": "lyžni čerevyky"
 			},
 			"image_url": "https://data.movapp.eu/images/source/recGLOdTkTqizdTA3/recGLOdTkTqizdTA3.svg"
+		},
+		"recQNGsOmqZZqfaWk": {
+			"id": "recQNGsOmqZZqfaWk",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/3/3b8ce25c6e51709b8512126594db31c1.mp3",
+				"translation": "Pokračuj!",
+				"transcription": "Покрачуй"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a794009e7e8251395b2c66e7bf061f6d.mp3",
+				"translation": "Продовжуй!",
+				"transcription": "Prodovžuj"
+			},
+			"image_url": null
+		},
+		"recyVofgBLyNQuzwb": {
+			"id": "recyVofgBLyNQuzwb",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/d/d3e8d71346c3700e6cd2a917097cb7d3.mp3",
+				"translation": "Výborne!",
+				"transcription": "Виборне"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/d/d27fc6b436750743dbd040236437b14c.mp3",
+				"translation": "Відмінно!",
+				"transcription": "Vidminno"
+			},
+			"image_url": null
+		},
+		"recy7qKMbsuME37jh": {
+			"id": "recy7qKMbsuME37jh",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/f/fd9ac8bfaea1936bf642cdaccd857667.mp3",
+				"translation": "Ide ti to dobre!",
+				"transcription": "Іде ті то добре"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/b/bf7787954333770b5de61486224539de.mp3",
+				"translation": "В тебе добре виходить!",
+				"transcription": "V tebe dobre vychodyť"
+			},
+			"image_url": null
+		},
+		"recpmWDOj6I4CDEBM": {
+			"id": "recpmWDOj6I4CDEBM",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b2cdb398691a2eb45ac51e536ba9b8ad.mp3",
+				"translation": "Len tak ďalej.",
+				"transcription": "Лен так дялей"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/6/689f951416a169d2891c0dcfbd2fed45.mp3",
+				"translation": "Так тримати.",
+				"transcription": "Tak trymaty"
+			},
+			"image_url": null
+		},
+		"rec4VuOdYDuJKGumf": {
+			"id": "rec4VuOdYDuJKGumf",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/9/9bbae1ee1ccd7651499e55e240b150c7.mp3",
+				"translation": "Dobre.",
+				"transcription": "Добре"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/4/4d24e198ba7622f6cac080289d7a8a01.mp3",
+				"translation": "Добре.",
+				"transcription": "Dobre"
+			},
+			"image_url": null
+		},
+		"reclGajD1aVNAYpnJ": {
+			"id": "reclGajD1aVNAYpnJ",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b3ef049ba2745baa78ace6da3697e680.mp3",
+				"translation": "Skús to znovu.",
+				"transcription": "Скус то знову"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/9/922ed98bf83957aa463301fff3d9ac56.mp3",
+				"translation": "Спробуй ще раз.",
+				"transcription": "Sprobuj šče raz"
+			},
+			"image_url": null
+		},
+		"recTs2905OPays42Z": {
+			"id": "recTs2905OPays42Z",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/7/7c4c0f24cf74fd023d71adc50fa2fe29.mp3",
+				"translation": "Nevadí.",
+				"transcription": "Неваді"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/9/9e49566f9bb619b58306588f0002e376.mp3",
+				"translation": "Не зважай.",
+				"transcription": "Ne zvažaj"
+			},
+			"image_url": null
+		},
+		"rec9Zrh723Pikrh1F": {
+			"id": "rec9Zrh723Pikrh1F",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/c/c5662afa82dfd0090de9c303ce52f265.mp3",
+				"translation": "To zvládneš.",
+				"transcription": "То звладнеш"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/9/99cbc34034bb3a0c3f50e7433b28194b.mp3",
+				"translation": "Ти зможеш.",
+				"transcription": "Ty zmožeš"
+			},
+			"image_url": null
+		},
+		"recjnm1SPnUJFVJCw": {
+			"id": "recjnm1SPnUJFVJCw",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/b/b79c2f306337faaafce2e24d9b0d5b81.mp3",
+				"translation": "Ideme hrať.",
+				"transcription": "Ідеме грать"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/8/817788b4baea204f044cf3abd63476ed.mp3",
+				"translation": "Пограємо.",
+				"transcription": "Pohrajemo"
+			},
+			"image_url": null
+		},
+		"recC4L2fmipjcDF6i": {
+			"id": "recC4L2fmipjcDF6i",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/1/15003a43f5e6472dba1918590ce0c159.mp3",
+				"translation": "Veľa šťastia.",
+				"transcription": "Вельа штястіа"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/e/eb695528f671a6fb4849beec0b207bc8.mp3",
+				"translation": "Хай пощастить.",
+				"transcription": "Chaj poščastyť"
+			},
+			"image_url": null
+		},
+		"recnQaCaCF8Bsob0g": {
+			"id": "recnQaCaCF8Bsob0g",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/f/f37bd8455511ace81a27f1525cc1915c.mp3",
+				"translation": "Ďakujem za hru.",
+				"transcription": "Дякуєм за гру"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/b/bb82d91324ef8a8ca25cf10e77229a3d.mp3",
+				"translation": "Дякую за гру.",
+				"transcription": "Ďakuju za hru"
+			},
+			"image_url": null
+		},
+		"recwFVrr9aDARuxOk": {
+			"id": "recwFVrr9aDARuxOk",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/2/260cb90fc6a45e23bc81bf885e236669.mp3",
+				"translation": "Gratulujem.",
+				"transcription": "Ґратулуєм"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/7/7d01c3b1d18881a86e2abf2e24cff3f0.mp3",
+				"translation": "Вітаю.",
+				"transcription": "Vitaju"
+			},
+			"image_url": null
+		},
+		"rec3Xdb5QAjNFr7ob": {
+			"id": "rec3Xdb5QAjNFr7ob",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/a/a2486151226a0c11034f6404ad218083.mp3",
+				"translation": "Blahoželám.",
+				"transcription": "Благожелам"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/c/c7a5362ad963388ee61ff9e81c7e9ee0.mp3",
+				"translation": "Бажаю успіху.",
+				"transcription": "Bažaju uspichu"
+			},
+			"image_url": null
+		},
+		"recmYthRZ57qOfBVU": {
+			"id": "recmYthRZ57qOfBVU",
+			"main": {
+				"sound_url": "https://data.movapp.eu/sk-sounds/4/46670e8d6000758038020d6fa307bd80.mp3",
+				"translation": "Dobrá práca!",
+				"transcription": "Добра праца"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a3934289bfed17bf58335fafbe38f904.mp3",
+				"translation": "Гарна робота!",
+				"transcription": "Harna robota"
+			},
+			"image_url": null
 		}
 	}
 }
