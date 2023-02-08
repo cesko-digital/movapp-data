@@ -63,6 +63,19 @@ for (const language of languages) {
         continue
     }
 
+    // In some languages phrases can be skipped, so we need to remove them from categories by id (airtable will
+    // return all phrases in the category).
+    for (const category of categoriesInLanguage) {
+        const translatedPhrases = []
+        for (const phrase of category.phrases) {
+            if (typeof phrasesInLanguage[phrase] !== 'undefined') {
+                translatedPhrases.push(phrase)
+            }
+        }
+
+        category.phrases = translatedPhrases
+    }
+
     const data = {
         source: Language.Uk,
         main: language,
