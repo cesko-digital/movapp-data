@@ -10,6 +10,7 @@
     "build": "rimraf dist && tsc",
     "check": "npm run format && npm run lint",
     "lint": "eslint ./src --fix",
+    "lint:check": "eslint ./src",
     "format": "prettier --ignore-path .gitignore --write \"src/**/*.+(js|ts|json)\""
   },
   "repository": {

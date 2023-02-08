@@ -1,0 +1,45 @@
+name: Checks
+
+on: [ pull_request ]
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run ESLint
+        run: |
+          npm ci
+          npm run lint:check
+
+  build:
+    name: Build and build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+          npm run build:dictionary
+          npm run build:alphabet
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AZURE_SUBSCRIPTION_KEY: ${{ secrets.AZURE_SUBSCRIPTION_KEY }}
+          AZURE_REGION: ${{ secrets.AZURE_REGION }}
+
+      - name: Commit changes and push changes to PR
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          commit_message: "Updated data from AirTable due code changes"
