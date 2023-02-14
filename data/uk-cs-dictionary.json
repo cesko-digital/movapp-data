@@ -1128,7 +1128,11 @@
 			"phrases": [
 				"recZqIAhSZNe6ekFp",
 				"recG6ZYBP5bcDg1CL",
+				"recBbHwpP2rIe4l8c",
 				"recu4GVKi3dY9STYJ",
+				"recUbR6jZC6XeWxJ9",
+				"recej2P3s2l6OeYz4",
+				"recHcjtHlBYuXBeoc",
 				"recH99uL8OuHC916Q",
 				"recqmXGf23jWmseIV",
 				"reckAHgbISqqePXZ9",
@@ -22240,7 +22244,7 @@
 		"rec9vhLnb0YyBMkDf": {
 			"id": "rec9vhLnb0YyBMkDf",
 			"main": {
-				"sound_url": "https://data.movapp.eu/cs-sounds/7/753306445712a4188731b055aeb6c24d.mp3",
+				"sound_url": "https://data.movapp.eu/cs-sounds/7/72db2e926cf4c44758955a275ab4a493.mp3",
 				"translation": "Žijeme tu už...",
 				"transcription": "Жієме ту уж"
 			},
@@ -22892,6 +22896,62 @@
 				"sound_url": "https://data.movapp.eu/uk-sounds/4/41240c8624bde20c1dc9bbba6288ce50.mp3",
 				"translation": "Це так мило.",
 				"transcription": "Ce tak mylo"
+			},
+			"image_url": null
+		},
+		"recBbHwpP2rIe4l8c": {
+			"id": "recBbHwpP2rIe4l8c",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/d/d799d48c5f0f4c04374d17d9191fc1e1.mp3",
+				"translation": "Půjdeme na hřiště?",
+				"transcription": "Пуйдеме на гржіштє"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/f/f97fdb78ab714bb540422d75b2b50ef7.mp3",
+				"translation": "Підемо на дитячий майданчик?",
+				"transcription": "Pidemo na dyťačyj majdančyk"
+			},
+			"image_url": null
+		},
+		"recUbR6jZC6XeWxJ9": {
+			"id": "recUbR6jZC6XeWxJ9",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/f/f3be676dfcaf341a64da823f4f7db4fd.mp3",
+				"translation": "Půjdeme do parku?",
+				"transcription": "Пуйдеме до парку"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/1/161c7e4d8f0027f9c082f57c47512b5b.mp3",
+				"translation": "Підемо в парк?",
+				"transcription": "Pidemo v park"
+			},
+			"image_url": null
+		},
+		"recej2P3s2l6OeYz4": {
+			"id": "recej2P3s2l6OeYz4",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/f/fc333ebfa7161e2d29df64f76916b63b.mp3",
+				"translation": "Půjdeme na procházku.",
+				"transcription": "Пуйдеме на прохазку"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/a/a97fff4cd678e546c6df56fa0338467a.mp3",
+				"translation": "Підемо гуляти.",
+				"transcription": "Pidemo huljaty"
+			},
+			"image_url": null
+		},
+		"recHcjtHlBYuXBeoc": {
+			"id": "recHcjtHlBYuXBeoc",
+			"main": {
+				"sound_url": "https://data.movapp.eu/cs-sounds/6/64f8d0b93c82f8c1006199a868f097fa.mp3",
+				"translation": "Půjdeme na procházku?",
+				"transcription": "Пуйдеме на прохазку"
+			},
+			"source": {
+				"sound_url": "https://data.movapp.eu/uk-sounds/9/909e05d74b8f7157644ca783f4f5f52d.mp3",
+				"translation": "Підемо гуляти?",
+				"transcription": "Pidemo huljaty"
 			},
 			"image_url": null
 		}
