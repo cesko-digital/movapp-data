@@ -41,5 +41,5 @@ jobs:
       - name: Commit changes and push changes to PR
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          github_token: "${{ secrets.ACTIONS_TOKEN }}"
           commit_message: "Updated data from AirTable due code changes"
