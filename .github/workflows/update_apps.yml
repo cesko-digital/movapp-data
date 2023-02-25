@@ -1,0 +1,17 @@
+name: Build from AirTable
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ios:
+    name: Tell iOS GitHub Actions to update data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch workflow
+        run: | # https://github.com/cesko-digital/movapp-apple/blob/main/.github/workflows/data-update.yml
+          curl -X POST https://api.github.com/repos/cesko-digital/movapp-apple/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.ACTIONS_TOKEN }} \
+          --data '{"event_type": "data-update"}'
