@@ -85,9 +85,3 @@ for (const language of languages) {
 
     saveJSON(data, `uk-${language}-dictionary.json`, baseDir)
 }
-
-// TODO clean up
-
-// TODO: delete non existing images - loop all images and check if the phrase id exists
-
-// TODO: compile packs?

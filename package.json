@@ -6,6 +6,7 @@
   "scripts": {
     "build:dictionary": "node dist/buildDictionary.js",
     "build:alphabet": "node dist/buildAlphabet.js",
+    "clean": "node dist/clean.js",
     "watch": "tsc --watch",
     "build": "rimraf dist && tsc",
     "check": "npm run format && npm run lint",

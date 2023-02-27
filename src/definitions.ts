@@ -1,6 +1,6 @@
-import { FieldSet } from 'airtable'
+import {FieldSet} from 'airtable'
 import AirtableRecord from 'airtable/lib/record'
-import { Language } from './locales.js'
+import {Language} from './locales.js'
 
 export interface CategoryName {
     source: string
@@ -82,4 +82,21 @@ export interface Alphabet {
 
 export interface AlphabetByLanguage {
     [key: string]: Alphabet[]
+}
+
+export interface StoryTitle {
+    cs: string;
+    uk: string;
+}
+
+export interface Story {
+    title: StoryTitle;
+    slug: string;
+    duration: string;
+    origin: string;
+    supportedLanguages: string[];
+}
+
+export interface Stories {
+    stories: Story[];
 }
