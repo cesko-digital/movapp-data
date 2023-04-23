@@ -31,6 +31,7 @@ export interface Category {
      */
     phrases: string[]
     hidden?: boolean
+    metacategories?: string[]
 }
 
 export interface PhraseById {

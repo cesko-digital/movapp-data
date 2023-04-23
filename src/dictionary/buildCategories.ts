@@ -19,6 +19,7 @@ export type CategoryFieldSet = {
     pl?: string
     en?: string
     'Phrases data'?: string[]
+    metacategories?: string[]
 }
 
 class Categories {
@@ -74,6 +75,7 @@ export async function buildCategories(
                 const id = String(record.getId())
                 const inUkraine = record.get(Language.Uk)
                 const hidden = record.get('hidden')
+                const metacategories = record.get('metacategories') ?? []
 
                 if (typeof inUkraine === 'undefined' || inUkraine === '') {
                     log.debug(
@@ -121,6 +123,7 @@ export async function buildCategories(
                         description: '',
                         phrases,
                         hidden,
+                        metacategories,
                     })
                 }
             })
