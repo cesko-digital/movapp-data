@@ -20,6 +20,7 @@ export type CategoryFieldSet = {
     en?: string
     'Phrases data'?: string[]
     metacategories?: string[]
+    meta_only?: boolean
 }
 
 class Categories {
@@ -73,11 +74,12 @@ export async function buildCategories(
             // We can get empty row
             records.forEach(function (record) {
                 const id = String(record.getId())
-                const inUkraine = record.get(Language.Uk)
+                const inUkrainian = record.get(Language.Uk)
                 const hidden = record.get('hidden')
                 const metacategories = record.get('metacategories') ?? []
+                const metaOnly = record.get('meta_only')
 
-                if (typeof inUkraine === 'undefined' || inUkraine === '') {
+                if (typeof inUkrainian === 'undefined' || inUkrainian === '') {
                     log.debug(
                         'Skipping category for language',
                         Language.Uk,
@@ -89,11 +91,11 @@ export async function buildCategories(
 
                 const phrasesData = record.get('Phrases data')
                 let phrases = []
-                if (phrasesData && phrasesData.length > 0) {
-                    phrases = phrasesData
+                if ((phrasesData && phrasesData.length > 0) || metaOnly) {
+                    phrases = phrasesData ?? []
                 } else {
                     log.debug(
-                        'Skipping category because is missing phrases for language',
+                        'Skipping category because is missing phrases for language and is not a meta category',
                         Language.Uk,
                         'id',
                         id
@@ -117,13 +119,14 @@ export async function buildCategories(
                     categories.add(language, {
                         id,
                         name: {
-                            source: String(inUkraine),
+                            source: String(inUkrainian),
                             main: String(inLanguage),
                         },
                         description: '',
                         phrases,
                         hidden,
                         metacategories,
+                        metaOnly,
                     })
                 }
             })
