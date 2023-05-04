@@ -1,9 +1,11 @@
-name: Build from AirTable
+name: Notify about new data
 on:
   push:
     branches:
       - main
       - test-dispatch
+    paths:
+      - "data/**"
 
 jobs:
   ios:
