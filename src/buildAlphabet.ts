@@ -11,6 +11,7 @@ import { buildAlphabet } from './alphabet/buildAlphabet.js'
 import { DownloadUrlToForCDN } from './utils/DownloadUrlToForCDN.js'
 import log from 'log-beautify'
 import { setupLog } from './utils/setupLog.js'
+import { StripXMLTagsFromTranslation } from './translationPipes/StripXMLTagsFromTranslation.js'
 
 setupLog(log)
 
@@ -33,8 +34,11 @@ languagesMap[Language.Sk] = [Language.Uk]
 languagesMap[Language.Uk] = [Language.Cs, Language.Sk, Language.Pl]
 
 const translationPipeline: TranslationPipe[] = [
-    new GenerateTranscription(),
     new GenerateSound(baseDir, subscriptionKey, region, false),
+    // must be after GenerateSound, GenerateSound needs the XML tags
+    new StripXMLTagsFromTranslation(),
+    // must be after XML tags are already stripped away
+    new GenerateTranscription(),
 ]
 const downloadUrlToForCDN = new DownloadUrlToForCDN(baseDir)
 
