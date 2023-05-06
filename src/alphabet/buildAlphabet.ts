@@ -54,7 +54,7 @@ export async function buildAlphabet(
                 const id = String(record.getId())
 
                 const letters = String(record.get('letters'))
-                const examples = String(record.get('examples'))
+                const examplesString = String(record.get('examples'))
 
                 if (letters === '') {
                     log.warning('Letters are not set', id, language)
@@ -63,6 +63,7 @@ export async function buildAlphabet(
 
                 log.debug('Building letter', id, letters, language)
                 const lettersArray = separatorStringToArray(letters)
+                const examplesArray = separatorStringToArray(examplesString)
 
                 const soundUrl = await downloadUrlToForCDN.execute(
                     getAttachmentUrl(record, 'sound'),
@@ -72,7 +73,7 @@ export async function buildAlphabet(
 
                 for (const transcriptionLanguage of transcriptionLanguages) {
                     const translationExamples: Translation[] = []
-                    for (const example of separatorStringToArray(examples)) {
+                    for (const example of examplesArray) {
                         const translation = await runTranslationPipeline(
                             translationPipeline,
                             // This is little tricky to simulate dictionary
