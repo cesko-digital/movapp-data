@@ -16,14 +16,16 @@
         {
             "title": {
                 "cs": "O dvanácti měsíčkách",
-                "uk": "Дванадцять місяців"
+                "uk": "Дванадцять місяців",
+                "sk": "O dvanástich mesiačikoch"
             },
             "slug": "dvanact-mesicku",
             "duration": "3",
             "origin": "CZ",
             "supportedLanguages": [
                 "cs",
-                "uk"
+                "uk",
+                "sk"
             ]
         },
         {
