@@ -92,3 +92,14 @@ npm run build:alphabet
 ### Kid's section
 
 The movapp website and apps have a separate [vocabulary section for children](https://www.movapp.cz/kids) (and a [memory game](https://www.movapp.cz/kids/memory-game)). Phrases for these sections are stored the same way as any other phrase category. Use the `recSHyEn6N0hAqUBp` category id to retrieve the Kid's section phrases.
+
+## Stories data for iOS and Android
+
+The idea si to make stories in the application independent on devs. So all necessary stuff should be done by data. What to do for a new story?
+1. Create new folder in `stories` folder. The name of the folder is a slug of the story.
+    1. In this folder add all `*.mp3` files name as language code (e.g. `cs` or `uk`)
+    2. Generate the `metadata.json` file, you can use `stories_transformer.rb` for now, just open command line and type `ruby stories_transformer.rb path_to_web_file` and move the file to this folder and rename it to `metadata.json`
+2. Extend the `stories/metadata.json`
+3. Add new folder into `images/apple` or `images/android` folder the name is the same as the slug of the story.
+    1. For apple use @1, @2, and @3 images (you can use [resizer](https://hotpot.ai/icon-resizer))
+    2. For Android you have to `webp` file.
