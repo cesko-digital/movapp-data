@@ -93,7 +93,7 @@ npm run build:alphabet
 
 The movapp website and apps have a separate [vocabulary section for children](https://www.movapp.cz/kids) (and a [memory game](https://www.movapp.cz/kids/memory-game)). Phrases for these sections are stored the same way as any other phrase category. Use the `recSHyEn6N0hAqUBp` category id to retrieve the Kid's section phrases.
 
-## Stories data for iOS and Android
+## Stories data for iOS and Android
 
 The idea is to manage stories in central repository that will be automatically distributed to client apps without any dev cost (just reviewing the PR). 
 
