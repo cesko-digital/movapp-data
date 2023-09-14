@@ -137,6 +137,14 @@ export class GenerateSound implements TranslationPipe {
                 audioConfig
             )
 
+            const childElement = /^<voice/.test(text)
+                ? text
+                : `
+                    <voice name="${getVoiceForLanguage(languageBCP47Code)}">
+                        ${text}
+                    </voice>           
+                `
+
             const ssml = `
                 <speak 
                     xmlns="http://www.w3.org/2001/10/synthesis"
@@ -144,9 +152,7 @@ export class GenerateSound implements TranslationPipe {
                     xmlns:emo="http://www.w3.org/2009/10/emotionml"
                     version="1.0" xml:lang="${languageBCP47Code}"
                 >
-                    <voice name="${getVoiceForLanguage(languageBCP47Code)}">
-                        ${text}
-                    </voice>
+                    ${childElement}
                 </speak>
             `
 
