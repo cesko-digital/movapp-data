@@ -10,9 +10,6 @@ import { Language } from '../locales.js'
 
 type TranscriptionSubstitutionTable = [string, string][]
 
-const removePunctuation = (str: string) =>
-    str.replace(/\./g, '').replace(/\?/g, '').replace(/!/g, '')
-
 const FROM_UK_TABLES: Record<string, TranscriptionSubstitutionTable> = {
     cs: ua2cz,
     pl: ua2pl,
@@ -34,7 +31,7 @@ function transcription(
         // Vercel's Node 14 does not support String.replaceAll(), so we must use a RegEx workaround
         result = result.replace(new RegExp(subs[i][0], 'g'), subs[i][1])
     }
-    return removePunctuation(result)
+    return result
 }
 
 export class GenerateTranscription implements TranslationPipe {
